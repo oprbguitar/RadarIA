@@ -1,65 +1,31 @@
-import { mockData } from './data/mock-data.js';
+import { providers } from './js/providers.js';
 
-// Provider adapters: replace each return with fetch() to the named official service.
-// Sources requiring keys, scraping or CORS workarounds must use a backend/serverless proxy.
-const clone = value => structuredClone(value);
-export async function fetchBcrpData() { return clone(mockData.bcrp); } // BCRP API economic series
-export async function fetchExchangeRateData() { return clone(mockData.exchangeRate); } // SUNAT or BCRP
-export async function fetchBvlData() { return clone(mockData.bvl); } // BVL market feed
-export async function fetchSmvData() { return clone(mockData.smv); } // SMV SIMV
-export async function fetchWeatherData() { return clone(mockData.weather); } // SENAMHI or Open-Meteo
-export async function fetchAgricultureData() { return clone(mockData.agriculture); } // MIDAGRI/SIEA/SISAP
-export async function fetchMaritimeData() { return clone(mockData.maritime); } // DHN/DIHIDRONAV
-export async function fetchEarthquakeData() { return clone(mockData.earthquakes); } // IGP/CENSIS or USGS
-export async function fetchElPeruanoData() { return clone(mockData.elPeruano); } // El Peruano official norms
-export async function fetchSourcesStatus() { return clone(mockData.sourcesStatus); }
+const $=s=>document.querySelector(s); const state={data:{},mapMode:'weather',refreshAt:Date.now()+300000};
+const weatherLabel=code=>({0:'Despejado',1:'Mayormente despejado',2:'Parcialmente nublado',3:'Nublado',45:'Niebla',51:'Llovizna',61:'Lluvia',80:'Chubascos',95:'Tormenta'}[code]||'Condición variable');
+const weatherIcon=code=>code<=1?'☀️':code<=3?'🌤️':code>=51?'🌧️':'☁️';
+const formatTime=value=>value?new Date(value).toLocaleString('es-PE',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):'—';
+const badgeFor=d=>d.status==='available'?(d.isDemo?['DEMO','demo']:['REAL','real']):d.status==='stale'?['CACHÉ','warn']:['NO DISP.','off'];
+const card=(key)=>document.querySelector(`[data-card="${key}"]`);
+const setCard=(key,html)=>{const el=card(key),d=state.data[key],badge=badgeFor(d);el.querySelector('.card-body').classList.remove('skeleton');el.querySelector('.card-body').innerHTML=html;el.querySelector('.data-badge').textContent=badge[0];el.querySelector('.data-badge').className=`data-badge ${badge[1]}`;el.querySelector('footer').innerHTML=`<span>${d.sourceName}</span><time>${formatTime(d.lastUpdated)}</time>`;};
+const unavailable=d=>`<div class="unavailable"><b>${d.note}</b><span>${d.error||'No se publicarán datos inventados.'}</span></div>`;
 
-const $ = selector => document.querySelector(selector);
-const sparkline = points => `<svg class="spark" viewBox="0 0 130 42" aria-label="Variación histórica demostrativa"><polyline points="${points.map((p,i)=>`${i*11.7},${42-p*1.7}`).join(' ')}"/></svg>`;
-const unavailable = '<p class="unavailable">fuente no disponible</p>';
-
-const cities = [{n:'Tumbes',lon:-80.45,lat:-3.57},{n:'Piura',lon:-80.63,lat:-5.19},{n:'Chiclayo',lon:-79.84,lat:-6.77},{n:'Trujillo',lon:-79.03,lat:-8.11},{n:'Lima',lon:-77.04,lat:-12.05,a:true},{n:'Huancayo',lon:-75.20,lat:-12.07},{n:'Cusco',lon:-71.97,lat:-13.52},{n:'Arequipa',lon:-71.54,lat:-16.40},{n:'Tacna',lon:-70.25,lat:-18.01}];
-let peruGeometry;
-const bounds = { minLon:-81.55, maxLon:-68.5, minLat:-18.5, maxLat:0.1 };
-function project(lon,lat) {
-  const padding=24, width=330, height=500;
-  return { x:padding+((lon-bounds.minLon)/(bounds.maxLon-bounds.minLon))*width, y:padding+((bounds.maxLat-lat)/(bounds.maxLat-bounds.minLat))*height };
-}
-async function loadPeruGeometry() {
-  if (!peruGeometry) {
-    const response=await fetch('./data/peru.geojson');
-    if (!response.ok) throw new Error('No se pudo cargar la cartografía de Perú');
-    peruGeometry=(await response.json()).geometry.coordinates;
-  }
-  return peruGeometry;
-}
-async function renderMap(mode='clima') {
-  try {
-    const geometry=await loadPeruGeometry();
-    $('#peru-shape').setAttribute('d',geometry.map(ring=>ring.map(([lon,lat],index)=>{const p=project(lon,lat);return `${index?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`;}).join(' ')+' Z').join(' '));
-  } catch (error) {
-    console.error(error.message);
-  }
-  $('#city-points').innerHTML = cities.map(c=>{const p=project(c.lon,c.lat);return `<g class="city ${c.a&&mode==='sismos'?'alert':''}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="${c.a&&mode==='sismos'?12:6}"/><circle r="2"/><text x="${p.x<160?-12:10}" y="4" text-anchor="${p.x<160?'end':'start'}">${c.n}</text></g>`;}).join('');
+function renderCards(){
+  const e=state.data.exchangeRate;setCard('exchangeRate',e.data?`<div class="exchange"><p><small>Compra</small><strong>S/ ${e.data.buy.toFixed(3)}</strong></p><p><small>Venta</small><strong>S/ ${e.data.sell.toFixed(3)}</strong></p></div><div class="variation"><span><small>Variación (24 h)</small><b>${e.data.variation}% ↓</b></span><svg viewBox="0 0 120 35"><polyline points="${e.data.history.map((p,i)=>`${i*10.5},${35-p}`).join(' ')}"/></svg></div><p class="data-note">Dato demostrativo</p>`:unavailable(e));
+  const w=state.data.weather;setCard('weather',w.data?`<div class="weather-now"><strong>${Math.round(w.data.temp)}°C</strong><span>${weatherIcon(w.data.weatherCode)}</span><p><b>${w.data.city}</b>${weatherLabel(w.data.weatherCode)}<small>Humedad: ${w.data.humidity}%<br>Viento: ${w.data.wind}</small></p></div><div class="forecast">${w.data.forecast.map((f,i)=>`<span><small>${i?'Día '+(i+1):'Hoy'}</small>${Math.round(f.max)}° / ${Math.round(f.min)}° ${weatherIcon(f.code)}</span>`).join('')}</div>`:unavailable(w));
+  const q=state.data.earthquakes;setCard('earthquakes',q.data?`<div class="quake-data"><p><small>Magnitud</small><strong>${q.data.magnitude.toFixed(1)}</strong></p><p><small>Profundidad</small><b>${q.data.depth}</b><small>Ubicación</small><b>${q.data.location}</b></p><i class="target"></i></div>`:unavailable(q));
+  const a=state.data.agriculture;setCard('agriculture',a.data?`<div class="mini-table"><div class="table-head">Producto <span>Unidad</span><span>Precio S/</span><span>Var. 24 h</span></div>${a.data.map(r=>`<div><b>${r.product}</b><span>${r.unit}</span><span>${r.price.toFixed(2)}</span><span class="${r.variation<0?'down':'up'}">${r.variation<0?'▼':'▲'} ${Math.abs(r.variation)}%</span></div>`).join('')}</div><p class="data-note">Dato demostrativo</p>`:unavailable(a));
+  const m=state.data.maritime;setCard('maritime',m.data?`<h3>${m.data.title}</h3><div class="marine"><p><small>Nivel</small><strong>${m.data.level}</strong><i>≈</i></p><p><b>${m.data.coast}</b>${m.data.waves}<small>Vigencia<br>${m.data.validity}</small></p></div><p class="data-note">Dato demostrativo</p>`:unavailable(m));
+  const n=state.data.elPeruano;setCard('elPeruano',n.data?n.data.map(item=>`<a href="${n.sourceUrl}" target="_blank" rel="noreferrer"><span>▧</span><p><b>${item.type}</b><small>${item.title}</small></p><time>${item.date}</time></a>`).join('')+`<p class="data-note">Dato demostrativo</p>`:unavailable(n));
 }
 
-async function renderDashboard() {
-  const [exchange, weather, quake, agriculture, maritime, norms, sources] = await Promise.all([fetchExchangeRateData(),fetchWeatherData(),fetchEarthquakeData(),fetchAgricultureData(),fetchMaritimeData(),fetchElPeruanoData(),fetchSourcesStatus()]);
-  $('#exchange-content').innerHTML = exchange.status!=='available'?unavailable:`<div class="split-values"><div><small>Compra</small><strong>S/ ${exchange.data.buy.toFixed(3)}</strong></div><div><small>Venta</small><strong>S/ ${exchange.data.sell.toFixed(3)}</strong></div></div><div class="variation"><span><small>Variación (24 h)</small><b>${exchange.data.variation}% ↓</b></span>${sparkline(exchange.data.history)}</div><footer>${exchange.note}<time>08:30</time></footer>`;
-  const w=weather.data; $('#weather-content').innerHTML=weather.status!=='available'?unavailable:`<div class="weather-now"><strong>${w.temp}°C</strong><span class="weather-icon">🌤️</span><p><b>${w.city}</b><br>${w.condition}<small>Humedad: ${w.humidity}%<br>Viento: ${w.wind}</small></p></div><div class="forecast">${w.forecast.map(f=>`<span><small>${f.day}</small>${f.range} ${f.icon}</span>`).join('')}</div><footer>${weather.note}</footer>`;
-  const q=quake.data; $('#quake-content').innerHTML=quake.status!=='available'?unavailable:`<div class="quake-grid"><div><small>Magnitud</small><strong>${q.magnitude}</strong></div><p><small>Profundidad</small><b>${q.depth}</b><small>Ubicación</small><b>${q.location}</b></p><div class="target"></div></div><footer><span>${q.datetime}</span><time>${quake.note}</time></footer>`;
-  $('#agro-content').innerHTML=agriculture.status!=='available'?unavailable:`<div class="table-head">Producto <span>Unidad</span><span>Precio S/</span><span>Var. 24 h</span></div>${agriculture.data.map(r=>`<div class="table-row"><b>${r.product}</b><span>${r.unit}</span><span>${r.price.toFixed(2)}</span><span class="${r.variation<0?'down':'up'}">${r.variation>0?'▲':'▼'} ${Math.abs(r.variation)}%</span></div>`).join('')}<footer>Fuente: MIDAGRI · SIAP <time>08:30</time></footer>`;
-  const m=maritime.data; $('#maritime-content').innerHTML=maritime.status!=='available'?unavailable:`<h3>${m.title}</h3><div class="maritime-info"><div><small>Nivel</small><strong>${m.level}</strong><div class="wave">≈</div></div><p><b>${m.coast}</b><br>${m.waves}<small>Vigencia<br>${m.validity}</small></p></div><footer>Fuente: DHN <time>08:30</time></footer>`;
-  $('#norms-content').innerHTML=norms.status!=='available'?unavailable:norms.data.map(n=>`<a class="norm-row" href="${norms.sourceUrl}" target="_blank" rel="noreferrer"><span>▧</span><p><b>${n.type}</b><small>${n.title}</small></p><time>${n.date}</time></a>`).join('')+`<footer>Fuente: El Peruano <time>08:30</time></footer>`;
-  $('#source-grid').innerHTML=sources.data.map(s=>`<a href="${s.url}" target="_blank" rel="noreferrer" class="source-card"><span>${s.badge}</span><p><b>${s.name} <i class="online"></i></b><small>${s.description}</small></p></a>`).join('');
-  $('#sources-count').textContent=`${sources.data.filter(s=>s.status==='online').length} / ${sources.data.length}`;
-}
+const cities=[{n:'Tumbes',lon:-80.45,lat:-3.57},{n:'Piura',lon:-80.63,lat:-5.19},{n:'Chiclayo',lon:-79.84,lat:-6.77},{n:'Trujillo',lon:-79.03,lat:-8.11},{n:'Lima',lon:-77.04,lat:-12.05},{n:'Huancayo',lon:-75.20,lat:-12.07},{n:'Cusco',lon:-71.97,lat:-13.52},{n:'Arequipa',lon:-71.54,lat:-16.40},{n:'Tacna',lon:-70.25,lat:-18.01}];
+const bounds={minLon:-81.55,maxLon:-68.5,minLat:-18.5,maxLat:.1};const project=(lon,lat)=>({x:24+((lon-bounds.minLon)/(bounds.maxLon-bounds.minLon))*330,y:24+((bounds.maxLat-lat)/(bounds.maxLat-bounds.minLat))*500});
+async function renderMap(){const geo=await (await fetch('./data/peru.geojson')).json();const d=geo.geometry.coordinates.map(r=>r.map(([lon,lat],i)=>{const p=project(lon,lat);return`${i?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`}).join(' ')+' Z').join(' ');$('#peru-shape').setAttribute('d',d);const quake=state.data.earthquakes?.data;const event=quake&&project(quake.lon,quake.lat);$('#city-points').innerHTML=cities.map(c=>{const p=project(c.lon,c.lat),active=state.mapMode==='weather'&&c.n==='Lima';return`<g class="city ${active?'active':''}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="${active?10:5}"/><circle r="2"/><text x="${p.x<150?-9:9}" y="4" text-anchor="${p.x<150?'end':'start'}">${c.n}</text></g>`}).join('')+(state.mapMode==='earthquakes'&&event?`<g class="event-point" transform="translate(${event.x} ${event.y})"><circle r="13"/><circle r="4"/></g>`:'');}
 
-const answers={resumen:'Resumen demostrativo: fuentes activas, clima estable en Lima, tipo de cambio y alertas actualizados en el panel.',clima:'Clima demostrativo en Lima: 20 °C, parcialmente nublado, humedad de 78%.',sismos:'Último sismo demostrativo: magnitud 4.8, profundidad 42 km, al SO de Chala, Arequipa.',cambio:'Tipo de cambio demostrativo: compra S/ 3.724 y venta S/ 3.729.',agro:'Precios demostrativos: limón sutil S/ 4.20, papa blanca S/ 1.28 y arroz pilado S/ 3.60.'};
-function answer(text,key){ $('#assistant-message').innerHTML=`<b>Radar Perú IA</b><br>${text}<time>${new Date().toLocaleTimeString('es-PE',{hour:'2-digit',minute:'2-digit'})}</time>`; if(key&&document.getElementById(key)) document.getElementById(key).scrollIntoView({behavior:'smooth',block:'center'}); }
-document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>answer(answers[b.dataset.query],b.dataset.query==='cambio'?'finanzas':b.dataset.query)));
-$('#chat-form').addEventListener('submit',e=>{e.preventDefault();const input=$('#chat-input');const q=input.value.toLowerCase();const key=Object.keys(answers).find(k=>q.includes(k))||(q.includes('tiempo')?'clima':q.includes('terremoto')?'sismos':null);answer(key?answers[key]:'Solo puedo ayudarte con información del panel Radar Perú IA: normas, finanzas, clima, agro, marina, bolsa y sismos.',key);input.value='';});
-document.querySelectorAll('[data-map]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-map]').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderMap(b.dataset.map);}));
-document.querySelectorAll('.nav-item').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.target)?.scrollIntoView({behavior:'smooth',block:'center'});$('#sidebar').classList.remove('open');$('#mobile-menu').setAttribute('aria-expanded','false');}));
-$('#mobile-menu').addEventListener('click',()=>{const open=$('#sidebar').classList.toggle('open');$('#mobile-menu').setAttribute('aria-expanded',String(open));});
-renderMap(); renderDashboard();
+const sourceMeta=[['BCRP','Banco Central de Reserva','bcrp','BCR'],['SENAMHI / OPEN-METEO','Meteorología','weather','☀'],['IGP / USGS','Sismos','earthquakes','IGP'],['MIDAGRI','Desarrollo agrario','agriculture','♧'],['DHN','Hidrografía','maritime','⚓'],['SMV','Mercado de valores','smv','SMV'],['BVL','Bolsa de Lima','bvl','BVL'],['EL PERUANO','Diario Oficial','elPeruano','EP']];
+function renderSources(){let active=0;$('#source-grid').innerHTML=sourceMeta.map(([name,desc,key,icon])=>{const d=state.data[key],on=d&&(d.status==='available'||d.status==='stale');if(on)active++;return`<a href="${d?.sourceUrl||'#'}" target="_blank" rel="noreferrer" class="source ${on?'on':'off'}"><i>${icon}</i><p><b>${name}<em></em></b><small>${desc}</small></p></a>`}).join('');$('#sources-count').textContent=`${active} / 8`;}
+
+function answer(key){const d=state.data;const answers={summary:`Resumen: ${badgeFor(d.weather)[0]} en clima, ${badgeFor(d.earthquakes)[0]} en sismos y ${badgeFor(d.exchangeRate)[0]} en tipo de cambio.`,weather:d.weather.data?`Clima real en Lima: ${Math.round(d.weather.data.temp)} °C, ${weatherLabel(d.weather.data.weatherCode).toLowerCase()}, humedad ${d.weather.data.humidity}%.`:'Fuente meteorológica no disponible temporalmente.',earthquakes:d.earthquakes.data?`Último evento real del proveedor ${d.earthquakes.sourceName}: magnitud ${d.earthquakes.data.magnitude.toFixed(1)}, ${d.earthquakes.data.location}.`:'Fuente sísmica no disponible temporalmente.',exchangeRate:`Tipo de cambio demostrativo: compra S/ ${d.exchangeRate.data.buy.toFixed(3)} y venta S/ ${d.exchangeRate.data.sell.toFixed(3)}.`,agriculture:`Precios demostrativos: ${d.agriculture.data.map(x=>`${x.product} S/ ${x.price.toFixed(2)}`).join(', ')}.`};const bubble=$('#assistant-message');bubble.innerHTML=`<b>Radar Perú IA</b><span>${answers[key]||'Solo puedo ayudarte con información del panel Radar Perú IA: normas, finanzas, clima, agro, marina, bolsa y sismos.'}</span><time>${new Date().toLocaleTimeString('es-PE',{hour:'2-digit',minute:'2-digit'})}</time>`;}
+
+async function refresh(){const btn=$('#refresh-btn');btn.classList.add('loading');document.querySelectorAll('.data-badge').forEach(x=>{x.textContent='CARGANDO';x.className='data-badge'});const entries=await Promise.all(Object.entries(providers).map(async([key,provider])=>[key,await provider()]));state.data=Object.fromEntries(entries);renderCards();renderSources();await renderMap();const now=new Date();$('#last-review').textContent=now.toLocaleString('es-PE',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});state.refreshAt=Date.now()+300000;btn.classList.remove('loading');}
+document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>answer(b.dataset.query)));document.querySelectorAll('[data-map]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-map]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mapMode=b.dataset.map;renderMap();}));$('#chat-form').addEventListener('submit',e=>{e.preventDefault();const value=$('#chat-input').value.toLowerCase();const key=value.includes('clima')?'weather':value.includes('sismo')?'earthquakes':value.includes('cambio')?'exchangeRate':value.includes('agro')?'agriculture':null;answer(key);$('#chat-input').value='';});$('#refresh-btn').addEventListener('click',refresh);setInterval(()=>{const seconds=Math.max(0,Math.ceil((state.refreshAt-Date.now())/1000));$('#refresh-countdown').textContent=`${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;if(seconds===0)refresh();},1000);refresh();

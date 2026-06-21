@@ -19,11 +19,19 @@ python -m http.server 8000
 
 Luego abre `http://localhost:8000`.
 
-## Datos demostrativos y APIs reales
+## Datos y arquitectura de proveedores
 
-`data/mock-data.js` contiene datos de ejemplo. Cada registro señala `note: "dato demostrativo"`; no debe interpretarse como información vigente. `app.js` contiene un adaptador independiente por proveedor (`fetchBcrpData()`, `fetchWeatherData()`, `fetchEarthquakeData()`, `fetchElPeruanoData()`, etc.). Para integrar datos reales, sustituye el retorno de cada adaptador por una llamada a la API oficial correspondiente.
+Todos los proveedores de `js/providers.js` devuelven el contrato normalizado `sourceName`, `sourceUrl`, `category`, `lastUpdated`, `status`, `isDemo`, `data`, `error` y `note`.
 
-GitHub Pages no puede almacenar secretos ni resolver por sí solo bloqueos CORS o scraping. Una fuente que requiera credenciales, scraping o cabeceras de servidor debe conectarse mediante un backend o proxy serverless.
+- **Clima:** dato real desde Open-Meteo, consumido directamente desde el navegador.
+- **Sismos:** dato real desde USGS como respaldo público mientras IGP/CENSIS no exponga un endpoint frontend estable.
+- **Tipo de cambio, agricultura, marina y El Peruano:** datos demostrativos claramente marcados como `DEMO`.
+- **BVL y SMV:** estado inactivo con mensaje `Conector backend requerido`; no se fabrican cotizaciones.
+- **BCRP:** adaptador preparado. La integración real depende de un endpoint compatible con CORS o un proxy.
+
+Las respuestas reales exitosas se guardan en `localStorage`. Si una fuente falla, el panel conserva el último resultado exitoso y lo marca como `CACHÉ`; si no existe caché, muestra `Fuente no disponible temporalmente`.
+
+El panel se actualiza automáticamente cada cinco minutos y permite actualización manual. GitHub Pages no puede almacenar secretos ni resolver bloqueos CORS, autenticación o scraping: esas fuentes requieren un backend o proxy serverless.
 
 ## Cartografía
 
@@ -37,5 +45,6 @@ En GitHub abre **Settings → Pages**, selecciona **Deploy from a branch**, rama
 
 - `index.html`: estructura accesible de la interfaz.
 - `styles.css`: sistema visual, escritorio, tablet y móvil.
-- `app.js`: adaptadores, renderizado e interacciones.
+- `app.js`: estado, renderizado, mapa, chatbot e interacciones.
+- `js/providers.js`: adaptadores normalizados, APIs públicas y caché.
 - `data/mock-data.js`: contrato y datos demostrativos por fuente.
