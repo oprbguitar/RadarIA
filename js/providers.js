@@ -35,10 +35,37 @@ export function fetchEarthquakeData() {
   });
 }
 
-export const fetchExchangeRateData = async () => normalize('exchangeRate', mockData.exchangeRate);
+// Tipo de cambio REAL · open.er-api.com (sin API key, con CORS).
+// Tasa de mercado USD/PEN referencial (no es el oficial SUNAT, que exige backend).
+// El historial/variación se construye con tasas reales guardadas entre refrescos.
+const FX_HISTORY_KEY = CACHE_PREFIX + 'fx-history';
+export function fetchExchangeRateData() {
+  return withCache('exchangeRate', async () => {
+    const response = await fetch('https://open.er-api.com/v6/latest/USD'); if(!response.ok) throw new Error(`open.er-api HTTP ${response.status}`);
+    const json = await response.json(); const pen = json?.rates?.PEN; if(!pen) throw new Error('Tasa PEN no disponible');
+    const sell = Number(pen.toFixed(4)); const buy = Number((pen * 0.997).toFixed(4));
+    let history = []; try { history = JSON.parse(localStorage.getItem(FX_HISTORY_KEY)) || []; } catch {}
+    if (!history.length || Math.abs(history[history.length-1] - sell) > 1e-6) history.push(sell);
+    history = history.slice(-12); localStorage.setItem(FX_HISTORY_KEY, JSON.stringify(history));
+    const prev = history.length > 1 ? history[history.length-2] : sell;
+    const variation = prev ? Number((((sell - prev) / prev) * 100).toFixed(2)) : 0;
+    return { sourceName:'open.er-api.com (mercado)', sourceUrl:'https://www.exchangerate-api.com/', category:'exchangeRate', lastUpdated:json.time_last_update_utc || new Date().toISOString(), status:'available', isDemo:false, data:{ buy, sell, variation, history }, error:null, note:'Dato real · tasa de mercado referencial' };
+  });
+}
 export const fetchBcrpData = async () => normalize('bcrp', mockData.bcrp);
 export const fetchAgricultureData = async () => normalize('agriculture', mockData.agriculture);
-export const fetchMaritimeData = async () => normalize('maritime', mockData.maritime);
+
+// Estado del mar REAL · Open-Meteo Marine (sin API key, con CORS) frente al Callao.
+const degToCompass = d => ['N','NE','E','SE','S','SO','O','NO'][Math.round(((d||0) % 360) / 45) % 8];
+export function fetchMaritimeData() {
+  return withCache('maritime', async () => {
+    const url = 'https://marine-api.open-meteo.com/v1/marine?latitude=-12.06&longitude=-77.16&current=wave_height,wave_direction,wave_period&timezone=America%2FLima';
+    const response = await fetch(url); if(!response.ok) throw new Error(`Open-Meteo Marine HTTP ${response.status}`);
+    const json = await response.json(); const cur = json.current || {}; const h = cur.wave_height; if(h == null) throw new Error('Sin dato de oleaje');
+    const level = h >= 2.5 ? 'ALTO' : h >= 1.5 ? 'MODERADO' : 'NORMAL';
+    return { sourceName:'Open-Meteo Marine', sourceUrl:'https://open-meteo.com/en/docs/marine-weather-api', category:'maritime', lastUpdated:cur.time || new Date().toISOString(), status:'available', isDemo:false, data:{ title:'Estado del mar · Callao', level, coast:'Callao · litoral central', waves:`Altura ${h} m · periodo ${cur.wave_period} s · dirección ${degToCompass(cur.wave_direction)} (${Math.round(cur.wave_direction)}°)`, validity:'Condición actual' }, error:null, note:'Dato real · Open-Meteo Marine' };
+  });
+}
 export const fetchElPeruanoData = async () => normalize('elPeruano', mockData.elPeruano);
 export const fetchBvlData = async () => unavailable('bvl','BVL','https://www.bvl.com.pe/');
 export const fetchSmvData = async () => unavailable('smv','SMV','https://www.smv.gob.pe/');

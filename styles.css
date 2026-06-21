@@ -484,6 +484,9 @@ input {
 .down {
   color: var(--red);
 }
+.variation b.up {
+  color: var(--green);
+}
 .variation svg {
   width: 48%;
   height: 35px;

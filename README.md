@@ -25,7 +25,9 @@ Todos los proveedores de `js/providers.js` devuelven el contrato normalizado `so
 
 - **Clima:** dato real desde Open-Meteo, consumido directamente desde el navegador.
 - **Sismos:** dato real desde USGS como respaldo público mientras IGP/CENSIS no exponga un endpoint frontend estable.
-- **Tipo de cambio, agricultura, marina y El Peruano:** datos demostrativos claramente marcados como `DEMO`.
+- **Tipo de cambio:** dato real (USD/PEN de mercado) desde open.er-api.com (sin API key, con CORS). Es una tasa **referencial de mercado**, no el oficial SUNAT (este exige token + backend). El historial/variación del sparkline se construye con tasas reales guardadas en `localStorage` entre refrescos.
+- **Marina:** estado del mar real (altura, periodo y dirección de ola frente al Callao) desde Open-Meteo Marine.
+- **Agricultura y El Peruano:** datos demostrativos claramente marcados como `DEMO` (no existe fuente keyless + CORS; requieren scraper en `/data`).
 - **BVL y SMV:** estado inactivo con mensaje `Conector backend requerido`; no se fabrican cotizaciones.
 - **BCRP:** adaptador preparado. La integración real depende de un endpoint compatible con CORS o un proxy.
 
