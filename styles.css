@@ -1701,6 +1701,28 @@ input {
   color: var(--muted);
   font-size: 10px;
 }
+.d-allnorms {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+  border: 1px solid var(--cyan);
+  border-radius: 11px;
+  background: linear-gradient(135deg, rgba(21, 224, 241, 0.16), rgba(21, 224, 241, 0.04));
+  color: var(--cyan-soft);
+  font: 700 14px var(--ui);
+  padding: 12px 14px;
+  margin-bottom: 6px;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.d-allnorms span {
+  font: 400 11px var(--ui);
+  color: var(--muted);
+}
+.d-allnorms:hover {
+  background: rgba(21, 224, 241, 0.22);
+  box-shadow: var(--shadow-glow);
+}
 .d-norms {
   display: grid;
   gap: 8px;

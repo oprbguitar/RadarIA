@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Normas Peruanas del mes — Diario Oficial El Peruano, con buscador y filtro por tipo.">
+  <title>Normas Peruanas · Radar Perú IA</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=1">
+  <meta name="theme-color" content="#010a12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normas.css?v=1">
+</head>
+<body>
+  <header class="np-top">
+    <a class="np-back" href="index.html">← Volver al panel</a>
+    <div class="np-id">
+      <img class="np-logo" src="favicon.svg" alt="Radar Perú IA">
+      <div><h1>Normas <em>Peruanas</em></h1><p id="np-sub">Diario Oficial El Peruano · cargando…</p></div>
+    </div>
+    <a class="np-source" href="https://busquedas.elperuano.pe/" target="_blank" rel="noreferrer">Fuente: El Peruano ↗</a>
+  </header>
+
+  <main class="np-main">
+    <aside class="np-side">
+      <div class="np-search">
+        <span aria-hidden="true">⌕</span>
+        <input id="np-q" type="search" placeholder="Buscar por palabras…" autocomplete="off" aria-label="Buscar normas por palabras">
+      </div>
+      <div class="np-filter">
+        <h2>Filtra por tipo de norma</h2>
+        <div id="np-types" class="np-chips"></div>
+      </div>
+      <div class="np-stat"><small>RESULTADOS</small><strong id="np-count">—</strong></div>
+    </aside>
+    <section class="np-list" id="np-list" aria-live="polite"></section>
+  </main>
+
+  <script type="module" src="normas.js?v=1"></script>
+</body>
+</html>

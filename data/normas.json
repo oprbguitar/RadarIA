@@ -1,17 +1,11 @@
 {
-  "generatedAt": "2026-06-21T12:20:13.407Z",
+  "generatedAt": "2026-06-21T16:42:47.280Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
   "totalHits": 858,
   "items": [
-    {
-      "type": "DECRETO SUPREMO N° 026-2026-RE",
-      "title": "Decreto Supremo que ratifica el \"Acuerdo sobre actividades remuneradas para los familiares dependientes de los funcionarios internacionales de la Comisión Latinoamericana de Aviación Civil - CLAC\"",
-      "date": "21 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FVGRiEiy4fV8Gvlx3fhQRs/*/2527954-1.PDF/PDF"
-    },
     {
       "type": "DECRETO SUPREMO N° 027-2026-RE",
       "title": "Decreto Supremo que ratifica el Tratado sobre Propiedad Intelectual, los Recursos Genéticos y los Conocimientos Tradicionales Asociados",
@@ -37,10 +31,16 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3p1e86R2KIB9o52GhiITFx/*/2527951-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN SUPREMA N° 096-2026-RE",
-      "title": "Nombran Cónsul Honorario del Perú en la ciudad de Ahmedabad, República de la India",
+      "type": "RESOLUCIÓN SUPREMA N° 097-2026-RE",
+      "title": "Determinan que la categoría de la Oficina Consular del Perú en Albuquerque, Estados Unidos de América, es la de Consulado",
       "date": "21 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1IJpsLV5ahzAzy443wC8oZ/*/2527954-4.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BQ3Sps8MqNfBQlzvcI1DK2/*/2527954-5.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA N° 095-2026-RE",
+      "title": "Determinan que la categoría de la Oficina Consular del Perú en la ciudad de Ahmedabad, República de la India, es la de Consulado",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FMW2hgP3qOh81gmikJ4KJj/*/2527954-3.PDF/PDF"
     }
   ]
 }

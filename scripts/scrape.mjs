@@ -86,6 +86,65 @@ async function scrapeNormas() {
 }
 
 /* ---------------------------------------------------------------------------
+   1b) NORMAS DEL MES — REAL · todas las normas del mes en curso para la
+   página "Normas Peruanas" (buscador + filtro por tipo, client-side).
+   Las normas oficiales tienen tipoDispositivo en MAYÚSCULAS (DECRETO SUPREMO,
+   RESOLUCIÓN MINISTERIAL…); los avisos notariales/comerciales van en Title
+   Case, así que se descartan con isNorm().
+--------------------------------------------------------------------------- */
+const NORM_RE = /^(DECRETO|RESOLUCIÓN|RESOLUCION|LEY|ORDENANZA|ACUERDO|CIRCULAR|CONVENIO|DIRECTIVA|FE DE ERRATA)\b/;
+const isNorm = t => { t = (t || '').trim(); return !!t && t === t.toUpperCase() && NORM_RE.test(t); };
+const MESES_L = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+async function scrapeNormasMes() {
+  const now = new Date();
+  const ymd = d => d.toISOString().slice(0, 10).replace(/-/g, '');
+  const fin = ymd(now);
+  const ini = `${now.getUTCFullYear()}${String(now.getUTCMonth() + 1).padStart(2, '0')}01`;
+  const MAX_PAGES = 25, PER = 100;
+  const raw = [];
+  let start = 0, page = 0, hasNext = true;
+  while (hasNext && page < MAX_PAGES) {
+    const res = await fetch(EP_GQL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json', 'User-Agent': UA, Referer: 'https://busquedas.elperuano.pe/' },
+      body: JSON.stringify({ query: EP_QUERY, variables: { query: 'de', fechaIni: ini, fechaFin: fin, paginatedBy: PER, start } }),
+    });
+    if (!res.ok) throw new Error(`El Peruano HTTP ${res.status}`);
+    const r = (await res.json())?.data?.results;
+    raw.push(...(r?.hits || []));
+    hasNext = !!r?.hasNext; start += PER; page++;
+  }
+  const seen = new Set();
+  const items = raw
+    .filter(h => isNorm(h.tipoDispositivo))
+    .map(h => ({
+      type: (h.tipoDispositivo || '').trim(),
+      name: (h.nombreDispositivo || '').trim(),
+      title: (h.sumilla || '').replace(/\s+/g, ' ').trim(),
+      date: fmtFecha(h.fechaPublicacion),
+      ymd: h.fechaPublicacion,
+      url: h.urlPDF?.startsWith('http') ? h.urlPDF : 'https://busquedas.elperuano.pe/',
+    }))
+    .filter(x => { const k = `${x.name}|${x.ymd}|${x.title.slice(0, 40)}`; if (seen.has(k)) return false; seen.add(k); return true; })
+    .sort((a, b) => (b.ymd || '').localeCompare(a.ymd || ''));
+  if (!items.length) throw new Error('Sin normas del mes');
+  const counts = {};
+  items.forEach(x => { counts[x.type] = (counts[x.type] || 0) + 1; });
+  const types = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([type, count]) => ({ type, count }));
+  await writeJSON('normas-mes.json', {
+    generatedAt: nowISO(),
+    periodo: `${MESES_L[now.getUTCMonth()]} ${now.getUTCFullYear()}`,
+    periodoIni: ini, periodoFin: fin,
+    source: 'El Peruano · Diario Oficial',
+    sourceUrl: 'https://busquedas.elperuano.pe/',
+    total: items.length,
+    types,
+    items,
+  });
+}
+
+/* ---------------------------------------------------------------------------
    2) AGRO — precios mayoristas.
    La fuente real (EMMSA "Gran Mercado Mayorista de Lima") publica sus precios
    tras un grid JS con estado en old.emmsa.com.pe; requiere navegador headless
@@ -113,7 +172,7 @@ async function scrapeAgro() {
 
 /* --------------------------------------------------------------------------- */
 async function main() {
-  const tasks = [['normas', scrapeNormas], ['agro', scrapeAgro]];
+  const tasks = [['normas', scrapeNormas], ['normas-mes', scrapeNormasMes], ['agro', scrapeAgro]];
   let failed = 0;
   for (const [name, fn] of tasks) {
     try { await fn(); }
