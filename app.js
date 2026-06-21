@@ -69,16 +69,20 @@ let lmap=null,deptLayer=null,weatherLayer=null,quakeLayer=null;
 const sevColor=s=>s==='red'?'#ff4355':s==='yellow'?'#ffc52e':'#17e8f4';
 function initLeaflet(){
   if(lmap||typeof L==='undefined'||!document.getElementById('map'))return;
-  lmap=L.map('map',{zoomControl:true,attributionControl:true,minZoom:4,maxZoom:10,scrollWheelZoom:true});
-  lmap.fitBounds([[-18.6,-81.6],[0.2,-68.5]]);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',attribution:'© OpenStreetMap · © CARTO',maxZoom:19}).addTo(lmap);
-  weatherLayer=L.layerGroup().addTo(lmap);
-  quakeLayer=L.layerGroup();
+  const bounds=L.latLngBounds([[-18.8,-82.3],[0.6,-68.2]]);
+  lmap=L.map('map',{zoomControl:true,attributionControl:true,minZoom:4,maxZoom:9,scrollWheelZoom:true,maxBounds:bounds.pad(0.3),maxBoundsViscosity:0.85});
+  lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]]);
+  lmap.attributionControl.setPrefix('Radar Perú IA');
+  // Base vectorial local (sin tiles externos): Perú real por departamentos.
+  weatherLayer=L.layerGroup();quakeLayer=L.layerGroup();
   fetch('./data/peru-departamentos.geojson').then(r=>r.json()).then(geo=>{
-    deptLayer=L.geoJSON(geo,{style:{color:'#77f3ff',weight:0.8,opacity:0.55,fillColor:'#17e8f4',fillOpacity:0.05},
-      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:1.8,fillOpacity:0.16}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
+    deptLayer=L.geoJSON(geo,{attribution:'Límites: INEI · Natural Earth',
+      style:{color:'#7af0ff',weight:1,opacity:0.9,fillColor:'#15627d',fillOpacity:1},
+      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:1.8,fillColor:'#1f7e9c'}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
     deptLayer.addTo(lmap);deptLayer.bringToBack();
-  }).catch(()=>{});
+    weatherLayer.addTo(lmap);
+    renderMap();
+  }).catch(()=>{weatherLayer.addTo(lmap);});
   setTimeout(()=>lmap.invalidateSize(),120);
 }
 function renderWeatherMarkers(){
