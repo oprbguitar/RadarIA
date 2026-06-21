@@ -53,7 +53,16 @@ export function fetchExchangeRateData() {
   });
 }
 export const fetchBcrpData = async () => normalize('bcrp', mockData.bcrp);
-export const fetchAgricultureData = async () => normalize('agriculture', mockData.agriculture);
+
+// Agro · lee /data/agro.json generado por el SCRAPE-TIER (scripts/scrape.mjs).
+// Si el JSON aún no existe o falla, cae al set demostrativo del mock.
+export const fetchAgricultureData = async () => {
+  try {
+    const res = await fetch('./data/agro.json', { cache:'no-cache' }); if(!res.ok) throw new Error('agro.json');
+    const j = await res.json(); if(!j.items?.length) throw new Error('agro.json vacío');
+    return { sourceName:j.source||'MIDAGRI', sourceUrl:j.sourceUrl||'https://www.gob.pe/midagri', category:'agriculture', lastUpdated:j.generatedAt, status:'available', isDemo:j.isDemo!==false, data:j.items, error:null, note:j.note||'Dato demostrativo' };
+  } catch { return normalize('agriculture', mockData.agriculture); }
+};
 
 // Estado del mar REAL · Open-Meteo Marine (sin API key, con CORS) frente al Callao.
 const degToCompass = d => ['N','NE','E','SE','S','SO','O','NO'][Math.round(((d||0) % 360) / 45) % 8];
@@ -66,7 +75,14 @@ export function fetchMaritimeData() {
     return { sourceName:'Open-Meteo Marine', sourceUrl:'https://open-meteo.com/en/docs/marine-weather-api', category:'maritime', lastUpdated:cur.time || new Date().toISOString(), status:'available', isDemo:false, data:{ title:'Estado del mar · Callao', level, coast:'Callao · litoral central', waves:`Altura ${h} m · periodo ${cur.wave_period} s · dirección ${degToCompass(cur.wave_direction)} (${Math.round(cur.wave_direction)}°)`, validity:'Condición actual' }, error:null, note:'Dato real · Open-Meteo Marine' };
   });
 }
-export const fetchElPeruanoData = async () => normalize('elPeruano', mockData.elPeruano);
+// Normas legales · lee /data/normas.json (REAL · El Peruano, vía scraper).
+export function fetchElPeruanoData() {
+  return withCache('elPeruano', async () => {
+    const res = await fetch('./data/normas.json', { cache:'no-cache' }); if(!res.ok) throw new Error(`normas.json HTTP ${res.status}`);
+    const j = await res.json(); if(!j.items?.length) throw new Error('normas.json vacío');
+    return { sourceName:j.source||'El Peruano', sourceUrl:j.sourceUrl||'https://busquedas.elperuano.pe/', category:'elPeruano', lastUpdated:j.generatedAt, status:'available', isDemo:!!j.isDemo, data:j.items, error:null, note:j.note||'Dato real · El Peruano' };
+  });
+}
 export const fetchBvlData = async () => unavailable('bvl','BVL','https://www.bvl.com.pe/');
 export const fetchSmvData = async () => unavailable('smv','SMV','https://www.smv.gob.pe/');
 

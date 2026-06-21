@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-06-21T07:23:34.966Z",
+  "source": "El Peruano · Diario Oficial",
+  "sourceUrl": "https://busquedas.elperuano.pe/",
+  "isDemo": false,
+  "note": "Dato real · El Peruano (búsqueda oficial)",
+  "totalHits": 849,
+  "items": [
+    {
+      "type": "DECRETO SUPREMO N° 027-2026-RE",
+      "title": "Decreto Supremo que ratifica el Tratado sobre Propiedad Intelectual, los Recursos Genéticos y los Conocimientos Tradicionales Asociados",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4t_MGRK24tvAtvXuYTJNJz/*/2527954-2.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO N° 026-2026-RE",
+      "title": "Decreto Supremo que ratifica el \"Acuerdo sobre actividades remuneradas para los familiares dependientes de los funcionarios internacionales de la Comisión Latinoamericana de Aviación Civil - CLAC\"",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FVGRiEiy4fV8Gvlx3fhQRs/*/2527954-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL N° 00717-2026-DE",
+      "title": "Autorizan viaje de personal militar de la Marina de Guerra del Perú a Argentina, en comisión de servicios",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FndnYu6eaF88O9r4zsFUZJ/*/2527403-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL N° 00703-2026-DE",
+      "title": "Autorizan viaje de oficiales del Ejército del Perú a los Estados Unidos de América, en misión de estudios",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/66gXJzdQKHz9blXfjmhFgk/*/2527046-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL Nº 248-2026-MINEM/DM",
+      "title": "Designan Asesor de Coordinación Parlamentaria del Ministerio",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3p1e86R2KIB9o52GhiITFx/*/2527951-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA N° 095-2026-RE",
+      "title": "Determinan que la categoría de la Oficina Consular del Perú en la ciudad de Ahmedabad, República de la India, es la de Consulado",
+      "date": "21 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FMW2hgP3qOh81gmikJ4KJj/*/2527954-3.PDF/PDF"
+    }
+  ]
+}

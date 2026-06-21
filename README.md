@@ -27,7 +27,18 @@ Todos los proveedores de `js/providers.js` devuelven el contrato normalizado `so
 - **Sismos:** dato real desde USGS como respaldo público mientras IGP/CENSIS no exponga un endpoint frontend estable.
 - **Tipo de cambio:** dato real (USD/PEN de mercado) desde open.er-api.com (sin API key, con CORS). Es una tasa **referencial de mercado**, no el oficial SUNAT (este exige token + backend). El historial/variación del sparkline se construye con tasas reales guardadas en `localStorage` entre refrescos.
 - **Marina:** estado del mar real (altura, periodo y dirección de ola frente al Callao) desde Open-Meteo Marine.
-- **Agricultura y El Peruano:** datos demostrativos claramente marcados como `DEMO` (no existe fuente keyless + CORS; requieren scraper en `/data`).
+- **Normas / El Peruano:** dato real desde la búsqueda oficial de El Peruano (GraphQL `getGenericPublication`). No tiene CORS para el navegador, así que lo descarga el SCRAPE-TIER y la app lee `data/normas.json`.
+- **Agricultura:** servida desde `data/agro.json`. Hoy es un set **referencial** (`DEMO`): la fuente real (EMMSA) expone los precios tras un grid con estado que requiere navegador headless; queda documentado en `scripts/scrape.mjs`.
+
+## SCRAPE-TIER (`scripts/scrape.mjs` + GitHub Actions)
+
+GitHub Pages no puede llamar fuentes sin CORS ni con estado. Para esas fuentes hay un scraper Node sin dependencias (`scripts/scrape.mjs`) que corre en GitHub Actions (`.github/workflows/scrape.yml`, cron diario 05:10 hora de Lima) y deja JSON estático en `/data`. La app solo lee ese JSON (rápido, sin CORS). Para ejecutarlo localmente:
+
+```powershell
+node scripts/scrape.mjs
+```
+
+Genera `data/normas.json` (real) y `data/agro.json` (referencial). El workflow commitea los JSON al repo cuando cambian, lo que dispara el redeploy de Pages.
 - **BVL y SMV:** estado inactivo con mensaje `Conector backend requerido`; no se fabrican cotizaciones.
 - **BCRP:** adaptador preparado. La integración real depende de un endpoint compatible con CORS o un proxy.
 
