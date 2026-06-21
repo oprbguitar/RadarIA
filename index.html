@@ -73,10 +73,11 @@
         <div class="map-stage">
           <svg class="peru-map" viewBox="0 0 380 540" role="img" aria-label="Mapa estilizado del Perú con ciudades monitoreadas">
             <defs><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-            <path class="peru-shape" d="M126 20 L174 44 190 86 233 112 284 142 276 185 305 213 286 249 319 298 292 333 303 379 274 402 263 459 224 505 193 492 175 451 151 422 148 385 119 347 104 303 78 276 70 229 86 190 66 158 82 126 73 92 98 65Z"/>
+            <path class="peru-shape" id="peru-shape"/>
             <g id="city-points"></g>
           </svg>
           <div class="map-legend"><h3>Leyenda</h3><p><i class="cyan"></i> Condiciones normales</p><p><i class="yellow"></i> Atención</p><p><i class="red"></i> Alerta</p><hr><small>Cobertura nacional</small><strong>100%</strong></div>
+          <a class="map-credit" href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Cartografía: Natural Earth · dominio público</a>
         </div>
       </section>
     </div>

@@ -25,6 +25,10 @@ Luego abre `http://localhost:8000`.
 
 GitHub Pages no puede almacenar secretos ni resolver por sí solo bloqueos CORS o scraping. Una fuente que requiera credenciales, scraping o cabeceras de servidor debe conectarse mediante un backend o proxy serverless.
 
+## Cartografía
+
+El contorno nacional se renderiza desde `data/peru.geojson`, extraído del dataset abierto **Natural Earth Admin 0 Countries (1:110m)**. Natural Earth publica sus datos en dominio público. El archivo se sirve localmente para evitar dependencias externas en tiempo de ejecución.
+
 ## Publicar en GitHub Pages
 
 En GitHub abre **Settings → Pages**, selecciona **Deploy from a branch**, rama `main` y carpeta `/ (root)`. El sitio quedará disponible en `https://oprbguitar.github.io/RadarIA/`.

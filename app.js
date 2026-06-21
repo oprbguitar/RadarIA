@@ -18,9 +18,29 @@ const $ = selector => document.querySelector(selector);
 const sparkline = points => `<svg class="spark" viewBox="0 0 130 42" aria-label="Variación histórica demostrativa"><polyline points="${points.map((p,i)=>`${i*11.7},${42-p*1.7}`).join(' ')}"/></svg>`;
 const unavailable = '<p class="unavailable">fuente no disponible</p>';
 
-const cities = [{n:'Tumbes',x:95,y:102},{n:'Piura',x:105,y:150},{n:'Chiclayo',x:117,y:201},{n:'Trujillo',x:132,y:245},{n:'Lima',x:155,y:319,a:true},{n:'Huancayo',x:219,y:324},{n:'Cusco',x:267,y:371},{n:'Arequipa',x:227,y:438},{n:'Tacna',x:267,y:490}];
-function renderMap(mode='clima') {
-  $('#city-points').innerHTML = cities.map((c,i)=>`<g class="city ${c.a&&mode==='sismos'?'alert':''}" transform="translate(${c.x} ${c.y})"><circle r="${c.a&&mode==='sismos'?12:6}"/><circle r="2"/><text x="${c.x<150?-12:10}" y="4" text-anchor="${c.x<150?'end':'start'}">${c.n}</text></g>`).join('');
+const cities = [{n:'Tumbes',lon:-80.45,lat:-3.57},{n:'Piura',lon:-80.63,lat:-5.19},{n:'Chiclayo',lon:-79.84,lat:-6.77},{n:'Trujillo',lon:-79.03,lat:-8.11},{n:'Lima',lon:-77.04,lat:-12.05,a:true},{n:'Huancayo',lon:-75.20,lat:-12.07},{n:'Cusco',lon:-71.97,lat:-13.52},{n:'Arequipa',lon:-71.54,lat:-16.40},{n:'Tacna',lon:-70.25,lat:-18.01}];
+let peruGeometry;
+const bounds = { minLon:-81.55, maxLon:-68.5, minLat:-18.5, maxLat:0.1 };
+function project(lon,lat) {
+  const padding=24, width=330, height=500;
+  return { x:padding+((lon-bounds.minLon)/(bounds.maxLon-bounds.minLon))*width, y:padding+((bounds.maxLat-lat)/(bounds.maxLat-bounds.minLat))*height };
+}
+async function loadPeruGeometry() {
+  if (!peruGeometry) {
+    const response=await fetch('./data/peru.geojson');
+    if (!response.ok) throw new Error('No se pudo cargar la cartografía de Perú');
+    peruGeometry=(await response.json()).geometry.coordinates;
+  }
+  return peruGeometry;
+}
+async function renderMap(mode='clima') {
+  try {
+    const geometry=await loadPeruGeometry();
+    $('#peru-shape').setAttribute('d',geometry.map(ring=>ring.map(([lon,lat],index)=>{const p=project(lon,lat);return `${index?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`;}).join(' ')+' Z').join(' '));
+  } catch (error) {
+    console.error(error.message);
+  }
+  $('#city-points').innerHTML = cities.map(c=>{const p=project(c.lon,c.lat);return `<g class="city ${c.a&&mode==='sismos'?'alert':''}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="${c.a&&mode==='sismos'?12:6}"/><circle r="2"/><text x="${p.x<160?-12:10}" y="4" text-anchor="${p.x<160?'end':'start'}">${c.n}</text></g>`;}).join('');
 }
 
 async function renderDashboard() {
