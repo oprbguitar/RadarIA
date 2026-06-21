@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
   <div class="app-shell">
@@ -40,15 +41,10 @@
       </section>
 
       <section class="panel map-panel" aria-labelledby="map-title">
-        <div class="map-heading"><h2 id="map-title">MAPA DE PERÚ</h2><div class="map-tabs"><button data-map="weather" class="active">☁ Clima</button><button data-map="earthquakes">⌁ Sismos</button></div></div>
+        <div class="map-heading"><h2 id="map-title">MAPA DE PERÚ <span class="live-badge">EN VIVO</span></h2><div class="map-tabs"><button data-map="weather" class="active">☁ Clima</button><button data-map="earthquakes">⌁ Sismos</button></div></div>
         <div class="map-canvas">
-          <svg viewBox="0 0 380 540" role="img" aria-label="Mapa de Perú basado en Natural Earth">
-            <defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-            <path id="peru-shape" class="peru-shape"></path><g id="peru-depts"></g><g id="city-points"></g>
-          </svg>
-          <div id="map-tooltip" class="map-tooltip" hidden></div>
-          <aside class="map-legend"><h3>LEYENDA</h3><p><i class="cyan"></i>Condiciones normales</p><p><i class="yellow"></i>Atención</p><p><i class="red"></i>Alerta</p><hr><small id="map-legend-label">TEMPERATURA POR CIUDAD</small><strong id="map-legend-value">—</strong></aside>
-          <a class="map-credit" href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth · dominio público</a>
+          <div id="map"></div>
+          <aside class="map-legend"><h3>LEYENDA</h3><p><i class="cyan"></i>Condiciones normales</p><p><i class="yellow"></i>Atención</p><p><i class="red"></i>Alerta</p><hr><small id="map-legend-label">TEMP. PROMEDIO</small><strong id="map-legend-value">—</strong></aside>
         </div>
       </section>
     </main>
@@ -84,6 +80,7 @@
     </div>
   </div>
 
-  <script type="module" src="app.js?v=7"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="app.js?v=8"></script>
 </body>
 </html>

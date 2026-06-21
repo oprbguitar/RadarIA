@@ -65,33 +65,47 @@ async function loadMapData(){
   state.map.quakes=q.status==='fulfilled'?q.value:[];
 }
 
-let peruPath=null,deptPaths=null;
-const ringToPath=r=>r.map(([lon,lat],i)=>{const p=project(lon,lat);return`${i?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`}).join(' ')+' Z';
-async function ensurePeruPath(){if(peruPath)return peruPath;const geo=await(await fetch('./data/peru.geojson')).json();peruPath=geo.geometry.coordinates.map(ringToPath).join(' ');return peruPath;}
-async function ensureDeptPaths(){if(deptPaths)return deptPaths;const geo=await(await fetch('./data/peru-departamentos.geojson')).json();deptPaths=geo.features.map(f=>{const g=f.geometry,d=g.type==='Polygon'?g.coordinates.map(ringToPath).join(' '):g.type==='MultiPolygon'?g.coordinates.map(poly=>poly.map(ringToPath).join(' ')).join(' '):'';return{name:f.properties.NOMBDEP||'',d};});return deptPaths;}
-async function renderDepts(){const g=$('#peru-depts');if(g.dataset.done)return;try{const paths=await ensureDeptPaths();g.innerHTML=paths.map(p=>`<path class="dept" data-info="Departamento: ${escapeHtml((p.name||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()))}" d="${p.d}"/>`).join('');g.dataset.done='1';}catch{}}
-function renderWeatherPoints(){
-  const src=state.map.weather.length?state.map.weather:cities;
-  return src.map(c=>{const p=project(c.lon,c.lat),sev=c.code!=null?weatherSeverity(c.code):'cyan',t=c.temp!=null?Math.round(c.temp)+'°':'',left=p.x<150;const info=`${c.n}: ${c.temp!=null?Math.round(c.temp)+'°C':'s/d'}${c.code!=null?' · '+weatherLabel(c.code):''}`;return`<g class="city sev-${sev}" data-info="${escapeHtml(info)}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="6"/><circle r="2"/><text class="city-name" x="${left?-10:10}" y="3" text-anchor="${left?'end':'start'}">${c.n}</text>${t?`<text class="city-val" x="${left?-10:10}" y="14" text-anchor="${left?'end':'start'}">${t}</text>`:''}</g>`;}).join('');
+let lmap=null,deptLayer=null,weatherLayer=null,quakeLayer=null;
+const sevColor=s=>s==='red'?'#ff4355':s==='yellow'?'#ffc52e':'#17e8f4';
+function initLeaflet(){
+  if(lmap||typeof L==='undefined'||!document.getElementById('map'))return;
+  lmap=L.map('map',{zoomControl:true,attributionControl:true,minZoom:4,maxZoom:10,scrollWheelZoom:true});
+  lmap.fitBounds([[-18.6,-81.6],[0.2,-68.5]]);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',attribution:'© OpenStreetMap · © CARTO',maxZoom:19}).addTo(lmap);
+  weatherLayer=L.layerGroup().addTo(lmap);
+  quakeLayer=L.layerGroup();
+  fetch('./data/peru-departamentos.geojson').then(r=>r.json()).then(geo=>{
+    deptLayer=L.geoJSON(geo,{style:{color:'#77f3ff',weight:0.8,opacity:0.55,fillColor:'#17e8f4',fillOpacity:0.05},
+      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:1.8,fillOpacity:0.16}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
+    deptLayer.addTo(lmap);deptLayer.bringToBack();
+  }).catch(()=>{});
+  setTimeout(()=>lmap.invalidateSize(),120);
 }
-function renderQuakePoints(){
-  const base=cities.map(c=>{const p=project(c.lon,c.lat);return`<g class="city dim" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="2.5"/></g>`;}).join('');
-  const qs=state.map.quakes.map(k=>{const p=project(k.lon,k.lat),sev=quakeSeverity(k.mag),r=(4+(k.mag||3)*1.7).toFixed(1),left=p.x<150;const info=`M ${k.mag?.toFixed(1)} · ${k.place||'—'} · ${Math.round(k.depth)} km · ${formatTime(k.time)}`;return`<g class="quake sev-${sev}" data-info="${escapeHtml(info)}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle class="pulse" r="${r}"/><circle r="2.5"/><text class="city-val" x="${left?-8:8}" y="3" text-anchor="${left?'end':'start'}">M${k.mag?.toFixed(1)}</text></g>`;}).join('');
-  return base+qs;
+function renderWeatherMarkers(){
+  if(!weatherLayer)return;weatherLayer.clearLayers();
+  const src=state.map.weather.length?state.map.weather:cities;
+  src.forEach(c=>{const sev=c.code!=null?weatherSeverity(c.code):'cyan',col=sevColor(sev),temp=c.temp!=null?Math.round(c.temp)+'°':'s/d';
+    L.circleMarker([c.lat,c.lon],{radius:5,color:col,weight:2,fillColor:'#062a38',fillOpacity:1,className:'wk'})
+      .bindTooltip(`${c.n} ${temp}`,{permanent:true,direction:'right',offset:[7,0],className:'rt-city rt-'+sev})
+      .bindPopup(`<b>${c.n}</b><br>${c.temp!=null?Math.round(c.temp)+' °C':'sin dato'}${c.code!=null?' · '+weatherLabel(c.code):''}`)
+      .addTo(weatherLayer);});
+}
+function renderQuakeMarkers(){
+  if(!quakeLayer)return;quakeLayer.clearLayers();
+  state.map.quakes.forEach(k=>{const sev=quakeSeverity(k.mag),col=sevColor(sev),r=4+(k.mag||3)*1.6;
+    L.circleMarker([k.lat,k.lon],{radius:r,color:col,weight:1.6,fillColor:col,fillOpacity:0.22,className:'qk qk-'+sev})
+      .bindTooltip(`M${(k.mag||0).toFixed(1)}`,{permanent:true,direction:'right',offset:[6,0],className:'rt-mag rt-'+sev})
+      .bindPopup(`<b>Magnitud ${(k.mag||0).toFixed(1)}</b><br>${k.place||'—'}<br>Prof. ${Math.round(k.depth)} km · ${formatTime(k.time)}`)
+      .addTo(quakeLayer);});
 }
 async function renderMap(){
-  $('#peru-shape').setAttribute('d',await ensurePeruPath());
-  await renderDepts();
-  $('#city-points').innerHTML=state.mapMode==='weather'?renderWeatherPoints():renderQuakePoints();
+  initLeaflet();if(!lmap)return;
+  if(state.mapMode==='weather'){if(quakeLayer&&lmap.hasLayer(quakeLayer))lmap.removeLayer(quakeLayer);if(weatherLayer&&!lmap.hasLayer(weatherLayer))weatherLayer.addTo(lmap);renderWeatherMarkers();}
+  else{if(weatherLayer&&lmap.hasLayer(weatherLayer))lmap.removeLayer(weatherLayer);if(quakeLayer&&!lmap.hasLayer(quakeLayer))quakeLayer.addTo(lmap);renderQuakeMarkers();}
   const wx=state.map.weather.filter(c=>c.temp!=null);
   if(state.mapMode==='weather'){$('#map-legend-label').textContent='TEMP. PROMEDIO';$('#map-legend-value').textContent=wx.length?Math.round(wx.reduce((a,c)=>a+c.temp,0)/wx.length)+'°C':'—';}
   else{$('#map-legend-label').textContent='SISMOS (30 d · M≥3)';$('#map-legend-value').textContent=state.map.quakes.length||'—';}
-}
-function initMapTooltip(){
-  const wrap=$('.map-canvas'),tip=$('#map-tooltip'),pts=$('.map-canvas svg');
-  const move=ev=>{const t=ev.touches?.[0]||ev;const g=(ev.target.closest?ev.target:document.elementFromPoint(t.clientX,t.clientY))?.closest('[data-info]');if(!g){tip.hidden=true;return;}tip.hidden=false;tip.textContent=g.getAttribute('data-info');const r=wrap.getBoundingClientRect();let x=t.clientX-r.left+12,y=t.clientY-r.top+12;tip.style.left=Math.min(x,r.width-tip.offsetWidth-6)+'px';tip.style.top=Math.min(y,r.height-tip.offsetHeight-6)+'px';};
-  pts.addEventListener('mousemove',move);pts.addEventListener('mouseleave',()=>tip.hidden=true);
-  pts.addEventListener('touchstart',move,{passive:true});pts.addEventListener('touchmove',move,{passive:true});
+  setTimeout(()=>lmap&&lmap.invalidateSize(),60);
 }
 
 /* ---------- fuentes ---------- */
@@ -145,4 +159,4 @@ const presets={summary:'Dame un resumen general del panel ahora.',weather:'¿Có
 document.querySelectorAll('.aw-chips button').forEach(b=>b.addEventListener('click',()=>sendToAssistant(presets[b.dataset.query]||b.textContent)));
 $('#refresh-btn').addEventListener('click',refresh);
 setInterval(()=>{const s=Math.max(0,Math.ceil((state.refreshAt-Date.now())/1000));$('#refresh-countdown').textContent=`${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;if(s===0)refresh();},1000);
-initMapTooltip();refresh();
+refresh();
