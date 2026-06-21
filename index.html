@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Radar Perú IA: panel demostrativo de información pública peruana.">
+  <title>Radar Perú IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="mobile-menu" id="mobile-menu" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#resumen" aria-label="Radar Perú IA - inicio">
+      <span class="radar-logo"><i></i></span><strong>Radar<br><em>Perú</em> IA</strong>
+    </a>
+    <nav aria-label="Navegación principal">
+      <button class="nav-item active" data-target="resumen"><span>⌂</span>Resumen</button>
+      <button class="nav-item" data-target="asistente"><span>◉</span>Chat IA</button>
+      <button class="nav-item" data-target="normas"><span>▤</span>El Peruano</button>
+      <button class="nav-item" data-target="finanzas"><span>▥</span>Finanzas</button>
+      <button class="nav-item" data-target="finanzas"><span>⌁</span>Bolsa BVL</button>
+      <button class="nav-item" data-target="clima"><span>☁</span>Clima</button>
+      <button class="nav-item" data-target="agro"><span>♧</span>Agro</button>
+      <button class="nav-item" data-target="marina"><span>⚓</span>Marina</button>
+      <button class="nav-item" data-target="sismos"><span>⌁</span>Sismos</button>
+      <button class="nav-item" data-target="fuentes"><span>▱</span>Fuentes</button>
+    </nav>
+    <div class="sidebar-radar"><span></span><p>Inteligencia que<br>conecta a <b>Perú</b></p></div>
+  </aside>
+
+  <main id="resumen">
+    <header class="topbar">
+      <div class="title-wrap"><span class="title-mark"></span><div><h1>Radar Perú IA</h1><p>Normas, finanzas, clima, agro, marina y sismos en un solo panel</p></div></div>
+      <div class="status-strip">
+        <div><small>▣ &nbsp; Última revisión</small><strong id="last-review">18 may, 2025 · 08:30</strong></div>
+        <div><small><i class="online"></i> Fuentes activas</small><strong id="sources-count">8 / 8</strong></div>
+        <span class="flag" aria-label="Bandera del Perú">🇵🇪</span>
+      </div>
+    </header>
+
+    <div class="dashboard-layout">
+      <section class="left-zone">
+        <article class="panel assistant" id="asistente">
+          <div class="panel-label">Asistente IA</div>
+          <div class="assistant-main">
+            <div class="bot" aria-hidden="true"><div class="antenna"></div><div class="bot-head"><i></i><i></i><b></b></div><div class="bot-body">IA</div><div class="bot-ring"></div></div>
+            <div class="bubble" id="assistant-message">Hola, soy <b>Radar Perú IA.</b><br>Reviso fuentes reales sobre normas, economía, clima, agro, marina y sismos.<br>¿Deseas un resumen general o un servicio específico?<time>08:30</time></div>
+          </div>
+          <div class="quick-actions" aria-label="Consultas rápidas">
+            <button data-query="resumen">▤ <span>Resumen 24 h</span></button><button data-query="clima">☁ <span>Solo clima</span></button><button data-query="sismos">⌁ <span>Solo sismos</span></button><button data-query="cambio">$ <span>Tipo de cambio</span></button><button data-query="agro">♧ <span>Agro</span></button>
+          </div>
+          <form class="chat-form" id="chat-form"><label class="sr-only" for="chat-input">Pregunta al asistente</label><input id="chat-input" placeholder="Pregunta sobre el panel…" autocomplete="off"><button>Enviar</button></form>
+        </article>
+
+        <div class="cards-row top-cards">
+          <article class="panel data-card" id="finanzas"><h2><span>$</span> Tipo de cambio</h2><div id="exchange-content"></div></article>
+          <article class="panel data-card weather" id="clima"><h2><span>☁</span> Clima</h2><div id="weather-content"></div></article>
+          <article class="panel data-card quake" id="sismos"><h2><span>⌁</span> Sismos <small>(último evento)</small></h2><div id="quake-content"></div></article>
+        </div>
+        <div class="cards-row bottom-cards">
+          <article class="panel data-card agro" id="agro"><h2><span>♧</span> Agro <small>(precios mayoristas)</small></h2><div id="agro-content"></div></article>
+          <article class="panel data-card maritime" id="marina"><h2><span>⚓</span> Marina <small>(aviso marítimo)</small></h2><div id="maritime-content"></div></article>
+          <article class="panel data-card norms" id="normas"><h2><span>▤</span> Normas / El Peruano <button>Ver más ›</button></h2><div id="norms-content"></div></article>
+        </div>
+      </section>
+
+      <section class="panel map-panel" aria-labelledby="map-title">
+        <h2 id="map-title">Mapa de Perú</h2>
+        <div class="map-tabs"><button class="active" data-map="clima">☁ Clima</button><button data-map="sismos">⌁ Sismos</button></div>
+        <div class="map-stage">
+          <svg class="peru-map" viewBox="0 0 380 540" role="img" aria-label="Mapa estilizado del Perú con ciudades monitoreadas">
+            <defs><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+            <path class="peru-shape" d="M126 20 L174 44 190 86 233 112 284 142 276 185 305 213 286 249 319 298 292 333 303 379 274 402 263 459 224 505 193 492 175 451 151 422 148 385 119 347 104 303 78 276 70 229 86 190 66 158 82 126 73 92 98 65Z"/>
+            <g id="city-points"></g>
+          </svg>
+          <div class="map-legend"><h3>Leyenda</h3><p><i class="cyan"></i> Condiciones normales</p><p><i class="yellow"></i> Atención</p><p><i class="red"></i> Alerta</p><hr><small>Cobertura nacional</small><strong>100%</strong></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel sources" id="fuentes"><h2>⬡ &nbsp;Fuentes verificadas</h2><div class="source-grid" id="source-grid"></div></section>
+    <p class="demo-note">Panel demostrativo · Los datos mostrados no sustituyen la consulta de las fuentes oficiales.</p>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
