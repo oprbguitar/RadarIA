@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <div class="app-shell">
@@ -29,25 +29,13 @@
 
     <main class="workspace">
       <section class="left-dashboard">
-        <article class="panel assistant-panel">
-          <h2 class="panel-title">ASISTENTE IA</h2>
-          <div class="assistant-content">
-            <div class="bot" aria-hidden="true"><i class="bot-antenna"></i><div class="bot-face"><b></b><b></b><em></em></div><div class="bot-body">IA</div><div class="bot-orbit"></div></div>
-            <div class="assistant-bubble" id="assistant-message"><b>Radar Perú IA</b><span>Hola, soy Radar Perú IA. Reviso fuentes reales sobre normas, economía, clima, agro, marina y sismos. ¿Deseas un resumen general o un servicio específico?</span><time>—</time></div>
-          </div>
-          <div class="quick-actions">
-            <button data-query="summary">▤ <span>Resumen 24 h</span></button><button data-query="weather">☁ <span>Solo clima</span></button><button data-query="earthquakes">⌁ <span>Solo sismos</span></button><button data-query="exchangeRate">$ <span>Tipo de cambio</span></button><button data-query="agriculture">♧ <span>Agro</span></button>
-          </div>
-          <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">Consulta del panel</label><input id="chat-input" placeholder="Pregunta sobre el panel…"><button>Enviar</button></form>
-        </article>
-
         <section class="metric-grid" aria-label="Indicadores">
-          <article class="panel metric-card" data-card="exchangeRate"><div class="card-head"><h2>$ <span>TIPO DE CAMBIO</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
-          <article class="panel metric-card" data-card="weather"><div class="card-head"><h2>☁ <span>CLIMA</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
-          <article class="panel metric-card alert-card" data-card="earthquakes"><div class="card-head"><h2>⌁ <span>SISMOS</span> <small>(último evento)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
-          <article class="panel metric-card" data-card="agriculture"><div class="card-head"><h2>♧ <span>AGRO</span> <small>(precios mayoristas)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
-          <article class="panel metric-card alert-card" data-card="maritime"><div class="card-head"><h2>⚓ <span>MARINA</span> <small>(aviso marítimo)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
-          <article class="panel metric-card norms-card" data-card="elPeruano"><div class="card-head"><h2>▤ <span>NORMAS / EL PERUANO</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer></article>
+          <article class="panel metric-card" data-card="exchangeRate" tabindex="0" role="button" aria-label="Ver detalle de tipo de cambio"><div class="card-head"><h2>$ <span>TIPO DE CAMBIO</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
+          <article class="panel metric-card" data-card="weather" tabindex="0" role="button" aria-label="Ver detalle de clima"><div class="card-head"><h2>☁ <span>CLIMA</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
+          <article class="panel metric-card alert-card" data-card="earthquakes" tabindex="0" role="button" aria-label="Ver detalle de sismos"><div class="card-head"><h2>⌁ <span>SISMOS</span> <small>(último evento)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
+          <article class="panel metric-card" data-card="agriculture" tabindex="0" role="button" aria-label="Ver detalle de agro"><div class="card-head"><h2>♧ <span>AGRO</span> <small>(precios mayoristas)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
+          <article class="panel metric-card alert-card" data-card="maritime" tabindex="0" role="button" aria-label="Ver detalle de marina"><div class="card-head"><h2>⚓ <span>MARINA</span> <small>(aviso marítimo)</small></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
+          <article class="panel metric-card norms-card" data-card="elPeruano" tabindex="0" role="button" aria-label="Ver detalle de normas"><div class="card-head"><h2>▤ <span>NORMAS / EL PERUANO</span></h2><span class="data-badge">CARGANDO</span></div><div class="card-body skeleton"></div><footer></footer><span class="card-expand" aria-hidden="true">⤢</span></article>
         </section>
       </section>
 
@@ -58,7 +46,8 @@
             <defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
             <path id="peru-shape" class="peru-shape"></path><g id="city-points"></g>
           </svg>
-          <aside class="map-legend"><h3>LEYENDA</h3><p><i class="cyan"></i>Condiciones normales</p><p><i class="yellow"></i>Atención</p><p><i class="red"></i>Alerta</p><hr><small>COBERTURA NACIONAL</small><strong>100%</strong></aside>
+          <div id="map-tooltip" class="map-tooltip" hidden></div>
+          <aside class="map-legend"><h3>LEYENDA</h3><p><i class="cyan"></i>Condiciones normales</p><p><i class="yellow"></i>Atención</p><p><i class="red"></i>Alerta</p><hr><small id="map-legend-label">TEMPERATURA POR CIUDAD</small><strong id="map-legend-value">—</strong></aside>
           <a class="map-credit" href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth · dominio público</a>
         </div>
       </section>
@@ -66,6 +55,35 @@
 
     <section class="panel source-strip"><h2>⬡ &nbsp; FUENTES VERIFICADAS</h2><div id="source-grid" class="source-grid"></div></section>
   </div>
-  <script type="module" src="app.js?v=5"></script>
+
+  <!-- Asistente IA flotante (Gemini) -->
+  <button id="assistant-fab" class="assistant-fab" aria-label="Abrir asistente IA">
+    <span class="fab-bot" aria-hidden="true"><b></b><b></b></span>
+    <span class="fab-label">IA</span>
+  </button>
+  <aside id="assistant-window" class="assistant-window" hidden aria-label="Asistente IA">
+    <header class="aw-head">
+      <span class="aw-avatar" aria-hidden="true"><b></b><b></b></span>
+      <div class="aw-title"><strong>Radar Perú IA</strong><small><i class="aw-dot"></i> Asistente · Gemini</small></div>
+      <button id="assistant-close" class="aw-close" aria-label="Cerrar asistente">✕</button>
+    </header>
+    <div id="assistant-log" class="assistant-log"></div>
+    <div class="aw-chips">
+      <button data-query="summary">Resumen</button><button data-query="weather">Clima</button><button data-query="earthquakes">Sismos</button><button data-query="exchangeRate">Cambio</button><button data-query="agriculture">Agro</button>
+    </div>
+    <form id="chat-form" class="aw-form"><label class="sr-only" for="chat-input">Consulta del panel</label><input id="chat-input" placeholder="Pregunta sobre el panel…" autocomplete="off"><button aria-label="Enviar">➤</button></form>
+  </aside>
+
+  <!-- Modal de detalle -->
+  <div id="detail-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <header class="modal-head"><h2 id="modal-title">Detalle</h2><span id="modal-badge" class="data-badge"></span><button id="modal-close" class="aw-close" aria-label="Cerrar">✕</button></header>
+      <div id="modal-body" class="modal-body"></div>
+      <footer id="modal-foot" class="modal-foot"></footer>
+    </div>
+  </div>
+
+  <script type="module" src="app.js?v=6"></script>
 </body>
 </html>
