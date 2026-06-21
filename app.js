@@ -1,5 +1,5 @@
 import { providers } from './js/providers.js?v=2';
-import { GEMINI } from './js/config.js?v=1';
+import { GEMINI } from './js/config.js?v=2';
 
 const $=s=>document.querySelector(s);
 const state={data:{},map:{weather:[],quakes:[]},mapMode:'weather',refreshAt:Date.now()+300000};
@@ -65,8 +65,11 @@ async function loadMapData(){
   state.map.quakes=q.status==='fulfilled'?q.value:[];
 }
 
-let peruPath=null;
-async function ensurePeruPath(){if(peruPath)return peruPath;const geo=await(await fetch('./data/peru.geojson')).json();peruPath=geo.geometry.coordinates.map(r=>r.map(([lon,lat],i)=>{const p=project(lon,lat);return`${i?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`}).join(' ')+' Z').join(' ');return peruPath;}
+let peruPath=null,deptPaths=null;
+const ringToPath=r=>r.map(([lon,lat],i)=>{const p=project(lon,lat);return`${i?'L':'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`}).join(' ')+' Z';
+async function ensurePeruPath(){if(peruPath)return peruPath;const geo=await(await fetch('./data/peru.geojson')).json();peruPath=geo.geometry.coordinates.map(ringToPath).join(' ');return peruPath;}
+async function ensureDeptPaths(){if(deptPaths)return deptPaths;const geo=await(await fetch('./data/peru-departamentos.geojson')).json();deptPaths=geo.features.map(f=>{const g=f.geometry,d=g.type==='Polygon'?g.coordinates.map(ringToPath).join(' '):g.type==='MultiPolygon'?g.coordinates.map(poly=>poly.map(ringToPath).join(' ')).join(' '):'';return{name:f.properties.NOMBDEP||'',d};});return deptPaths;}
+async function renderDepts(){const g=$('#peru-depts');if(g.dataset.done)return;try{const paths=await ensureDeptPaths();g.innerHTML=paths.map(p=>`<path class="dept" data-info="Departamento: ${escapeHtml((p.name||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()))}" d="${p.d}"/>`).join('');g.dataset.done='1';}catch{}}
 function renderWeatherPoints(){
   const src=state.map.weather.length?state.map.weather:cities;
   return src.map(c=>{const p=project(c.lon,c.lat),sev=c.code!=null?weatherSeverity(c.code):'cyan',t=c.temp!=null?Math.round(c.temp)+'°':'',left=p.x<150;const info=`${c.n}: ${c.temp!=null?Math.round(c.temp)+'°C':'s/d'}${c.code!=null?' · '+weatherLabel(c.code):''}`;return`<g class="city sev-${sev}" data-info="${escapeHtml(info)}" transform="translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})"><circle r="6"/><circle r="2"/><text class="city-name" x="${left?-10:10}" y="3" text-anchor="${left?'end':'start'}">${c.n}</text>${t?`<text class="city-val" x="${left?-10:10}" y="14" text-anchor="${left?'end':'start'}">${t}</text>`:''}</g>`;}).join('');
@@ -78,13 +81,14 @@ function renderQuakePoints(){
 }
 async function renderMap(){
   $('#peru-shape').setAttribute('d',await ensurePeruPath());
+  await renderDepts();
   $('#city-points').innerHTML=state.mapMode==='weather'?renderWeatherPoints():renderQuakePoints();
   const wx=state.map.weather.filter(c=>c.temp!=null);
   if(state.mapMode==='weather'){$('#map-legend-label').textContent='TEMP. PROMEDIO';$('#map-legend-value').textContent=wx.length?Math.round(wx.reduce((a,c)=>a+c.temp,0)/wx.length)+'°C':'—';}
   else{$('#map-legend-label').textContent='SISMOS (30 d · M≥3)';$('#map-legend-value').textContent=state.map.quakes.length||'—';}
 }
 function initMapTooltip(){
-  const wrap=$('.map-canvas'),tip=$('#map-tooltip'),pts=$('#city-points');
+  const wrap=$('.map-canvas'),tip=$('#map-tooltip'),pts=$('.map-canvas svg');
   const move=ev=>{const t=ev.touches?.[0]||ev;const g=(ev.target.closest?ev.target:document.elementFromPoint(t.clientX,t.clientY))?.closest('[data-info]');if(!g){tip.hidden=true;return;}tip.hidden=false;tip.textContent=g.getAttribute('data-info');const r=wrap.getBoundingClientRect();let x=t.clientX-r.left+12,y=t.clientY-r.top+12;tip.style.left=Math.min(x,r.width-tip.offsetWidth-6)+'px';tip.style.top=Math.min(y,r.height-tip.offsetHeight-6)+'px';};
   pts.addEventListener('mousemove',move);pts.addEventListener('mouseleave',()=>tip.hidden=true);
   pts.addEventListener('touchstart',move,{passive:true});pts.addEventListener('touchmove',move,{passive:true});
@@ -107,11 +111,16 @@ async function callGemini(model){
 }
 async function askGemini(text){if(!GEMINI.apiKey)throw new Error('sin API key (modo local)');chatHistory.push({role:'user',parts:[{text}]});let out;try{out=await callGemini(GEMINI.model);}catch(e){out=await callGemini(GEMINI.fallbackModel);}chatHistory.push({role:'model',parts:[{text:out}]});return out;}
 if(typeof window!=='undefined')window.setGeminiKey=k=>{localStorage.setItem('radar-gemini-key',String(k||'').trim());return '✓ Clave Gemini guardada en este navegador.';};
-function localAnswer(text){const t=(text||'').toLowerCase();const d=state.data;if(t.includes('clima')&&d.weather?.data)return`Clima en Lima: ${Math.round(d.weather.data.temp)} °C, ${weatherLabel(d.weather.data.weatherCode).toLowerCase()}, humedad ${d.weather.data.humidity}%.`;if(t.includes('sismo')&&d.earthquakes?.data)return`Último sismo: magnitud ${d.earthquakes.data.magnitude.toFixed(1)}, ${d.earthquakes.data.location}.`;if(t.includes('cambio')&&d.exchangeRate?.data)return`Tipo de cambio referencial: compra S/ ${d.exchangeRate.data.buy.toFixed(3)}, venta S/ ${d.exchangeRate.data.sell.toFixed(3)}.`;return 'Resumen del panel:\n'+buildContext();}
+function localAnswer(text){const t=(text||'').toLowerCase();const d=state.data;
+  if(t.includes('clima')&&d.weather?.data){const w=d.weather.data;return`**Clima en Lima:** ${Math.round(w.temp)} °C, ${weatherLabel(w.weatherCode).toLowerCase()}.\nHumedad ${w.humidity}% · viento ${w.wind}.`;}
+  if(t.includes('sismo')&&d.earthquakes?.data){const q=d.earthquakes.data;return`**Último sismo:** magnitud ${q.magnitude.toFixed(1)}.\n${q.location} · profundidad ${q.depth}.`;}
+  if(t.includes('cambio')||t.includes('dólar')||t.includes('dolar')){const e=d.exchangeRate?.data;if(e)return`**Tipo de cambio (referencial):**\nCompra S/ ${e.buy.toFixed(3)} · venta S/ ${e.sell.toFixed(3)} (${e.variation}%).`;}
+  if(t.includes('agro')||t.includes('precio')){const a=d.agriculture?.data;if(a)return`**Agro (precios mayoristas):**\n`+a.map(r=>`• ${r.product}: S/ ${r.price.toFixed(2)}/${r.unit}`).join('\n');}
+  const d2=state.data,L=['**Resumen del panel:**'];const e=d2.exchangeRate?.data;if(e)L.push(`• **Dólar:** S/ ${e.sell.toFixed(3)} (venta)`);const w=d2.weather?.data;if(w)L.push(`• **Clima Lima:** ${Math.round(w.temp)}°C, ${weatherLabel(w.weatherCode).toLowerCase()}`);const q=d2.earthquakes?.data;if(q)L.push(`• **Sismo:** M${q.magnitude.toFixed(1)}, ${q.location}`);const m=d2.maritime?.data;if(m)L.push(`• **Mar (Callao):** nivel ${m.level}`);const a=d2.agriculture?.data;if(a)L.push(`• **Agro:** ${a.slice(0,3).map(r=>r.product+' S/'+r.price.toFixed(2)).join(' · ')}`);const n=d2.elPeruano?.data;if(n)L.push(`• **Normas:** ${n.length} recientes en El Peruano`);return L.join('\n');}
 
 function pushMsg(who,html){const log=$('#assistant-log');const el=document.createElement('div');el.className='msg '+who;el.innerHTML=html;log.appendChild(el);log.scrollTop=log.scrollHeight;return el;}
 let sending=false;
-async function sendToAssistant(text){if(!text||sending)return;sending=true;pushMsg('user',escapeHtml(text));const typing=pushMsg('bot','<i class="dots"><b></b><b></b><b></b></i>');try{const reply=await askGemini(text);typing.innerHTML=mdLite(reply);}catch(e){typing.innerHTML=mdLite(localAnswer(text))+`<small class="warn-note">⚠ Gemini no disponible (${escapeHtml(e.message)}); respuesta local.</small>`;}$('#assistant-log').scrollTop=1e9;sending=false;}
+async function sendToAssistant(text){if(!text||sending)return;sending=true;pushMsg('user',escapeHtml(text));const typing=pushMsg('bot','<i class="dots"><b></b><b></b><b></b></i>');try{const reply=await askGemini(text);typing.innerHTML=mdLite(reply);}catch(e){typing.innerHTML=mdLite(localAnswer(text))+`<small class="warn-note">⚠ Modo local · Gemini no conectado</small>`;}$('#assistant-log').scrollTop=1e9;sending=false;}
 function openAssistant(){const win=$('#assistant-window');win.hidden=false;$('#assistant-fab').classList.add('hide');const log=$('#assistant-log');if(!log.dataset.init){log.dataset.init='1';pushMsg('bot',`<b>Radar Perú IA</b><br>${mdLite('Hola 👋 Te informo del panel en tiempo real: tipo de cambio, clima, sismos, agro, marina y normas. Pregúntame lo que quieras o usa un atajo.')}`);}setTimeout(()=>$('#chat-input').focus(),50);}
 function closeAssistant(){$('#assistant-window').hidden=true;$('#assistant-fab').classList.remove('hide');}
 

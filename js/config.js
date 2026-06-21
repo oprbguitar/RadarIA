@@ -3,11 +3,11 @@
    ----------------------------------------------------------------------------
    La clave NO se guarda en el código fuente: GitHub bloquea secretos en repos
    públicos (Push Protection) y, además, un sitio 100% estático la expondría a
-   cualquiera. Por eso se resuelve en tiempo de ejecución, en este orden:
+   cualquiera. Se resuelve en tiempo de ejecución, en este orden:
      1) window.RADAR_GEMINI_KEY   (p. ej. un js/secret.js que NO se commitea)
      2) localStorage['radar-gemini-key']
    Para habilitar Gemini en TU navegador, abre la consola (F12) y ejecuta:
-     setGeminiKey('TU_API_KEY')      // queda guardada en este navegador
+     setGeminiKey('TU_API_KEY')      // queda guardada solo en este navegador
    Si no hay clave, el asistente responde en modo local (resumen del panel).
    ============================================================================ */
 export const GEMINI = {

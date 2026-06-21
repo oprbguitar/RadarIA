@@ -690,6 +690,18 @@ input {
   stroke-width: 2;
   filter: url(#glow);
 }
+.dept {
+  fill: transparent;
+  stroke: rgba(119, 243, 255, 0.28);
+  stroke-width: 0.7;
+  cursor: pointer;
+  transition: fill 0.15s, stroke 0.15s;
+}
+.dept:hover {
+  fill: rgba(23, 232, 244, 0.16);
+  stroke: var(--cyan-soft);
+  stroke-width: 1.1;
+}
 .city circle,
 .event-point circle {
   fill: #073243;
@@ -1405,11 +1417,16 @@ input {
   scrollbar-width: thin;
 }
 .msg {
+  flex: none;
   max-width: 88%;
   padding: 9px 12px;
   border-radius: 12px;
-  font: 13px/1.45 var(--ui);
+  font: 13px/1.5 var(--ui);
   overflow-wrap: anywhere;
+  white-space: normal;
+}
+.msg + .msg {
+  margin-top: 0;
 }
 .msg.bot {
   align-self: flex-start;

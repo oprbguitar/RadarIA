@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <div class="app-shell">
@@ -44,7 +44,7 @@
         <div class="map-canvas">
           <svg viewBox="0 0 380 540" role="img" aria-label="Mapa de Perú basado en Natural Earth">
             <defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-            <path id="peru-shape" class="peru-shape"></path><g id="city-points"></g>
+            <path id="peru-shape" class="peru-shape"></path><g id="peru-depts"></g><g id="city-points"></g>
           </svg>
           <div id="map-tooltip" class="map-tooltip" hidden></div>
           <aside class="map-legend"><h3>LEYENDA</h3><p><i class="cyan"></i>Condiciones normales</p><p><i class="yellow"></i>Atención</p><p><i class="red"></i>Alerta</p><hr><small id="map-legend-label">TEMPERATURA POR CIUDAD</small><strong id="map-legend-value">—</strong></aside>
@@ -84,6 +84,6 @@
     </div>
   </div>
 
-  <script type="module" src="app.js?v=6"></script>
+  <script type="module" src="app.js?v=7"></script>
 </body>
 </html>
