@@ -39,7 +39,16 @@ const detail={
   maritime(d){if(!d.data)return unavailable(d);const m=d.data;return`<div class="d-hero"><strong class="sev-${m.level==='ALTO'?'red':m.level==='MODERADO'?'yellow':'cyan'}">${m.level}</strong><div><b>${m.title}</b><p>${m.coast}<br>${m.waves}</p></div></div><p class="d-text">Vigencia: ${m.validity}. ${d.note||''}.</p>`;},
   elPeruano(d){if(!d.data)return unavailable(d);return`<a class="d-allnorms" href="normas.html" target="_blank" rel="noreferrer">📚 Ver todas las Normas Peruanas del mes <span>con buscador y filtro por tipo →</span></a><h4 class="d-sub">Últimas normas nacionales</h4><div class="d-norms">${d.data.map(item=>`<a href="${item.url||d.sourceUrl}" target="_blank" rel="noreferrer"><b>${item.type}</b><small>${item.title}</small><time>${item.date}</time></a>`).join('')}</div>`;},
 };
-function openDetail(key){const d=state.data[key];if(!d)return;const badge=badgeFor(d);$('#modal-title').textContent=titles[key]||key;const mb=$('#modal-badge');mb.textContent=badge[0];mb.className=`data-badge ${badge[1]}`;$('#modal-body').innerHTML=(detail[key]||(()=>'<p class="d-text">Sin detalle.</p>'))(d);$('#modal-foot').innerHTML=`<span>${d.sourceName||''}</span><time>Actualizado: ${formatTime(d.lastUpdated)}</time>`;$('#detail-modal').hidden=false;}
+async function refreshNormas(){
+  try{
+    const r=await fetch('./data/normas.json?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw 0;const j=await r.json();if(!j.items?.length)throw 0;
+    state.data.elPeruano={sourceName:j.source||'El Peruano',sourceUrl:j.sourceUrl||'https://busquedas.elperuano.pe/',category:'elPeruano',lastUpdated:j.generatedAt,status:'available',isDemo:!!j.isDemo,data:j.items,error:null,note:j.note||'Dato real · El Peruano'};
+  }catch{}
+}
+async function openDetail(key){let d=state.data[key];if(!d)return;
+  if(key==='elPeruano'){await refreshNormas();d=state.data[key];renderCards();renderSources();}
+  const badge=badgeFor(d);$('#modal-title').textContent=titles[key]||key;const mb=$('#modal-badge');mb.textContent=badge[0];mb.className=`data-badge ${badge[1]}`;$('#modal-body').innerHTML=(detail[key]||(()=>'<p class="d-text">Sin detalle.</p>'))(d);$('#modal-foot').innerHTML=`<span>${d.sourceName||''}</span><time>Actualizado: ${formatTime(d.lastUpdated)}</time>`;$('#detail-modal').hidden=false;}
 function closeModal(){$('#detail-modal').hidden=true;}
 
 /* ---------- mapa ---------- */
@@ -49,10 +58,11 @@ const project=(lon,lat)=>({x:24+((lon-bounds.minLon)/(bounds.maxLon-bounds.minLo
 
 async function fetchMapWeather(){
   const lat=cities.map(c=>c.lat).join(','),lon=cities.map(c=>c.lon).join(',');
-  const url=`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&timezone=America%2FLima`;
+  const url=`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,weather_code&timezone=America%2FLima`;
   const j=await(await fetch(url)).json();const arr=Array.isArray(j)?j:[j];
-  return cities.map((c,i)=>({...c,temp:arr[i]?.current?.temperature_2m,code:arr[i]?.current?.weather_code}));
+  return cities.map((c,i)=>{const cur=arr[i]?.current||{};return{...c,temp:cur.temperature_2m,code:cur.weather_code,humidity:cur.relative_humidity_2m,feels:cur.apparent_temperature,wind:cur.wind_speed_10m,windDir:cur.wind_direction_10m};});
 }
+const compass=d=>['N','NE','E','SE','S','SO','O','NO'][Math.round(((d||0)%360)/45)%8];
 async function fetchMapQuakes(){
   const start=new Date(Date.now()-30*864e5).toISOString().slice(0,10);
   const url=`https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${start}&minlatitude=-20&maxlatitude=1&minlongitude=-82&maxlongitude=-68&minmagnitude=3&orderby=time&limit=14`;
@@ -77,8 +87,8 @@ function initLeaflet(){
   weatherLayer=L.layerGroup();quakeLayer=L.layerGroup();
   fetch('./data/peru-departamentos.geojson').then(r=>r.json()).then(geo=>{
     deptLayer=L.geoJSON(geo,{attribution:'Límites: INEI · Natural Earth',
-      style:{color:'#7af0ff',weight:1,opacity:0.9,fillColor:'#15627d',fillOpacity:1},
-      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:1.8,fillColor:'#1f7e9c'}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
+      style:{color:'#a6f7ff',weight:1.7,opacity:1,fillColor:'#1a6883',fillOpacity:0.92,lineJoin:'round'},
+      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:2.2,fillColor:'#1f7e9c',fillOpacity:0.95}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
     deptLayer.addTo(lmap);deptLayer.bringToBack();
     weatherLayer.addTo(lmap);
     renderMap();
@@ -89,10 +99,19 @@ function renderWeatherMarkers(){
   if(!weatherLayer)return;weatherLayer.clearLayers();
   const src=state.map.weather.length?state.map.weather:cities;
   src.forEach(c=>{const sev=c.code!=null?weatherSeverity(c.code):'cyan',col=sevColor(sev),temp=c.temp!=null?Math.round(c.temp)+'°':'s/d';
-    L.circleMarker([c.lat,c.lon],{radius:5,color:col,weight:2,fillColor:'#062a38',fillOpacity:1,className:'wk'})
+    const popup=`<div class="wpop"><b>${weatherIcon(c.code)} ${c.n}</b>`
+      +`<span class="wpop-t">${c.temp!=null?Math.round(c.temp)+' °C':'sin dato'}</span>`
+      +`<small>${c.code!=null?weatherLabel(c.code):'—'}</small>`
+      +`<div class="wpop-grid">`
+      +(c.feels!=null?`<span>Sensación</span><b>${Math.round(c.feels)}°</b>`:'')
+      +(c.humidity!=null?`<span>Humedad</span><b>${c.humidity}%</b>`:'')
+      +(c.wind!=null?`<span>Viento</span><b>${Math.round(c.wind)} km/h ${compass(c.windDir)}</b>`:'')
+      +`</div></div>`;
+    const m=L.circleMarker([c.lat,c.lon],{radius:5,color:col,weight:2,fillColor:'#062a38',fillOpacity:1,className:'wk'})
       .bindTooltip(`${c.n} ${temp}`,{permanent:true,direction:'right',offset:[7,0],className:'rt-city rt-'+sev})
-      .bindPopup(`<b>${c.n}</b><br>${c.temp!=null?Math.round(c.temp)+' °C':'sin dato'}${c.code!=null?' · '+weatherLabel(c.code):''}`)
-      .addTo(weatherLayer);});
+      .bindPopup(popup,{className:'wpop-wrap',closeButton:false})
+      .addTo(weatherLayer);
+    m.on('mouseover',()=>m.openPopup());m.on('mouseout',()=>m.closePopup());});
 }
 function renderQuakeMarkers(){
   if(!quakeLayer)return;quakeLayer.clearLayers();
