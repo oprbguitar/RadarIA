@@ -1,34 +1,22 @@
 {
-  "generatedAt": "2026-06-28T11:57:42.990Z",
+  "generatedAt": "2026-06-29T14:18:24.616Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 831,
+  "totalHits": 743,
   "items": [
     {
-      "type": "DECRETO SUPREMO N°121-2026-EF",
-      "title": "Decreto Supremo que aprueba los topes máximos de capacidad anual para la emisión de los certificados de inversión pública regional y local - tesoro público (CIPRL) para los Gobierbis Regionales, Gobiernos Locales y Universidades Públicas",
-      "date": "28 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FwMMln8r42IApEGTCWOFS8/*/2530122-3.PDF/PDF"
+      "type": "RESOLUCIÓN MINISTERIAL N° 00770-2026-DE",
+      "title": "Autorizan viaje de oficial de la Marina de Guerra del Perú a los Estados Unidos de América, en misión de estudios",
+      "date": "29 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6o9XH3RP42o8ikQ4ujGDSl/*/2529496-1.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO N°119-2026-EF",
-      "title": "Decreto Supremo que autoriza transferencias de partidas en el presupuesto del sector público para el año fiscal 2026 a favor de la Reserva de Contingencia y de diversos Gobiernos Locales",
-      "date": "28 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EsMK6azcqdKBcCy-9goehE/*/2530122-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL N° 00766-2026-DE",
-      "title": "Autorizan la ampliación de permanencia en el exterior de oficial de la Marina de Guerra del Perú en los Estados Unidos de América, en misión de estudios",
-      "date": "28 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CF_9H9ezKV29XpHHAF4fIp/*/2529148-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL N° 00772-2026-DE",
-      "title": "Autorizan viaje de personal militar de la Fuerza Aérea del Perú a Canadá, en misión de estudios",
-      "date": "28 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5m_qtb5DqYm9jfIijoEKdC/*/2529491-1.PDF/PDF"
+      "type": "RESOLUCIÓN MINISTERIAL N° 00773-2026-DE",
+      "title": "Autorizan viaje de personal militar de la Fuerza Aérea del Perú a la República de Chile, en comisión de servicios",
+      "date": "29 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3bxDPoO8qUU9iblmHQBIfl/*/2529487-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL N° 00784-2026-DE",
@@ -37,10 +25,22 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F5K4136iq62B4YY5PNSwYX/*/2530124-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL N° 389-2026-RE",
-      "title": "Autorizan viaje de Consejero en el Servicio Diplomático de la República a la ciudad de Cruzeiro do Sul, República Federativa del Brasil, en comisión de servicios",
+      "type": "RESOLUCIÓN MINISTERIAL N° 00766-2026-DE",
+      "title": "Autorizan la ampliación de permanencia en el exterior de oficial de la Marina de Guerra del Perú en los Estados Unidos de América, en misión de estudios",
       "date": "28 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/34KprGIJqAmA1loXSbjBgo/*/2530110-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CF_9H9ezKV29XpHHAF4fIp/*/2529148-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA Nº 08-2026/MPC",
+      "title": "Derogan la Ordenanza Municipal N° 00009-2007/MPC, que aprueba las tasas de procedimientos administrativos por el uso del Teatro Municipal “Alejandro Granda Relayza”",
+      "date": "29 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8TjLCpwmKuVB4vUM7-6Kgp/*/2529949-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA N° 003-2026-MDSA",
+      "title": "Ordenanza Municipal que aprueba la Adecuación de la Comisión Ambiental Municipal (CAM) del distrito de San Antonio",
+      "date": "29 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1CN1CoIgKpbADTWCZhKMti/*/2519995-1.PDF/PDF"
     }
   ]
 }

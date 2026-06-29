@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-28T11:57:59.392Z",
+  "generatedAt": "2026-06-29T14:18:39.074Z",
   "periodo": "junio 2026",
   "periodoIni": "20260601",
-  "periodoFin": "20260628",
+  "periodoFin": "20260629",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
-  "total": 420,
+  "total": 425,
   "types": [
     {
       "type": "RESOLUCIÓN",
-      "count": 194
+      "count": 195
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "count": 92
+      "count": 94
     },
     {
       "type": "ACUERDO",
@@ -37,7 +37,7 @@
     },
     {
       "type": "ORDENANZA",
-      "count": 11
+      "count": 13
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -74,6 +74,46 @@
   ],
   "items": [
     {
+      "type": "ORDENANZA",
+      "name": "Nº 08-2026/MPC",
+      "title": "Derogan la Ordenanza Municipal N° 00009-2007/MPC, que aprueba las tasas de procedimientos administrativos por el uso del Teatro Municipal “Alejandro Granda Relayza”",
+      "date": "29 jun. 2026",
+      "ymd": "20260629",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8TjLCpwmKuVB4vUM7-6Kgp/*/2529949-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA",
+      "name": "N° 003-2026-MDSA",
+      "title": "Ordenanza Municipal que aprueba la Adecuación de la Comisión Ambiental Municipal (CAM) del distrito de San Antonio",
+      "date": "29 jun. 2026",
+      "ymd": "20260629",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1CN1CoIgKpbADTWCZhKMti/*/2519995-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 00770-2026-DE",
+      "title": "Autorizan viaje de oficial de la Marina de Guerra del Perú a los Estados Unidos de América, en misión de estudios",
+      "date": "29 jun. 2026",
+      "ymd": "20260629",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6o9XH3RP42o8ikQ4ujGDSl/*/2529496-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 00773-2026-DE",
+      "title": "Autorizan viaje de personal militar de la Fuerza Aérea del Perú a la República de Chile, en comisión de servicios",
+      "date": "29 jun. 2026",
+      "ymd": "20260629",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3bxDPoO8qUU9iblmHQBIfl/*/2529487-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° D000128-2026-CONADIS-PRE",
+      "title": "Modifican la “Directiva para la creación, implementación y funcionamiento de los Registros Regionales y Municipales de la Persona con Discapacidad”",
+      "date": "29 jun. 2026",
+      "ymd": "20260629",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/31gz7LI3qe4B5ZQpbKaS6k/*/2530077-1.PDF/PDF"
+    },
+    {
       "type": "DECRETO DE ALCALDÍA",
       "name": "Nº 07-2026-MDL",
       "title": "Disponen el embanderamiento general del distrito de Lince",
@@ -107,6 +147,14 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 000135-2026-DV-PE",
+      "title": "Autorizan transferencia financiera a favor de la Municipalidad Distrital de Sivia, Provincia de Huanta, Departamento de Ayacucho",
+      "date": "28 jun. 2026",
+      "ymd": "20260628",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DL3Ev4j6qd78fwZMUsNoTL/*/2530101-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 000137-2026-DV-PE",
       "title": "Autorizan transferencia financiera a favor de la Municipalidad Provincial de Maynas",
       "date": "28 jun. 2026",
@@ -114,12 +162,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CwFStd1v4QxAc4IhCHy2DU/*/2530102-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN",
-      "name": "N° 000135-2026-DV-PE",
-      "title": "Autorizan transferencia financiera a favor de la Municipalidad Distrital de Sivia, Provincia de Huanta, Departamento de Ayacucho",
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 00784-2026-DE",
+      "title": "Autorizan viaje de personal de la Fuerza Aérea del Perú para realizar vuelo de ayuda humanitaria a la República Bolivariana de Venezuela, en comisión de servicios",
       "date": "28 jun. 2026",
       "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DL3Ev4j6qd78fwZMUsNoTL/*/2530101-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F5K4136iq62B4YY5PNSwYX/*/2530124-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -138,12 +186,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5m_qtb5DqYm9jfIijoEKdC/*/2529491-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 00784-2026-DE",
-      "title": "Autorizan viaje de personal de la Fuerza Aérea del Perú para realizar vuelo de ayuda humanitaria a la República Bolivariana de Venezuela, en comisión de servicios",
+      "type": "DECRETO SUPREMO",
+      "name": "N°120-2026-EF",
+      "title": "Decreto Supremo que aprueba el listado de entidades que podrán ser exceptuadas de la percepción del Impuesto General a las Ventas",
       "date": "28 jun. 2026",
       "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F5K4136iq62B4YY5PNSwYX/*/2530124-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BY5v86TE4sfBKuJIIFBUgP/*/2530122-2.PDF/PDF"
     },
     {
       "type": "DECRETO SUPREMO",
@@ -152,14 +200,6 @@
       "date": "28 jun. 2026",
       "ymd": "20260628",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FwMMln8r42IApEGTCWOFS8/*/2530122-3.PDF/PDF"
-    },
-    {
-      "type": "DECRETO SUPREMO",
-      "name": "N°120-2026-EF",
-      "title": "Decreto Supremo que aprueba el listado de entidades que podrán ser exceptuadas de la percepción del Impuesto General a las Ventas",
-      "date": "28 jun. 2026",
-      "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BY5v86TE4sfBKuJIIFBUgP/*/2530122-2.PDF/PDF"
     },
     {
       "type": "DECRETO SUPREMO",
@@ -179,19 +219,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N°0199-2026-MINCETUR",
-      "title": "Autorizan viaje de funcionarios a la República de Guatemala, en comisión de servicios",
-      "date": "28 jun. 2026",
-      "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8PrykhpmKsIBTDYQcfjL-X/*/2530119-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "Nº  0201  -2026-MINCETUR",
       "title": "Designan Asesor de Secretaría General",
       "date": "28 jun. 2026",
       "ymd": "20260628",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EGG2-5gR4cPA4F5J0NvLYa/*/2530116-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N°0199-2026-MINCETUR",
+      "title": "Autorizan viaje de funcionarios a la República de Guatemala, en comisión de servicios",
+      "date": "28 jun. 2026",
+      "ymd": "20260628",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8PrykhpmKsIBTDYQcfjL-X/*/2530119-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -251,6 +291,14 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº D000199-2026-MINAM",
+      "title": "Aprueban Documento Técnico denominado “Instrumento Técnico para la Elaboración del Inventario Nacional de Humedales”",
+      "date": "28 jun. 2026",
+      "ymd": "20260628",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ElRSWDIPqlp8xdMKYcrSxJ/*/2530103-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "Nº D000202-2026-MINAM",
       "title": "Reconocen el Área de Conservación Privada \"Llollo\", ubicada en el distrito de Palcazú, provincia de Oxapampa, departamento de Pasco",
       "date": "28 jun. 2026",
@@ -264,30 +312,6 @@
       "date": "28 jun. 2026",
       "ymd": "20260628",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4jVdDqG-KXhAvzaxF6z0wp/*/2530104-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº D000199-2026-MINAM",
-      "title": "Aprueban Documento Técnico denominado “Instrumento Técnico para la Elaboración del Inventario Nacional de Humedales”",
-      "date": "28 jun. 2026",
-      "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ElRSWDIPqlp8xdMKYcrSxJ/*/2530103-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000189-2026-DGPA-VMPCIC/MC",
-      "title": "Determinan la Protección Provisional del sitio arqueológico Wayawillka, ubicado en el distrito de Tumay Huaraca, provincia de Andahuaylas, departamento de Apurímac",
-      "date": "28 jun. 2026",
-      "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2rwZnMpcaI98porg89v9hg/*/2529796-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000188-2026-DGPA-VMPCIC/MC",
-      "title": "Determinan la Protección Provisional del Sitio Arqueológico Arwaturo, ubicado en el distrito de Ahuac, provincia de Chupaca, departamento de Junín",
-      "date": "28 jun. 2026",
-      "ymd": "20260628",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EsRrxsUQq2w9HQ1F7mDNYY/*/2529983-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
@@ -304,6 +328,22 @@
       "date": "28 jun. 2026",
       "ymd": "20260628",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AB2bkk1zaa8BW7MPXnR92w/*/2529653-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000188-2026-DGPA-VMPCIC/MC",
+      "title": "Determinan la Protección Provisional del Sitio Arqueológico Arwaturo, ubicado en el distrito de Ahuac, provincia de Chupaca, departamento de Junín",
+      "date": "28 jun. 2026",
+      "ymd": "20260628",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EsRrxsUQq2w9HQ1F7mDNYY/*/2529983-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000189-2026-DGPA-VMPCIC/MC",
+      "title": "Determinan la Protección Provisional del sitio arqueológico Wayawillka, ubicado en el distrito de Tumay Huaraca, provincia de Andahuaylas, departamento de Apurímac",
+      "date": "28 jun. 2026",
+      "ymd": "20260628",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2rwZnMpcaI98porg89v9hg/*/2529796-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -435,110 +475,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1554-2026-JNE",
-      "title": "Confirman la Resolución N.º 01545-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2AKzuCF3K8F9r82C3Cfvvi/*/2529812-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1469-2026-JNE",
-      "title": "Confirman la Resolución N.º 01856-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1kmHJL5YaIb87HGEeS8Iql/*/2529811-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1435-2026-JNE",
-      "title": "Confirman la Resolución N.º 01820-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AIfJhRk9KYGAopSMOdmp1g/*/2529810-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1437-2026-JNE",
-      "title": "Confirman la Resolución N.º 02610-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3zFMU0cjqUmBilpTzFzlop/*/2529807-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1526-2026-JNE",
-      "title": "Declaran nula la Resolución N.º 03150-2026-JEE-HCYO/JNE, emitida por el Jurado Electoral Especial de Huancayo",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1E45uS7hK9p9WbPlKQudHV/*/2529754-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1524-2026-JNE",
-      "title": "Confirman la Resolución N.º 01699-2026-JEE-AQP2/JNE, emitida por el Jurado Electoral Especial de Arequipa 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C0VGFISW4fyB8a9a_jm07_/*/2529763-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1562-2026-JNE",
-      "title": "Confirman la Resolución N.º 01546-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E7uCd-iA46IBANdngmb3qH/*/2529777-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1458-2026-JNE",
-      "title": "Declaran fundado en parte recurso de apelación de la organización política Juntos por el Perú, en el extremo de revocar la resolución N.º 02869-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0Yvd_3914WeBSZO_x0X1cB/*/2529756-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1576-2026-JNE",
-      "title": "Confirman la Resolución N.º 01549-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6BCmj8n7q7V8Rx9nsGRnmO/*/2529759-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1480-2026-JNE",
-      "title": "Confirman la Resolución N.º 02612-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2_DH4FYnad39m2x9_3dctj/*/2529747-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1471-2026-JNE",
-      "title": "Confirman la Resolución N.º 02876-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4gKRLe9H49g9v19ebRPv4H/*/2529778-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1443-2026-JNE",
-      "title": "Confirman la Resolución Nº 09509-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8NGxLBeCanE92-dWueEFot/*/2529785-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1429-2026-JNE",
-      "title": "Confirman la Resolución N.º 02599-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Ar22aX4B4GzAXGmoTvmeiJ/*/2529782-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "Nº 1377-2026-JNE",
       "title": "Revocan extremo de la Resolución N.º 01060-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1 y dictan otras disposiciones",
       "date": "27 jun. 2026",
@@ -547,67 +483,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1516-2026-JNE",
-      "title": "Confirman la Resolución N.º 01321-2026-JEE-PUNO/JNE, emitida por el Jurado Electoral Especial de Puno",
+      "name": "N.º 1490-2026-JNE",
+      "title": "Confirman la Resolución N.º 02889-2026-JEE-CHYO/JNE, emitida por el Jurado Electoral Especial de Chiclayo",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CR3O3Nqy4GcBZ7RIqz2Q2U/*/2529799-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/416ipLxnqkp9oWJoAbJ4lO/*/2529937-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1574-2026-JNE",
-      "title": "Confirman la Resolución N.º 01499-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "name": "N.º 1510-2026-JNE",
+      "title": "Confirman la Resolución N.º 02584-2026-JEE-LIO3/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 3",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1tNL5D6Eain8qE_8i4VNWR/*/2529794-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1355-2026-JNE",
-      "title": "Declaran fundado recurso de apelación interpuesto por directora de la Dirección Regional de Salud de Ucayali y nulo todo lo actuado en procedimiento sancionador por infracción a normas de publicidad estatal",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9wThcXN5aawBKsMQhlJvgH/*/2529791-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1523-2026-JNE",
-      "title": "Confirman la Resolución N.º 02361-2026-JEE-CNCH/JNE, emitida por el Jurado Electoral Especial de Canchis",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1KOW5vrbqKW9exk_jjYN_J/*/2529816-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1470-2026-JNE",
-      "title": "Confirman la Resolución N.º 01860-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DqLk-RMUq_OApBrBsPGC4v/*/2529815-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1555-2026-JNE",
-      "title": "Confirman la Resolución N.º 01578-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CZvsMqs3qzEBD2mUM2eI1O/*/2529813-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1534-2026-JNE",
-      "title": "Confirman la Resolución N.º 01567-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/63Xs1VbS4DLAUc2_Mxt1zR/*/2529817-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1462-2026-JNE",
-      "title": "Confirman la Resolución N.º 01858-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EPitlmjuaQ3AaczoVAiX73/*/2529821-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0NMrOeZU4RmBOkspwsOpzX/*/2529959-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -627,30 +515,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1431-2026-JNE",
-      "title": "Confirman la Resolución N.º 01846-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Aa3QOhR04yXApQAzSSXpaB/*/2529935-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1536-2026-JNE",
-      "title": "Confirman la Resolución N.º 01551-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/59EhM94QaolBeyxXrTXJEd/*/2529932-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1490-2026-JNE",
-      "title": "Confirman la Resolución N.º 02889-2026-JEE-CHYO/JNE, emitida por el Jurado Electoral Especial de Chiclayo",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/416ipLxnqkp9oWJoAbJ4lO/*/2529937-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N.º 1476-2026-JNE",
       "title": "Confirman la Resolución N.º 01850-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
       "date": "27 jun. 2026",
@@ -659,11 +523,27 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1510-2026-JNE",
-      "title": "Confirman la Resolución N.º 02584-2026-JEE-LIO3/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 3",
+      "name": "Nº 1458-2026-JNE",
+      "title": "Declaran fundado en parte recurso de apelación de la organización política Juntos por el Perú, en el extremo de revocar la resolución N.º 02869-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0NMrOeZU4RmBOkspwsOpzX/*/2529959-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0Yvd_3914WeBSZO_x0X1cB/*/2529756-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1534-2026-JNE",
+      "title": "Confirman la Resolución N.º 01567-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/63Xs1VbS4DLAUc2_Mxt1zR/*/2529817-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1480-2026-JNE",
+      "title": "Confirman la Resolución N.º 02612-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2_DH4FYnad39m2x9_3dctj/*/2529747-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -683,11 +563,83 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1535-2026-JNE",
-      "title": "Confirman la Resolución N.º 01547-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "name": "Nº 1437-2026-JNE",
+      "title": "Confirman la Resolución N.º 02610-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9yXICWPxqnn9kJVMzBqJx9/*/2529964-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3zFMU0cjqUmBilpTzFzlop/*/2529807-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1355-2026-JNE",
+      "title": "Declaran fundado recurso de apelación interpuesto por directora de la Dirección Regional de Salud de Ucayali y nulo todo lo actuado en procedimiento sancionador por infracción a normas de publicidad estatal",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9wThcXN5aawBKsMQhlJvgH/*/2529791-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1576-2026-JNE",
+      "title": "Confirman la Resolución N.º 01549-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6BCmj8n7q7V8Rx9nsGRnmO/*/2529759-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1462-2026-JNE",
+      "title": "Confirman la Resolución N.º 01858-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EPitlmjuaQ3AaczoVAiX73/*/2529821-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1523-2026-JNE",
+      "title": "Confirman la Resolución N.º 02361-2026-JEE-CNCH/JNE, emitida por el Jurado Electoral Especial de Canchis",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1KOW5vrbqKW9exk_jjYN_J/*/2529816-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1524-2026-JNE",
+      "title": "Confirman la Resolución N.º 01699-2026-JEE-AQP2/JNE, emitida por el Jurado Electoral Especial de Arequipa 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C0VGFISW4fyB8a9a_jm07_/*/2529763-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1470-2026-JNE",
+      "title": "Confirman la Resolución N.º 01860-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DqLk-RMUq_OApBrBsPGC4v/*/2529815-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1554-2026-JNE",
+      "title": "Confirman la Resolución N.º 01545-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2AKzuCF3K8F9r82C3Cfvvi/*/2529812-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1555-2026-JNE",
+      "title": "Confirman la Resolución N.º 01578-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CZvsMqs3qzEBD2mUM2eI1O/*/2529813-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1469-2026-JNE",
+      "title": "Confirman la Resolución N.º 01856-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1kmHJL5YaIb87HGEeS8Iql/*/2529811-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -699,11 +651,91 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1861-2026-MP-FN",
-      "title": "Dan por concluido el nombramiento de fiscal provincial provisional del Distrito Fiscal de Madre de Dios",
+      "name": "N.º 1535-2026-JNE",
+      "title": "Confirman la Resolución N.º 01547-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6YK0655TamL8TTnwWgvCXF/*/2530074-2.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9yXICWPxqnn9kJVMzBqJx9/*/2529964-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1536-2026-JNE",
+      "title": "Confirman la Resolución N.º 01551-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/59EhM94QaolBeyxXrTXJEd/*/2529932-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1516-2026-JNE",
+      "title": "Confirman la Resolución N.º 01321-2026-JEE-PUNO/JNE, emitida por el Jurado Electoral Especial de Puno",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CR3O3Nqy4GcBZ7RIqz2Q2U/*/2529799-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1526-2026-JNE",
+      "title": "Declaran nula la Resolución N.º 03150-2026-JEE-HCYO/JNE, emitida por el Jurado Electoral Especial de Huancayo",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1E45uS7hK9p9WbPlKQudHV/*/2529754-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1431-2026-JNE",
+      "title": "Confirman la Resolución N.º 01846-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Aa3QOhR04yXApQAzSSXpaB/*/2529935-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1562-2026-JNE",
+      "title": "Confirman la Resolución N.º 01546-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E7uCd-iA46IBANdngmb3qH/*/2529777-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1443-2026-JNE",
+      "title": "Confirman la Resolución Nº 09509-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8NGxLBeCanE92-dWueEFot/*/2529785-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1435-2026-JNE",
+      "title": "Confirman la Resolución N.º 01820-2026-JEE-LIE2/JNE, emitida por el Jurado Electoral Especial de Lima Este 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AIfJhRk9KYGAopSMOdmp1g/*/2529810-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1429-2026-JNE",
+      "title": "Confirman la Resolución N.º 02599-2026-JEE-LIO1/JNE, emitida por el Jurado Electoral Especial de Lima Oeste 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Ar22aX4B4GzAXGmoTvmeiJ/*/2529782-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1471-2026-JNE",
+      "title": "Confirman la Resolución N.º 02876-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4gKRLe9H49g9v19ebRPv4H/*/2529778-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1574-2026-JNE",
+      "title": "Confirman la Resolución N.º 01499-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1tNL5D6Eain8qE_8i4VNWR/*/2529794-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -712,6 +744,14 @@
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/78ChNgaRKmM9Ymhehto467/*/2530074-3.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1864-2026-MP-FN",
+      "title": "Delegan en el/la Gerente General y en el/la Jefe/a Nacional del Instituto de Medicina Legal y Ciencias Forenses del Ministerio Público facultades para suscripción de convenios de cooperación interinstitucional, acuerdos y otros instrumentos de naturaleza análoga y dictan otras disposiciones",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bh60ojEC45IALjlQEoKaI1/*/2530074-5.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -731,19 +771,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1864-2026-MP-FN",
-      "title": "Delegan en el/la Gerente General y en el/la Jefe/a Nacional del Instituto de Medicina Legal y Ciencias Forenses del Ministerio Público facultades para suscripción de convenios de cooperación interinstitucional, acuerdos y otros instrumentos de naturaleza análoga y dictan otras disposiciones",
+      "name": "N° 1861-2026-MP-FN",
+      "title": "Dan por concluido el nombramiento de fiscal provincial provisional del Distrito Fiscal de Madre de Dios",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bh60ojEC45IALjlQEoKaI1/*/2530074-5.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 0145-2026/SEL-INDECOPI",
-      "title": "Declaran barreras burocráticas ilegales a diversos requisitos exigidos en el Procedimiento 73 del Texto Único de Procedimientos Administrativos de la Universidad Nacional San Agustín de Arequipa",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Cd1g8nxU4lC9ySW3LnQ-RQ/*/2529541-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6YK0655TamL8TTnwWgvCXF/*/2530074-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -755,14 +787,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 0252-2026/SEL-INDECOPI",
-      "title": "Declaran barrera burocrática ilegal la exigencia de presentar un estudio de impacto vial como requisito para la aprobación de proyectos de edificación destinados a los usos de Vivienda Multifamiliar",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FsW8LSvQqLm9aY699HBo1C/*/2529545-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 0254-2026/SEL-INDECOPI",
       "title": "Declaran barreras burocráticas ilegales diversas disposiciones contenidas en la Ordenanza N° 2612 de la Municipalidad Metropolitana de Lima, Ordenanza que regula los procedimientos administrativos en el Centro Histórico de Lima, a fin de proteger su patrimonio cultural y fomentar su desarrollo integral y sostenible",
       "date": "27 jun. 2026",
@@ -771,11 +795,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° D000068-2026-IPEN-PRES",
-      "title": "Designan Director de la Dirección de Transferencia Tecnológica del IPEN",
+      "name": "N° 0145-2026/SEL-INDECOPI",
+      "title": "Declaran barreras burocráticas ilegales a diversos requisitos exigidos en el Procedimiento 73 del Texto Único de Procedimientos Administrativos de la Universidad Nacional San Agustín de Arequipa",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C67M3Ksh4YTAbMJAZk7d8R/*/2529847-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Cd1g8nxU4lC9ySW3LnQ-RQ/*/2529541-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 0252-2026/SEL-INDECOPI",
+      "title": "Declaran barrera burocrática ilegal la exigencia de presentar un estudio de impacto vial como requisito para la aprobación de proyectos de edificación destinados a los usos de Vivienda Multifamiliar",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FsW8LSvQqLm9aY699HBo1C/*/2529545-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -792,6 +824,14 @@
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AGgI2en8KgwAQzSkCOOdNU/*/2529844-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° D000068-2026-IPEN-PRES",
+      "title": "Designan Director de la Dirección de Transferencia Tecnológica del IPEN",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C67M3Ksh4YTAbMJAZk7d8R/*/2529847-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN JEFATURAL",
@@ -811,27 +851,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 008-2026-PCM-SGP",
-      "title": "Aprueban la “Guía práctica para el desarrollo del problema público, objetivos y alternativas de solución en el marco del análisis de impacto regulatorio ex ante”",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6ZpT59mhqmpATWXgWjoUvl/*/2529969-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "Nº 007-2026-PCM/SGSD",
       "title": "Modifican periodo de vigencia del “Grupo de Trabajo Multisectorial para impulsar el desarrollo integral de los pueblos indígenas u originarios de la provincia de Datem del Marañón del departamento de Loreto”",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9QI7RTNuKw-AtKZpKprs8M/*/2529766-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 227-2026-PCM",
-      "title": "Amplían periodo de vigencia de la Mesa de Trabajo encargada de realizar acciones de coordinación para el desarrollo de las cuencas del Pastaza, Tigre, Corrientes y Marañón del departamento de Loreto",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/45N3xe4244k8icdCuyMEp9/*/2530017-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN JEFATURAL",
@@ -843,11 +867,27 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 227-2026-PCM",
+      "title": "Amplían periodo de vigencia de la Mesa de Trabajo encargada de realizar acciones de coordinación para el desarrollo de las cuencas del Pastaza, Tigre, Corrientes y Marañón del departamento de Loreto",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/45N3xe4244k8icdCuyMEp9/*/2530017-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 226-2026-PCM",
       "title": "Designan Subsecretario I de la Subsecretaría de Gestión del Diálogo de la Secretaría de Gestión Social y Diálogo",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/109f_KjC44b8o4g2cTpjvI/*/2529705-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 008-2026-PCM-SGP",
+      "title": "Aprueban la “Guía práctica para el desarrollo del problema público, objetivos y alternativas de solución en el marco del análisis de impacto regulatorio ex ante”",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6ZpT59mhqmpATWXgWjoUvl/*/2529969-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -856,14 +896,6 @@
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0JQSURQuarQBevvLi8atOQ/*/2530123-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 039-2026-DE",
-      "title": "Designan al personal de las Fuerzas Armadas y de la Policía Nacional del Perú que conforma la Junta de Sanidad Especial Interinstitucional de las Fuerzas Armadas y de la Policía Nacional del Perú para el Año Fiscal 2026",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AUHWNSjEqN4BOsnS7JTFVT/*/2530095-4.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -898,20 +930,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6YVxnHFyqsqB2L5mipFSwC/*/2530095-3.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N°118-2026-EF",
-      "title": "Decreto Supremo que autoriza transferencia de partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor del Ministerio de Desarrollo Agrario y Riego",
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 039-2026-DE",
+      "title": "Designan al personal de las Fuerzas Armadas y de la Policía Nacional del Perú que conforma la Junta de Sanidad Especial Interinstitucional de las Fuerzas Armadas y de la Policía Nacional del Perú para el Año Fiscal 2026",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EF0YLWcs4QV8lily7o_fzo/*/2530121-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 277-2026-EF/50",
-      "title": "Resolución Ministerial que aprueba los índices de distribución de la regalía minera correspondientes al mes de mayo del año 2026",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6iDn6BeZaaO99fsL7ovKWv/*/2530005-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AUHWNSjEqN4BOsnS7JTFVT/*/2530095-4.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -922,20 +946,28 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7_qaOiyrKc1AlHwIBHxKt3/*/2530002-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 277-2026-EF/50",
+      "title": "Resolución Ministerial que aprueba los índices de distribución de la regalía minera correspondientes al mes de mayo del año 2026",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6iDn6BeZaaO99fsL7ovKWv/*/2530005-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N°118-2026-EF",
+      "title": "Decreto Supremo que autoriza transferencia de partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor del Ministerio de Desarrollo Agrario y Riego",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EF0YLWcs4QV8lily7o_fzo/*/2530121-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN DIRECTORAL",
       "name": "Nº 0019-2026-EF/50.01",
       "title": "Resolución Directoral que aprueba Lineamientos para la presentación de propuestas de compromisos, indicadores y metas del Programa de Incentivos a la Mejora de la Gestión Municipal para el año 2027 y sus Anexos",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C1cTjljeqzU9C8CDenKBXs/*/2529740-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 0851-2026-IN",
-      "title": "Designan Director General de la Oficina de Seguridad y Defensa Nacional",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8VVLS7I6KpJ9CbbS5NMnLw/*/2530114-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -946,12 +978,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EGixDrdnqlP9uQOZtT9H8L/*/2530117-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 166-2026-IN",
-      "title": "Designan Director del Consejo Directivo de la Caja de Pensiones Militar Policial, en representación del Ministerio del Interior",
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 0851-2026-IN",
+      "title": "Designan Director General de la Oficina de Seguridad y Defensa Nacional",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9RIPsmsqKcH9x6-1KMGmZ4/*/2530095-6.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8VVLS7I6KpJ9CbbS5NMnLw/*/2530114-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -963,11 +995,11 @@
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 102-2026-RE",
-      "title": "Dan término al encargo dispuesto mediante R.S. N°094-2026-RE y encargan la Secretaría General del Ministerio de Relaciones Exteriores",
+      "name": "N° 166-2026-IN",
+      "title": "Designan Director del Consejo Directivo de la Caja de Pensiones Militar Policial, en representación del Ministerio del Interior",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ERt4_PE7aAxBmu1Tnfq_YK/*/2530095-2.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9RIPsmsqKcH9x6-1KMGmZ4/*/2530095-6.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -978,20 +1010,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6q-ARI6rKRM8tDotgeZzc5/*/2530094-1.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 015-2026-MTC",
-      "title": "Decreto Supremo que establece disposiciones en materia de infraestructura complementaria de transporte en el marco del Reglamento Nacional de Administración de Transporte, aprobado por Decreto Supremo N° 017-2009-MTC",
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 102-2026-RE",
+      "title": "Dan término al encargo dispuesto mediante R.S. N°094-2026-RE y encargan la Secretaría General del Ministerio de Relaciones Exteriores",
       "date": "27 jun. 2026",
       "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6cQeoOpIqOV80eYyfQdY4V/*/2530095-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 347-2026-MTC/01.03",
-      "title": "Otorgan a la empresa CORPORACION TECNOLOGICA AXION PERU S.A.C. Concesión Única para la prestación de servicios públicos de telecomunicaciones en área que comprende todo el territorio de la República",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4fEVqrTg4KL9Okt3Thp7C4/*/2529729-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ERt4_PE7aAxBmu1Tnfq_YK/*/2530095-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1011,6 +1035,22 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 347-2026-MTC/01.03",
+      "title": "Otorgan a la empresa CORPORACION TECNOLOGICA AXION PERU S.A.C. Concesión Única para la prestación de servicios públicos de telecomunicaciones en área que comprende todo el territorio de la República",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4fEVqrTg4KL9Okt3Thp7C4/*/2529729-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 015-2026-MTC",
+      "title": "Decreto Supremo que establece disposiciones en materia de infraestructura complementaria de transporte en el marco del Reglamento Nacional de Administración de Transporte, aprobado por Decreto Supremo N° 017-2009-MTC",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6cQeoOpIqOV80eYyfQdY4V/*/2530095-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 000336-2026-MIMP",
       "title": "Otorgan Condecoración Excepcional “Orden al Mérito de la Mujer” 2026 en el marco del Día Nacional de la Mujer Afroperuana",
       "date": "27 jun. 2026",
@@ -1019,19 +1059,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 241-2026-VIVIENDA",
-      "title": "Modifican la R.M. N° 274-2019-VIVIENDA, en el extremo de excluir el Plan Nacional de Accesibilidad de la lista sectorial de Políticas Nacionales bajo la rectoría o conducción del Ministerio",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5n1BdQQr4UrAY41u4JeL5-/*/2529725-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 243-2026-VIVIENDA",
       "title": "Designan miembro del CONAFOVICER, en representación del Ministerio de Trabajo y Promoción del Empleo",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6YAPy8acqEbA2SA3tSwJ9S/*/2529902-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 241-2026-VIVIENDA",
+      "title": "Modifican la R.M. N° 274-2019-VIVIENDA, en el extremo de excluir el Plan Nacional de Accesibilidad de la lista sectorial de Políticas Nacionales bajo la rectoría o conducción del Ministerio",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5n1BdQQr4UrAY41u4JeL5-/*/2529725-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1115,19 +1155,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 088-2026-CONCYTEC-P",
-      "title": "Aprueban transferencias financieras a diversas entidades públicas",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8oZEfVX440m9AjVhNS1lSa/*/2529931-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 032-2026-CONCYTEC-SG",
       "title": "Modifican Clasificador de Cargos del Pliego Consejo Nacional de Ciencia, Tecnología e Innovación – CONCYTEC",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2ceWuEylqmh9VZyigv1nkh/*/2530032-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 088-2026-CONCYTEC-P",
+      "title": "Aprueban transferencias financieras a diversas entidades públicas",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8oZEfVX440m9AjVhNS1lSa/*/2529931-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1139,19 +1179,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° D000132-2026-MIDAGRI-SERFOR-DE",
-      "title": "Aprueban otorgamiento de subvenciones a favor de 2 entidades ejecutoras que vienen ejecutando sus Planes de Negocio Forestal, derivados de los Concursos 2024 y 2025 del Programa de Incentivos Forestales de proyecto de inversión",
-      "date": "27 jun. 2026",
-      "ymd": "20260627",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CKFZY7FEqdcBnKmd3MS2Jm/*/2530030-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° D000133-2026-MIDAGRI-SERFOR-DE",
       "title": "Aprueban otorgamiento de subvenciones a favor de las Comunidades Campesinas de Muqui y de Quichuay",
       "date": "27 jun. 2026",
       "ymd": "20260627",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EcIThm6pqDsBipZco0NAwW/*/2530086-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° D000132-2026-MIDAGRI-SERFOR-DE",
+      "title": "Aprueban otorgamiento de subvenciones a favor de 2 entidades ejecutoras que vienen ejecutando sus Planes de Negocio Forestal, derivados de los Concursos 2024 y 2025 del Programa de Incentivos Forestales de proyecto de inversión",
+      "date": "27 jun. 2026",
+      "ymd": "20260627",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CKFZY7FEqdcBnKmd3MS2Jm/*/2530030-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1195,6 +1235,38 @@
     },
     {
       "type": "ACUERDO",
+      "name": "N° 000109-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Parcoy",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1JICH3DvKllAzWmJoqVofB/*/2529044-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000112-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Santa Cruz de Chuca",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3iPydgZDKEF9aGv3f9EXh9/*/2529049-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000108-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Jequetepeque",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B0vZoGyX4CeAacgqoq5VZ3/*/2529040-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000100 -2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Guadalupito",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Fh01BL0h4Tn9dK_DU9IPaH/*/2529017-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
       "name": "N° 000101-2026-GRLL-CR",
       "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Longotea",
       "date": "26 jun. 2026",
@@ -1203,11 +1275,27 @@
     },
     {
       "type": "ACUERDO",
+      "name": "N° 000114 -2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Provincial de Virú",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8zcovK8cq1n8BytShSO6O2/*/2529066-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
       "name": "N° 000115-2026-GRLL-CR",
       "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de El Porvenir",
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5dT7SfmSKCfB_9M_-bZqbE/*/2529071-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000105-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Ucuncha",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3pqnj5WTq-p96lLrH9WxKg/*/2529027-1.PDF/PDF"
     },
     {
       "type": "ACUERDO",
@@ -1227,11 +1315,11 @@
     },
     {
       "type": "ACUERDO",
-      "name": "N° 000107-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Uchumarca",
+      "name": "N° 000102-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Santiago de Challas",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0wnVUXkdq9fB1YHqbxZqrs/*/2529037-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6Dx8U46-qtgBgJQfOjXEiU/*/2529022-1.PDF/PDF"
     },
     {
       "type": "ACUERDO",
@@ -1240,6 +1328,22 @@
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3RdYNu_raLfAEz6z9kkmTT/*/2529048-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000103-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Cochorco",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8wuM_JQpatQAw02wjlySMV/*/2529023-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 000107-2026-GRLL-CR",
+      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Uchumarca",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0wnVUXkdq9fB1YHqbxZqrs/*/2529037-1.PDF/PDF"
     },
     {
       "type": "ACUERDO",
@@ -1266,76 +1370,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6hERGq3Yag-8r_QbU3HWKu/*/2529060-1.PDF/PDF"
     },
     {
-      "type": "ACUERDO",
-      "name": "N° 000109-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Parcoy",
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1532-2026-JNE",
+      "title": "Confirman la Resolución Nº 01483-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1JICH3DvKllAzWmJoqVofB/*/2529044-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000114 -2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Provincial de Virú",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8zcovK8cq1n8BytShSO6O2/*/2529066-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000112-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Santa Cruz de Chuca",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3iPydgZDKEF9aGv3f9EXh9/*/2529049-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000105-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Ucuncha",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3pqnj5WTq-p96lLrH9WxKg/*/2529027-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000108-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Jequetepeque",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B0vZoGyX4CeAacgqoq5VZ3/*/2529040-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000102-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Santiago de Challas",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6Dx8U46-qtgBgJQfOjXEiU/*/2529022-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000100 -2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Guadalupito",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Fh01BL0h4Tn9dK_DU9IPaH/*/2529017-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000103-2026-GRLL-CR",
-      "title": "Autorizan Transferencia Financiera a favor de la Municipalidad Distrital de Cochorco",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8wuM_JQpatQAw02wjlySMV/*/2529023-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7kO4lZEW4q-Bqu55VLa8aY/*/2529580-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1560-2026-JNE",
-      "title": "Confirman la Resolución Nº 01617-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "name": "Nº 1477-2026-JNE",
+      "title": "Confirman la Resolución Nº 02873-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4Bau42Ce4m0BTUSzFJMidM/*/2529613-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5w3GrWzl46h90sxAeOfdte/*/2529619-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1347,27 +1395,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1547-2026-JNE",
-      "title": "Confirman la Resolución N.º 01507-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "name": "Nº 1472-2026-JNE",
+      "title": "Confirman la Resolución Nº 02868-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7AZ5mjccq0XAUSrBp9S7Ux/*/2529604-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1548-2026-JNE",
-      "title": "Confirman la Resolución N.º 01560-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dvlieyt4qbC9yobVtNOMoU/*/2529603-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1566-2026-JNE",
-      "title": "Confirman la Resolución N.º 01511-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AY_cS7ctquI8I6y9qdOcK6/*/2529607-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3csSw_RaqpLBuWzx6QSuv1/*/2529630-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1376,6 +1408,14 @@
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3CGavoCrKR79omkcFjal9Q/*/2529571-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1551-2026-JNE",
+      "title": "Confirman la Resolución Nº 01562-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9iXgA5paaicBDm2ySzgzcu/*/2529558-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1395,6 +1435,22 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "Nº 1505-2026-JNE",
+      "title": "Confirman la Resolución N.º 09543-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Fqj-x9HiaalANPBjxeIkNX/*/2529610-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1378-2026-JNE",
+      "title": "Revocan la Resolución N.º 03306-2026-JEE-HVCA/JNE, emitida por el Jurado Electoral Especial de Huancavelica",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/210xZp58qCMALy7aU6_a69/*/2529572-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "Nº 1508-2026-JNE",
       "title": "Confirman la Resolución Nº 03364-2026-JEE-CPOR/JNE, emitida por el Jurado Electoral Especial de Coronel Portillo",
       "date": "26 jun. 2026",
@@ -1411,11 +1467,43 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "Nº 1560-2026-JNE",
+      "title": "Confirman la Resolución Nº 01617-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4Bau42Ce4m0BTUSzFJMidM/*/2529613-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1517-2026-JNE",
+      "title": "Confirman la Resolución Nº 01204-2026-JEE-TBPT/JNE, emitida por el Jurado Electoral Especial de Tambopata",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1GMtcJav4wk8OEyUqGTJ86/*/2529593-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1547-2026-JNE",
+      "title": "Confirman la Resolución N.º 01507-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7AZ5mjccq0XAUSrBp9S7Ux/*/2529604-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "Nº 1465-2026-JNE",
       "title": "Confirman la Resolución Nº 02872-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FXztaZ574cZBLZSaQeY4AL/*/2529611-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1541-2026-JNE",
+      "title": "Confirman la Resolución Nº 01594-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1QJ8GBgkKo-9M8ZovDaFjv/*/2529629-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1435,67 +1523,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1472-2026-JNE",
-      "title": "Confirman la Resolución Nº 02868-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
+      "name": "Nº 1548-2026-JNE",
+      "title": "Confirman la Resolución N.º 01560-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3csSw_RaqpLBuWzx6QSuv1/*/2529630-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dvlieyt4qbC9yobVtNOMoU/*/2529603-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1505-2026-JNE",
-      "title": "Confirman la Resolución N.º 09543-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
+      "name": "Nº 1566-2026-JNE",
+      "title": "Confirman la Resolución N.º 01511-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Fqj-x9HiaalANPBjxeIkNX/*/2529610-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1517-2026-JNE",
-      "title": "Confirman la Resolución Nº 01204-2026-JEE-TBPT/JNE, emitida por el Jurado Electoral Especial de Tambopata",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1GMtcJav4wk8OEyUqGTJ86/*/2529593-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1378-2026-JNE",
-      "title": "Revocan la Resolución N.º 03306-2026-JEE-HVCA/JNE, emitida por el Jurado Electoral Especial de Huancavelica",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/210xZp58qCMALy7aU6_a69/*/2529572-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1532-2026-JNE",
-      "title": "Confirman la Resolución Nº 01483-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7kO4lZEW4q-Bqu55VLa8aY/*/2529580-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1477-2026-JNE",
-      "title": "Confirman la Resolución Nº 02873-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5w3GrWzl46h90sxAeOfdte/*/2529619-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1541-2026-JNE",
-      "title": "Confirman la Resolución Nº 01594-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1QJ8GBgkKo-9M8ZovDaFjv/*/2529629-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1551-2026-JNE",
-      "title": "Confirman la Resolución Nº 01562-2026-JEE-LIE1/JNE, emitida por el Jurado Electoral Especial de Lima Este 1",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9iXgA5paaicBDm2ySzgzcu/*/2529558-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AY_cS7ctquI8I6y9qdOcK6/*/2529607-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1504,14 +1544,6 @@
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2WNabDObqxm8UrTXT1QCGR/*/2529454-5.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1849-2026-MP-FN",
-      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Amazonas",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5oU30rZVaWoAZS2BanwOhH/*/2529454-6.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1544,6 +1576,14 @@
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CExheCy4KVv99RD6YZKf89/*/2529454-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1849-2026-MP-FN",
+      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Amazonas",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5oU30rZVaWoAZS2BanwOhH/*/2529454-6.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1619,6 +1659,14 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 273-2026-EF/10",
+      "title": "Designan representante de la Oficina de Normalización Previsional – ONP ante la Comisión Ad Hoc creada por la Ley N° 29625, Ley de devolución de dinero del FONAVI a los trabajadores que contribuyeron al mismo",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CL2ACPTmqj_B7hRF8Iwmm5/*/2529625-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 275-2026-EF/50",
       "title": "Resolución Ministerial que aprueba los Índices de Distribución del Canon Minero proveniente del Impuesto a la Renta correspondiente al Ejercicio Fiscal 2025",
       "date": "26 jun. 2026",
@@ -1642,22 +1690,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4TOu87cOqotA2Q4SI2O4Gn/*/2529621-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 273-2026-EF/10",
-      "title": "Designan representante de la Oficina de Normalización Previsional – ONP ante la Comisión Ad Hoc creada por la Ley N° 29625, Ley de devolución de dinero del FONAVI a los trabajadores que contribuyeron al mismo",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CL2ACPTmqj_B7hRF8Iwmm5/*/2529625-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "name": "N° 120-2026-MINEDU",
-      "title": "Constituyen la primera Comisión Organizadora de la Universidad Nacional Amazónica de Sandia (UNAS)",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3YGzUwXda_mAYAQFNLROiS/*/2529383-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
       "name": "N° 122-2026-MINEDU",
       "title": "Disponen la publicación del proyecto de Resolución Viceministerial que modifica la Norma Técnica denominada “Criterios para el Diseño de Mobiliario Educativo de la Educación Básica Regular”, aprobada mediante Resolución Viceministerial N° 164-2020-MINEDU y modificada por Resolución Viceministerial N° 019-2023-MINEDU",
@@ -1675,14 +1707,6 @@
     },
     {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "name": "N° 119-2026-MINEDU",
-      "title": "Constituyen la primera Comisión Organizadora de la Universidad Nacional Tecnológica Intercultural de Pomata",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3Y1trfzC4DQ920z7YbhwFq/*/2529377-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN VICE MINISTERIAL",
       "name": "N° 117-2026-MINEDU",
       "title": "Designan Presidente y Vicepresidente Académico de la Comisión Organizadora de la Universidad Nacional Intercultural Aimara de Ilave",
       "date": "26 jun. 2026",
@@ -1690,20 +1714,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9hT9KAL7qJvBgXFfhvt_gJ/*/2529376-1.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 008-2026-EM",
-      "title": "Decreto Supremo que modifica diversas disposiciones del Reglamento de Transmisión aprobado mediante Decreto Supremo N° 027-2007-EM, sobre el retiro de Proyectos Vinculantes del Plan de Transmisión y la actualización de la Base Tarifaria, e incorpora disposiciones excepcionales para la ejecución de refuerzos aprobados en actualizaciones anteriores al Plan de Transmisión vigente",
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 120-2026-MINEDU",
+      "title": "Constituyen la primera Comisión Organizadora de la Universidad Nacional Amazónica de Sandia (UNAS)",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/88ljiRMx4zpB36J2-JfQ-Q/*/2529540-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3YGzUwXda_mAYAQFNLROiS/*/2529383-1.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 009-2026-EM",
-      "title": "Decreto Supremo que aprueba controles especiales para las actividades de comercialización de hidrocarburos que pueden ser utilizados en la minería ilegal en el departamento de Madre de Dios y zonas aledañas",
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 119-2026-MINEDU",
+      "title": "Constituyen la primera Comisión Organizadora de la Universidad Nacional Tecnológica Intercultural de Pomata",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BkBfH3acKo-8cV7hc6rQ15/*/2529540-2.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3Y1trfzC4DQ920z7YbhwFq/*/2529377-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1720,6 +1744,22 @@
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Fc7OWwlY4TfBbVwMR0W10a/*/2529605-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 009-2026-EM",
+      "title": "Decreto Supremo que aprueba controles especiales para las actividades de comercialización de hidrocarburos que pueden ser utilizados en la minería ilegal en el departamento de Madre de Dios y zonas aledañas",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BkBfH3acKo-8cV7hc6rQ15/*/2529540-2.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 008-2026-EM",
+      "title": "Decreto Supremo que modifica diversas disposiciones del Reglamento de Transmisión aprobado mediante Decreto Supremo N° 027-2007-EM, sobre el retiro de Proyectos Vinculantes del Plan de Transmisión y la actualización de la Base Tarifaria, e incorpora disposiciones excepcionales para la ejecución de refuerzos aprobados en actualizaciones anteriores al Plan de Transmisión vigente",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/88ljiRMx4zpB36J2-JfQ-Q/*/2529540-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -1762,14 +1802,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6HyOssP54Tj8LbG_5e0OjB/*/2529594-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 196-2026-MINCETUR",
-      "title": "Autorizan viaje de representante de PROMPERÚ al Reino Unido de Gran Bretaña e Irlanda del Norte, en comisión de servicios",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Eosc5nmDKlm8SR6bHo9tZv/*/2529480-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
       "name": "Nº 0015-2026-MINCETUR/VMT",
       "title": "Modifican el Anexo I A. “Formato del Carné de Guía Oficial de Turismo” de la R.VM. N° 28-2019-MINCETUR/VMT y el Anexo de la R.VM. N° 0004-2026-MINCETUR/VMT que contiene el “Formato del Carné de Guía Oficial de Montaña\"",
@@ -1779,11 +1811,11 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 342-2026-MTC/01.02",
-      "title": "Disponen publicación del proyecto de Decreto Supremo que incorpora el artículo 232-A al Reglamento de la Ley de Aeronáutica Civil, aprobado por Decreto Supremo N° 050-2001-MTC, así como su exposición de motivos",
+      "name": "N° 196-2026-MINCETUR",
+      "title": "Autorizan viaje de representante de PROMPERÚ al Reino Unido de Gran Bretaña e Irlanda del Norte, en comisión de servicios",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9rmaulWm4Zg9M9X-hSKZA-/*/2529357-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Eosc5nmDKlm8SR6bHo9tZv/*/2529480-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1795,11 +1827,11 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 000335-2026-MIMP",
-      "title": "Designan Asesor II del Despacho Ministerial",
+      "name": "N° 342-2026-MTC/01.02",
+      "title": "Disponen publicación del proyecto de Decreto Supremo que incorpora el artículo 232-A al Reglamento de la Ley de Aeronáutica Civil, aprobado por Decreto Supremo N° 050-2001-MTC, así como su exposición de motivos",
       "date": "26 jun. 2026",
       "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5-sTknlk4rE8vKdP1KBBHn/*/2529595-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9rmaulWm4Zg9M9X-hSKZA-/*/2529357-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1811,6 +1843,14 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 000335-2026-MIMP",
+      "title": "Designan Asesor II del Despacho Ministerial",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5-sTknlk4rE8vKdP1KBBHn/*/2529595-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 239-2026-VIVIENDA",
       "title": "Aprueban vigésima convocatoria del año 2026 para el otorgamiento de ciento cincuenta y cinco Bonos de Arrendamiento de Vivienda para Emergencias dirigida a damnificados con viviendas colapsadas o inhabitables, ante intensas precipitaciones pluviales, ubicadas en diversos distritos de los departamentos de Áncash, Apurímac, Huancavelica, Huánuco y Lima",
       "date": "26 jun. 2026",
@@ -1819,19 +1859,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 000185-2026-PRODUCE",
-      "title": "Autorizan el inicio de la Segunda Temporada de Pesca 2026 del recurso anchoveta y anchoveta blanca en la Zona Sur del Perú",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6G6n1GvZK-r8tR7thIMmdA/*/2529622-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "Nº 000184-2026-PRODUCE",
       "title": "Aprueban la “Matriz de Indicadores de Resultado del Reglamento de Ordenamiento Pesquero del recurso Calamar Gigante o Pota (Dosidicus gigas), aprobado por el Decreto Supremo Nº 003-2025-PRODUCE” y la “Matriz de Indicadores de Producto del Reglamento de Ordenamiento Pesquero del recurso Calamar Gigante o Pota (Dosidicus gigas), aprobado por el Decreto Supremo Nº 003-2025-PRODUCE”",
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1Nn9DXAXafMAeVATPrh22E/*/2529600-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 000185-2026-PRODUCE",
+      "title": "Autorizan el inicio de la Segunda Temporada de Pesca 2026 del recurso anchoveta y anchoveta blanca en la Zona Sur del Perú",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6G6n1GvZK-r8tR7thIMmdA/*/2529622-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN JEFATURAL",
@@ -1874,20 +1914,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Ec2kPV2sK_vAbkozwYXVoO/*/2529544-1.pdf/PDF"
     },
     {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000184-2026-DGPA-VMPCIC/MC",
-      "title": "Aprueban Anexo N.° 01 que sustituye los Anexos N.° 01 y N.° 02 de la Resolución Directoral N.° 000120-2026-DGPA-VMPCIC/MC",
-      "date": "26 jun. 2026",
-      "ymd": "20260626",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AFVY34EHKyX9c7-jlgrmXR/*/2528814-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
       "name": "N° 000175-2026-VMPCIC/MC",
       "title": "Declaran Patrimonio Cultural de la Nación una unidad bibliográfica de la obra Prontuario de Ordenanza para el Ejército (1869) de la producción intelectual de Juan Espinosa de los Monteros Lanza, perteneciente a la Biblioteca Nacional del Perú",
       "date": "26 jun. 2026",
       "ymd": "20260626",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5AriT6xAa76AloFtiF2eVi/*/2528831-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000184-2026-DGPA-VMPCIC/MC",
+      "title": "Aprueban Anexo N.° 01 que sustituye los Anexos N.° 01 y N.° 02 de la Resolución Directoral N.° 000120-2026-DGPA-VMPCIC/MC",
+      "date": "26 jun. 2026",
+      "ymd": "20260626",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AFVY34EHKyX9c7-jlgrmXR/*/2528814-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1987,19 +2027,19 @@
     },
     {
       "type": "ORDENANZA",
-      "name": "Nº 555-AREQUIPA",
-      "title": "Ordenanza Regional que aprueba la actualización del Proyecto Educativo Regional – PER 2026-2036, denominado “Arequipa Capital de la Calidad Educativa”",
-      "date": "25 jun. 2026",
-      "ymd": "20260625",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3frqIUF1KR-BaM3wmJfMgw/*/2529185-1.PDF/PDF"
-    },
-    {
-      "type": "ORDENANZA",
       "name": "Nº 554-AREQUIPA",
       "title": "Ordenanza Regional que aprueba la creación de la Instancia de Articulación Regional de Desarrollo e Inclusión Social (IAR-DIS) de la Región Arequipa",
       "date": "25 jun. 2026",
       "ymd": "20260625",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dvahkk4wKJt9yqIt35CDGP/*/2529184-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA",
+      "name": "Nº 555-AREQUIPA",
+      "title": "Ordenanza Regional que aprueba la actualización del Proyecto Educativo Regional – PER 2026-2036, denominado “Arequipa Capital de la Calidad Educativa”",
+      "date": "25 jun. 2026",
+      "ymd": "20260625",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3frqIUF1KR-BaM3wmJfMgw/*/2529185-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2106,14 +2146,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Djlu9vx6KMIAxe3laCoou8/*/2529206-2.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 116-2026-EF",
-      "title": "Decreto Supremo que modifica el Reglamento de la Ley Nº 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica, aprobado mediante Decreto Supremo N° 188-2015-EF",
-      "date": "25 jun. 2026",
-      "ymd": "20260625",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DIlEyWXD4HDAKXFQvD0vvU/*/2529209-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN SUPREMA",
       "name": "N° 018-2026-EF",
       "title": "Encargan al Jefe de la Central de Compras Públicas - Perú Compras, las funciones del puesto de Presidente Ejecutivo del Organismo Especializado para las Contrataciones Públicas Eficientes - OECE",
@@ -2128,6 +2160,14 @@
       "date": "25 jun. 2026",
       "ymd": "20260625",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FsO0aeQ1qyaBBZ0FVhrRDw/*/2529206-3.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 116-2026-EF",
+      "title": "Decreto Supremo que modifica el Reglamento de la Ley Nº 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica, aprobado mediante Decreto Supremo N° 188-2015-EF",
+      "date": "25 jun. 2026",
+      "ymd": "20260625",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DIlEyWXD4HDAKXFQvD0vvU/*/2529209-1.PDF/PDF"
     },
     {
       "type": "DECRETO SUPREMO",
@@ -2299,54 +2339,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "Nº 1147-2026-JNE",
-      "title": "Convocan a ciudadanos para que asuman cargos de alcaldesa y regidor de la Municipalidad Provincial de Azángaro, departamento de Puno",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DVJOW5YfqGN84cSq4-YmcL/*/2528395-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1143-2026-JNE",
-      "title": "Convocan a ciudadanos para que asuman cargos de alcalde y regidora de la Municipalidad Distrital de Castilla, provincia y departamento de Piura",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/28k2NO9kKGh9m4SQ95Pkz2/*/2528350-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1146-2026-JNE",
-      "title": "Confirman el Acuerdo de Concejo N.º 033-2026-MPI, que rechazó solicitud de vacancia presentada en contra de regidor del Concejo Provincial de Ica",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8oJwBvBa4Tc8SQuEgszQx7/*/2528349-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 1209-2026-JNE",
-      "title": "Confirman la Resolución N.º 00089-2026-JEE-PIUR/JNE, emitida por el Jurado Electoral Especial de Piura",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Kvl8PUu4WgBvmq-uhsVjN/*/2528348-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1403-2026-JNE",
-      "title": "Declaran nula la Resolución N.º 09527-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4xgPR6s6aY68308I4Dn2Mq/*/2528367-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.º 1404-2026-JNE",
-      "title": "Declaran nula la Resolución N.º 09442-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bp1ynPLHKBF8ACpVDJ8qhb/*/2528361-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N.º 1308-2026-JNE",
       "title": "Convocan a ciudadanos para que asuman cargos de alcalde y regidor de la Municipalidad Distrital de Colquepata, provincia de Paucartambo, departamento de Cusco",
       "date": "24 jun. 2026",
@@ -2355,19 +2347,35 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.° 1413-2026-JNE",
-      "title": "Proclaman representantes peruanos ante el Parlamento Andino para el periodo 2026-2031, y emiten otras disposiciones",
+      "name": "Nº 1147-2026-JNE",
+      "title": "Convocan a ciudadanos para que asuman cargos de alcaldesa y regidor de la Municipalidad Provincial de Azángaro, departamento de Puno",
       "date": "24 jun. 2026",
       "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8cf2qtU2K2L9HkEnpEr_JY/*/2528736-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DVJOW5YfqGN84cSq4-YmcL/*/2528395-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1142-2026-JNE",
-      "title": "Convocan a ciudadana para que asuma el cargo de regidora del Concejo Distrital de Santiago, provincia y departamento de Cusco",
+      "name": "N.º 1310-2026-JNE",
+      "title": "Convocan a ciudadana para que asuma, provisionalmente, el cargo de regidora del Concejo Distrital de Independencia, provincia de Huaraz, departamento de Áncash",
       "date": "24 jun. 2026",
       "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8wYYnpLm45SA4077DMbWBe/*/2528368-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8JArLxctKwPBFw43Kw_vKV/*/2528369-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1141-2026-JNE",
+      "title": "Convocan a ciudadana para que asuman el cargo de regidora de la Municipalidad Distrital de Wanchaq, provincia y departamento de Cusco",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/80II6Cb14Mq88qd4XalF-w/*/2528356-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.° 1411-2026-JNE",
+      "title": "Proclaman diputados para el periodo 2026-2031, y emiten otras disposiciones",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DAu0_NHIa559OoYEei5SYr/*/2528729-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2384,6 +2392,62 @@
       "date": "24 jun. 2026",
       "ymd": "20260624",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0uGrSHScqBeAC2ZhmPRWXA/*/2528353-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1209-2026-JNE",
+      "title": "Confirman la Resolución N.º 00089-2026-JEE-PIUR/JNE, emitida por el Jurado Electoral Especial de Piura",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Kvl8PUu4WgBvmq-uhsVjN/*/2528348-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.° 1412-2026-JNE",
+      "title": "Proclaman senadores para el periodo 2026-2031, y emiten otras disposiciones",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C-0OsDvs4d8AIlIRsdEz-0/*/2528732-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1404-2026-JNE",
+      "title": "Declaran nula la Resolución N.º 09442-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bp1ynPLHKBF8ACpVDJ8qhb/*/2528361-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1142-2026-JNE",
+      "title": "Convocan a ciudadana para que asuma el cargo de regidora del Concejo Distrital de Santiago, provincia y departamento de Cusco",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8wYYnpLm45SA4077DMbWBe/*/2528368-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N.º 1150-2026-JNE",
+      "title": "Declaran nulo el Acuerdo de Concejo N.º 083-2025-MDSD-H, que rechazó solicitud de suspensión presentada en contra de alcalde de la Municipalidad Distrital de San Damián, provincia de Huarochirí, departamento de Lima; y dictan otras disposiciones",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5dTN7FnG4tdAXZ_xuN7wuB/*/2528371-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1143-2026-JNE",
+      "title": "Convocan a ciudadanos para que asuman cargos de alcalde y regidora de la Municipalidad Distrital de Castilla, provincia y departamento de Piura",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/28k2NO9kKGh9m4SQ95Pkz2/*/2528350-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "Nº 1146-2026-JNE",
+      "title": "Confirman el Acuerdo de Concejo N.º 033-2026-MPI, que rechazó solicitud de vacancia presentada en contra de regidor del Concejo Provincial de Ica",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8oJwBvBa4Tc8SQuEgszQx7/*/2528349-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2411,14 +2475,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.° 1412-2026-JNE",
-      "title": "Proclaman senadores para el periodo 2026-2031, y emiten otras disposiciones",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C-0OsDvs4d8AIlIRsdEz-0/*/2528732-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N.º 1332-2026-JNE",
       "title": "Declaran nulo todo lo actuado a partir de la convocatoria a sesión extraordinaria emitida en el procedimiento de vacancia seguido contra regidora del Concejo Distrital de Matara, provincia y departamento de Cajamarca; y, en consecuencia, nulos los actos posteriores",
       "date": "24 jun. 2026",
@@ -2427,11 +2483,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1310-2026-JNE",
-      "title": "Convocan a ciudadana para que asuma, provisionalmente, el cargo de regidora del Concejo Distrital de Independencia, provincia de Huaraz, departamento de Áncash",
+      "name": "N.º 1403-2026-JNE",
+      "title": "Declaran nula la Resolución N.º 09527-2026-JEE-LIC2/JNE, emitida por el Jurado Electoral Especial de Lima Centro 2",
       "date": "24 jun. 2026",
       "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8JArLxctKwPBFw43Kw_vKV/*/2528369-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4xgPR6s6aY68308I4Dn2Mq/*/2528367-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2443,27 +2499,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N.º 1150-2026-JNE",
-      "title": "Declaran nulo el Acuerdo de Concejo N.º 083-2025-MDSD-H, que rechazó solicitud de suspensión presentada en contra de alcalde de la Municipalidad Distrital de San Damián, provincia de Huarochirí, departamento de Lima; y dictan otras disposiciones",
+      "name": "N.° 1413-2026-JNE",
+      "title": "Proclaman representantes peruanos ante el Parlamento Andino para el periodo 2026-2031, y emiten otras disposiciones",
       "date": "24 jun. 2026",
       "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5dTN7FnG4tdAXZ_xuN7wuB/*/2528371-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1141-2026-JNE",
-      "title": "Convocan a ciudadana para que asuman el cargo de regidora de la Municipalidad Distrital de Wanchaq, provincia y departamento de Cusco",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/80II6Cb14Mq88qd4XalF-w/*/2528356-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N.° 1411-2026-JNE",
-      "title": "Proclaman diputados para el periodo 2026-2031, y emiten otras disposiciones",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DAu0_NHIa559OoYEei5SYr/*/2528729-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8cf2qtU2K2L9HkEnpEr_JY/*/2528736-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2515,19 +2555,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 223-2026-PCM",
-      "title": "Designan Subsecretario I de la Subsecretaría de Articulación Regional y Local de la Secretaría de Descentralización",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EscOruxma7j8qprKAmwmZb/*/2528795-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 222-2026-PCM",
       "title": "Designan Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial",
       "date": "24 jun. 2026",
       "ymd": "20260624",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Ct9Ek0NcqWp9Pa7uipWucf/*/2528794-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 223-2026-PCM",
+      "title": "Designan Subsecretario I de la Subsecretaría de Articulación Regional y Local de la Secretaría de Descentralización",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EscOruxma7j8qprKAmwmZb/*/2528795-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -2570,6 +2610,14 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F22S77ok4_CAxmfjhG8N68/*/2528785-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 354-2026-MINEDU",
+      "title": "Modifican la R.M. N° 008-2026-MINEDU y delegan facultades y atribuciones en materia de Obras por Impuestos en el Director Ejecutivo del Programa Nacional de Infraestructura Educativa (PRONIED)",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5tF-CI-RqUgAdw3c_zxdvN/*/2528432-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
       "name": "N° 116-2026-MINEDU",
       "title": "Reconforman la Comisión Organizadora de la Universidad Nacional de Sechura",
@@ -2587,27 +2635,11 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 354-2026-MINEDU",
-      "title": "Modifican la R.M. N° 008-2026-MINEDU y delegan facultades y atribuciones en materia de Obras por Impuestos en el Director Ejecutivo del Programa Nacional de Infraestructura Educativa (PRONIED)",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5tF-CI-RqUgAdw3c_zxdvN/*/2528432-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 234-2026-JUS",
       "title": "Autorizan Transferencia Financiera a favor de la Contraloría General de la República",
       "date": "24 jun. 2026",
       "ymd": "20260624",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E5ntA6bgqJ-AIedshRLNBO/*/2528542-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 233-2026-JUS",
-      "title": "Aprueban el documento denominado “Estrategia para la Prevención Social del Riesgo Criminógeno 2026-2029”",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7fY-hUApa7EBaZu92oX_il/*/2528541-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -2624,6 +2656,14 @@
       "date": "24 jun. 2026",
       "ymd": "20260624",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3tFoBB2_4fDAk4BMX-zAt6/*/2528546-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 233-2026-JUS",
+      "title": "Aprueban el documento denominado “Estrategia para la Prevención Social del Riesgo Criminógeno 2026-2029”",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7fY-hUApa7EBaZu92oX_il/*/2528541-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -2683,22 +2723,6 @@
     },
     {
       "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 000223-2026-CE-PJ",
-      "title": "Reconforman las Salas Penales de Apelaciones Nacionales y de las Salas Penales Superiores Nacionales Liquidadoras Transitorias de la Corte Superior Nacional de Justicia Penal Especializada y dictan otras disposiciones",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B6GGFlfhKeQ8AtHEpgAdWU/*/2528423-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 000222-2026-CE-PJ",
-      "title": "Reconforman el Primer Juzgado Penal Colegiado Nacional de la Corte Superior Nacional de Justicia Penal Especializada y dictan otras disposiciones",
-      "date": "24 jun. 2026",
-      "ymd": "20260624",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CJ5KujaxKrN8aHzUwqQBXt/*/2528414-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
       "name": "N° 000224-2026-CE-PJ",
       "title": "Dan por concluidas designaciones y designan magistrados en Juzgados de Investigación Preparatoria Nacional de la Corte Superior Nacional de Justicia Penal Especializada",
       "date": "24 jun. 2026",
@@ -2712,6 +2736,22 @@
       "date": "24 jun. 2026",
       "ymd": "20260624",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/30SSnqLBaMrA09sOjAF2Xt/*/2528396-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN ADMINISTRATIVA",
+      "name": "N° 000223-2026-CE-PJ",
+      "title": "Reconforman las Salas Penales de Apelaciones Nacionales y de las Salas Penales Superiores Nacionales Liquidadoras Transitorias de la Corte Superior Nacional de Justicia Penal Especializada y dictan otras disposiciones",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B6GGFlfhKeQ8AtHEpgAdWU/*/2528423-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN ADMINISTRATIVA",
+      "name": "N° 000222-2026-CE-PJ",
+      "title": "Reconforman el Primer Juzgado Penal Colegiado Nacional de la Corte Superior Nacional de Justicia Penal Especializada y dictan otras disposiciones",
+      "date": "24 jun. 2026",
+      "ymd": "20260624",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CJ5KujaxKrN8aHzUwqQBXt/*/2528414-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN ADMINISTRATIVA",
@@ -2835,14 +2875,6 @@
     },
     {
       "type": "ORDENANZA",
-      "name": "N° 000005-2026-GR.LAMB/CR [516044786 - 12]",
-      "title": "Ordenanza que aprueba el proceso de implementación y Hoja de Ruta del Sistema Regional de Gestión Ambiental",
-      "date": "23 jun. 2026",
-      "ymd": "20260623",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Djr19etr4f69MxwwqQpitx/*/2528138-1.PDF/PDF"
-    },
-    {
-      "type": "ORDENANZA",
       "name": "N° 000007-2026-GR.LAMB/CR [515912235 - 30]",
       "title": "Ordenanza Regional que aprueba la prórroga de antigüedad máxima de permanencia para los vehículos destinados al servicio de transporte público en el ámbito de aplicación territorial del Gobierno Regional Lambayeque",
       "date": "23 jun. 2026",
@@ -2856,6 +2888,14 @@
       "date": "23 jun. 2026",
       "ymd": "20260623",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AR6zudAhq_I859RcGREtMC/*/2528140-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA",
+      "name": "N° 000005-2026-GR.LAMB/CR [516044786 - 12]",
+      "title": "Ordenanza que aprueba el proceso de implementación y Hoja de Ruta del Sistema Regional de Gestión Ambiental",
+      "date": "23 jun. 2026",
+      "ymd": "20260623",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Djr19etr4f69MxwwqQpitx/*/2528138-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -2970,20 +3010,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F3y6V2eAqa2BAXSjWcnQk9/*/2528341-8.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "name": "N° 113-2026-MINEDU",
-      "title": "Reconforman la Comisión Organizadora de la Universidad Nacional Tecnológica de Chincha",
-      "date": "23 jun. 2026",
-      "ymd": "20260623",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9KqiIC7dKsVAgz263S8njI/*/2528137-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 347-2026-MINEDU",
       "title": "Formalizan la aprobación del Plan Operativo Institucional Multianual 2027 – 2029 del Ministerio de Educación",
       "date": "23 jun. 2026",
       "ymd": "20260623",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CqT7c0noqJG8SkJfIuGCo_/*/2528136-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 113-2026-MINEDU",
+      "title": "Reconforman la Comisión Organizadora de la Universidad Nacional Tecnológica de Chincha",
+      "date": "23 jun. 2026",
+      "ymd": "20260623",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9KqiIC7dKsVAgz263S8njI/*/2528137-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -3058,6 +3098,22 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6xPs8aUQqfgBjyDtscCcPX/*/2528056-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN LEGISLATIVA",
+      "name": "010-2025-2026-CR",
+      "title": "Resolución Legislativa del Congreso que inhabilita por diez años para el ejercicio de la función pública a la ciudadana Delia Milagros Espinoza Valenzuela, exfiscal de la nación",
+      "date": "23 jun. 2026",
+      "ymd": "20260623",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4HhGi4cX4eQAXEya4HqijP/*/2528058-1.PDF/PDF"
+    },
+    {
+      "type": "LEY",
+      "name": "N° 32674",
+      "title": "Ley que crea la Universidad Nacional Intercultural de Datem del Marañón en la ciudad de San Lorenzo, distrito de Barranca, provincia de Datem del Marañón, departamento de Loreto",
+      "date": "23 jun. 2026",
+      "ymd": "20260623",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/035lsZrlKOFAFAIpDonif6/*/2528340-2.PDF/PDF"
+    },
+    {
       "type": "LEY",
       "name": "N° 32673",
       "title": "Ley que declara de interés nacional la adjudicación de terreno a favor de la Asociación de Capitanes de Navío, Coroneles de las Fuerzas Armadas y Policía Nacional en Situación de Retiro (ASCOREFA)",
@@ -3075,27 +3131,11 @@
     },
     {
       "type": "LEY",
-      "name": "N° 32674",
-      "title": "Ley que crea la Universidad Nacional Intercultural de Datem del Marañón en la ciudad de San Lorenzo, distrito de Barranca, provincia de Datem del Marañón, departamento de Loreto",
-      "date": "23 jun. 2026",
-      "ymd": "20260623",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/035lsZrlKOFAFAIpDonif6/*/2528340-2.PDF/PDF"
-    },
-    {
-      "type": "LEY",
       "name": "N° 32675",
       "title": "Ley que declara de interés nacional la construcción, mantenimiento y equipamiento de institutos regionales de enfermedades neoplásicas (IREN) en los departamentos de Cajamarca, Huancavelica y Puno, y del Hospital Carlos Monge Medrano en el distrito de Juliaca de la provincia de San Román, departamento de Puno",
       "date": "23 jun. 2026",
       "ymd": "20260623",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/32vaXI-Wa_WATg9cM36a0x/*/2528340-3.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN LEGISLATIVA",
-      "name": "010-2025-2026-CR",
-      "title": "Resolución Legislativa del Congreso que inhabilita por diez años para el ejercicio de la función pública a la ciudadana Delia Milagros Espinoza Valenzuela, exfiscal de la nación",
-      "date": "23 jun. 2026",
-      "ymd": "20260623",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4HhGi4cX4eQAXEya4HqijP/*/2528058-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -3123,19 +3163,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N°  D000212-2026-MIDAGRI-DM",
-      "title": "Disponen la publicación de la propuesta de “Lineamientos y el Cronograma para la Implementación de la Plataforma Digital para los Procedimientos Administrativos de Evaluación Ambiental del Sector Agrario y de Riego”",
-      "date": "23 jun. 2026",
-      "ymd": "20260623",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3ViEt_roqPc97A0mG7whBX/*/2528185-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N°  D000217-2026-MIDAGRI-DM",
       "title": "Autorizan Transferencia Financiera a favor del Instituto Interamericano de Cooperación para la Agricultura",
       "date": "23 jun. 2026",
       "ymd": "20260623",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bwqde5vBK6r9kHfWCYgjRZ/*/2528465-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N°  D000212-2026-MIDAGRI-DM",
+      "title": "Disponen la publicación de la propuesta de “Lineamientos y el Cronograma para la Implementación de la Plataforma Digital para los Procedimientos Administrativos de Evaluación Ambiental del Sector Agrario y de Riego”",
+      "date": "23 jun. 2026",
+      "ymd": "20260623",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3ViEt_roqPc97A0mG7whBX/*/2528185-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DE ALCALDÍA",
@@ -3179,6 +3219,14 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 118-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que modifica la distribución de la asignación de responsabilidad de pago, como consecuencia de lo resuelto sobre los recursos de reconsideración interpuestos contra la Resolución N° 69-2026-OS/CD",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/97Tx4BZgKZhATSdaygtAJs/*/2527518-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 126-2026-OS/CD",
       "title": "Resolución de Consejo Directivo que modifica la Resolución N° 63-2026-OS/CD, mediante la cual se dispuso la modificación de las tarifas de los SST y SCT y se aprobaron los cargos unitarios de liquidación producto de la liquidación anual de ingresos",
       "date": "22 jun. 2026",
@@ -3195,67 +3243,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 118-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que modifica la distribución de la asignación de responsabilidad de pago, como consecuencia de lo resuelto sobre los recursos de reconsideración interpuestos contra la Resolución N° 69-2026-OS/CD",
+      "name": "N° 125-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Red de Energía del Perú S.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
       "date": "22 jun. 2026",
       "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/97Tx4BZgKZhATSdaygtAJs/*/2527518-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 130-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que declara infundado el recurso de reconsideración interpuesto por Maja Energía S.A.C. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0W5SonpFq-zBpVgHFAodMe/*/2527890-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 131-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Empresa Concesionaria de Electricidad de Ucayali S.A. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7zXgn3p34eU8bQAhiUTk0j/*/2527898-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 115-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo con la que se resuelve el recurso de reconsideración interpuesto por Statkraft Perú S.A. contra la Resolución N° 69-2026-OS/CD, mediante la cual se modificó el Cuadro 11.4 del Anexo N° 11 de la Resolución N° 047-2025-OS/CD referido a la distribución de la responsabilidad de pago entre generadores por el uso del SST GD REP",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2MnFywyXqXi9ggA0VJwKJ2/*/2527510-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 116-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que declara infundado el recurso de reconsideración interpuesto por ENGIE Energía Perú S.A.A. contra la Resolución N° 69-2026-OS/CD, mediante la cual se modificó el Cuadro 11.4 del Anexo N° 11 de la Resolución N° 047-2025-OS/CD, referido a la distribución de la responsabilidad de pago entre generadores por el uso del SST GD REP",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CegM4des42EA50SjVjedTc/*/2527513-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N°  122-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Pluz Energía Perú S.A.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F-fPvnM4K7tB9w-AD_zIX-/*/2527750-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 133-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo con la que se modifica la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios del periodo mayo 2026 – abril 2027",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9RL8Gqq4KXZBvZ3ffT9O-F/*/2527911-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 121-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Consorcio Transmantaro S.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E69EeuCsapWAiYxPGEBD-i/*/2527755-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AOde-ohe4JfAX05LEoyxR8/*/2527756-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -3267,6 +3259,38 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 131-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Empresa Concesionaria de Electricidad de Ucayali S.A. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7zXgn3p34eU8bQAhiUTk0j/*/2527898-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 119-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Interconexión Eléctrica ISA Perú S.A. contra la Resolución N° 61-2026-OS/CD mediante la cual se dispuso la modificación de los peajes y compensaciones de los SST de las empresas Interconexión Eléctrica ISA Perú S.A y Red Eléctrica del Sur S.A.",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8RUbc4OZaCV8mGoA7UULjq/*/2527522-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 120-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que modifica la Resolución N° 61-2026-OS/CD, mediante la cual se dispuso la modificación de los peajes y compensaciones de los SST de las empresas Interconexión Eléctrica ISA Perú S.A y Red Eléctrica del Sur S.A.",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1bOSZhegaESALwRBWAvw63/*/2527526-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 115-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo con la que se resuelve el recurso de reconsideración interpuesto por Statkraft Perú S.A. contra la Resolución N° 69-2026-OS/CD, mediante la cual se modificó el Cuadro 11.4 del Anexo N° 11 de la Resolución N° 047-2025-OS/CD referido a la distribución de la responsabilidad de pago entre generadores por el uso del SST GD REP",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2MnFywyXqXi9ggA0VJwKJ2/*/2527510-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 123-2026-OS/CD",
       "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Luz del Sur S.A.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
       "date": "22 jun. 2026",
@@ -3275,11 +3299,35 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 125-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Red de Energía del Perú S.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
+      "name": "N° 121-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Consorcio Transmantaro S.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
       "date": "22 jun. 2026",
       "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AOde-ohe4JfAX05LEoyxR8/*/2527756-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E69EeuCsapWAiYxPGEBD-i/*/2527755-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 130-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que declara infundado el recurso de reconsideración interpuesto por Maja Energía S.A.C. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0W5SonpFq-zBpVgHFAodMe/*/2527890-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 132-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo con la que se resuelven los recursos de reconsideración interpuestos por Empresa Regional de Servicio Público de Electricidad Electronorte Medio S.A., Pluz Energía Perú S.A.A. y Sociedad Eléctrica Del Sur Oeste S.A. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9wgZ4VrBqgZ8ivRNLT8c3V/*/2527905-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 133-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo con la que se modifica la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios del periodo mayo 2026 – abril 2027",
+      "date": "22 jun. 2026",
+      "ymd": "20260622",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9RL8Gqq4KXZBvZ3ffT9O-F/*/2527911-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -3307,27 +3355,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 119-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Interconexión Eléctrica ISA Perú S.A. contra la Resolución N° 61-2026-OS/CD mediante la cual se dispuso la modificación de los peajes y compensaciones de los SST de las empresas Interconexión Eléctrica ISA Perú S.A y Red Eléctrica del Sur S.A.",
+      "name": "N° 116-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que declara infundado el recurso de reconsideración interpuesto por ENGIE Energía Perú S.A.A. contra la Resolución N° 69-2026-OS/CD, mediante la cual se modificó el Cuadro 11.4 del Anexo N° 11 de la Resolución N° 047-2025-OS/CD, referido a la distribución de la responsabilidad de pago entre generadores por el uso del SST GD REP",
       "date": "22 jun. 2026",
       "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8RUbc4OZaCV8mGoA7UULjq/*/2527522-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CegM4des42EA50SjVjedTc/*/2527513-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 132-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo con la que se resuelven los recursos de reconsideración interpuestos por Empresa Regional de Servicio Público de Electricidad Electronorte Medio S.A., Pluz Energía Perú S.A.A. y Sociedad Eléctrica Del Sur Oeste S.A. contra la Resolución N° 70-2026-OS/CD, mediante la cual se fijaron los precios en barra y otros cargos tarifarios, para el periodo mayo 2026 – abril 2027",
+      "name": "N°  122-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Pluz Energía Perú S.A.A. contra la Resolución N° 63-2026-OS/CD, mediante la cual se modificaron las tarifas de los SST y SCT y se fijó el cargo unitario de liquidación producto de la liquidación anual de ingresos, del periodo mayo 2026 – abril 2027",
       "date": "22 jun. 2026",
       "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9wgZ4VrBqgZ8ivRNLT8c3V/*/2527905-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 120-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que modifica la Resolución N° 61-2026-OS/CD, mediante la cual se dispuso la modificación de los peajes y compensaciones de los SST de las empresas Interconexión Eléctrica ISA Perú S.A y Red Eléctrica del Sur S.A.",
-      "date": "22 jun. 2026",
-      "ymd": "20260622",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1bOSZhegaESALwRBWAvw63/*/2527526-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F-fPvnM4K7tB9w-AD_zIX-/*/2527750-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
