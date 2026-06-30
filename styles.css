@@ -645,15 +645,23 @@ input {
 .map-panel {
   min-width: 0;
   padding: 2vh 1.7vw;
+  position: relative;
+  min-height: 520px;
 }
 .map-heading h2 {
   margin: 0;
   color: var(--cyan-soft);
   font-size: clamp(14px, 1.1vw, 18px);
 }
+.map-heading {
+  position: relative;
+  z-index: 710;
+}
 .map-tabs {
   display: flex;
   margin-top: 1vh;
+  position: relative;
+  z-index: 710;
 }
 .map-tabs button {
   border: 1px solid rgba(21, 224, 241, 0.2);
@@ -676,6 +684,9 @@ input {
 .map-canvas {
   position: absolute;
   inset: 8.7vh 0.8vw 0.8vh;
+  min-height: 420px;
+  border-radius: 14px;
+  overflow: hidden;
 }
 .map-canvas svg {
   width: 86%;
@@ -1780,18 +1791,35 @@ input {
 #map {
   position: absolute;
   inset: 0;
-  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  border-radius: 14px;
   background:
-    radial-gradient(circle at center, rgba(15, 220, 255, 0.08), transparent 55%),
-    #020812;
+    radial-gradient(circle at center, rgba(23, 232, 244, 0.1), transparent 58%),
+    linear-gradient(145deg, rgba(3, 20, 31, 0.94), rgba(1, 10, 18, 0.98));
   z-index: 1;
 }
 .leaflet-container {
-  background:
-    radial-gradient(circle at 50% 48%, rgba(15, 220, 255, 0.07), transparent 58%),
-    #020812;
+  width: 100%;
+  height: 100%;
+  background: transparent;
   font-family: var(--ui);
   outline: none;
+}
+.leaflet-map-pane,
+.leaflet-tile-pane,
+.leaflet-overlay-pane,
+.leaflet-marker-pane,
+.leaflet-tooltip-pane,
+.leaflet-popup-pane {
+  pointer-events: auto;
+}
+.peru-outline-pane {
+  filter: drop-shadow(0 0 10px rgba(119, 243, 255, 0.75));
+}
+.peru-departments-pane {
+  filter: drop-shadow(0 0 4px rgba(23, 232, 244, 0.3));
 }
 .leaflet-overlay-pane svg path,
 .peru-outline-pane svg path,
@@ -1813,7 +1841,7 @@ input {
     drop-shadow(0 0 9px rgba(56, 232, 255, 0.26));
 }
 .map-canvas .map-legend {
-  z-index: 1000;
+  z-index: 700;
 }
 .live-badge {
   display: inline-flex;
@@ -1909,3 +1937,37 @@ input {
 }
 .wpop-grid span { color: var(--muted); font-size: 11px; }
 .wpop-grid b { font-size: 11px; text-align: right; color: var(--text); }
+.map-error {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: var(--cyan-soft);
+  font: 600 13px var(--ui);
+  padding: 24px;
+}
+
+@media (max-width: 760px) {
+  .map-panel {
+    min-height: 520px;
+  }
+
+  .map-canvas {
+    position: relative;
+    inset: auto;
+    height: 440px;
+    min-height: 440px;
+    margin-top: 12px;
+  }
+
+  #map {
+    min-height: 440px;
+  }
+
+  .map-legend {
+    top: auto;
+    right: 10px;
+    bottom: 10px;
+    width: 112px;
+  }
+}

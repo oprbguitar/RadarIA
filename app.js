@@ -81,10 +81,10 @@ const isMobileMap=()=>window.innerWidth<=760;
 const departmentName=f=>String(f.properties.NOMBDEP||f.properties.name||'Departamento').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());
 const departmentStyle=()=>({
   color:'#69f2ff',
-  weight:isMobileMap()?1.8:1.35,
+  weight:isMobileMap()?2.2:1.7,
   opacity:0.95,
   fillColor:'#18e6ff',
-  fillOpacity:0.18,
+  fillOpacity:0.24,
   dashArray:'2 3',
   lineJoin:'round'
 });
@@ -105,6 +105,23 @@ const peruOutlineStyle=()=>({
   dashArray:'',
   lineJoin:'round'
 });
+async function loadPeruGeoJson(){
+  const candidates=[
+    './data/peru-departamentos.geojson?v=12',
+    './data/peru.geojson?v=12'
+  ];
+  for(const url of candidates){
+    try{
+      const response=await fetch(url,{cache:'no-store'});
+      if(!response.ok)throw new Error('HTTP '+response.status);
+      const geo=await response.json();
+      if(geo&&geo.features&&geo.features.length)return geo;
+    }catch(error){
+      console.warn('GeoJSON failed:',url,error);
+    }
+  }
+  throw new Error('No Peru GeoJSON could be loaded.');
+}
 function peruBoundaryFromDepartments(geo){
   const counts=new Map(),coords=new Map(),prec=5;
   const keyFor=pt=>`${Number(pt[0]).toFixed(prec)},${Number(pt[1]).toFixed(prec)}`;
@@ -125,27 +142,35 @@ function peruBoundaryFromDepartments(geo){
   return{type:'FeatureCollection',features:[{type:'Feature',properties:{name:'Perú'},geometry:{type:'MultiLineString',coordinates:[...counts].filter(([,n])=>n===1).map(([key])=>coords.get(key))}}]};
 }
 function initLeaflet(){
-  if(lmap||typeof L==='undefined'||!document.getElementById('map'))return;
+  const mapEl=document.getElementById('map');
+  if(lmap||typeof L==='undefined'||!mapEl)return;
+  const rect=mapEl.getBoundingClientRect();
+  if(rect.width<20||rect.height<20){requestAnimationFrame(initLeaflet);return;}
   const bounds=L.latLngBounds([[-18.8,-82.3],[0.6,-68.2]]);
   lmap=L.map('map',{zoomControl:true,attributionControl:true,zoomSnap:0.25,minZoom:4,maxZoom:9,scrollWheelZoom:true,maxBounds:bounds.pad(0.3),maxBoundsViscosity:0.85});
   lmap.createPane('peru-outline-pane');
   lmap.getPane('peru-outline-pane').classList.add('peru-outline-pane');
-  lmap.getPane('peru-outline-pane').style.zIndex=390;
+  lmap.getPane('peru-outline-pane').style.zIndex=410;
   lmap.createPane('peru-departments-pane');
   lmap.getPane('peru-departments-pane').classList.add('peru-departments-pane');
-  lmap.getPane('peru-departments-pane').style.zIndex=400;
-  lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]]);
+  lmap.getPane('peru-departments-pane').style.zIndex=420;
+  lmap.createPane('radar-data-pane');
+  lmap.getPane('radar-data-pane').style.zIndex=620;
+  lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]],{padding:[12,12]});
   lmap.setMinZoom(Math.max(4,isMobileMap()?lmap.getZoom()-0.25:lmap.getZoom()-0.4));
   lmap.attributionControl.setPrefix('Radar Perú IA');
+  requestAnimationFrame(()=>{lmap.invalidateSize(true);lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]],{padding:[12,12]});});
   // Base vectorial local (sin tiles externos): Perú real por departamentos.
   weatherLayer=L.layerGroup();quakeLayer=L.layerGroup();
-  fetch('./data/peru-departamentos.geojson').then(r=>r.json()).then(geo=>{
-    peruOutlineLayer=L.geoJSON(peruBoundaryFromDepartments(geo),{
+  loadPeruGeoJson()
+  .then(geo=>{
+    const isDepartments=geo.features.some(f=>f.properties&&(f.properties.NOMBDEP||f.properties.name));
+    peruOutlineLayer=L.geoJSON(isDepartments?peruBoundaryFromDepartments(geo):geo,{
       pane:'peru-outline-pane',
       style:peruOutlineStyle,
       interactive:false
     }).addTo(lmap);
-    deptLayer=L.geoJSON(geo,{attribution:'Límites: INEI · Natural Earth',
+    deptLayer=L.geoJSON(geo,{attribution:'Límites: INEI / Natural Earth',
       pane:'peru-departments-pane',
       style:departmentStyle,
       onEachFeature:(f,layer)=>{const name=departmentName(f);layer.bindTooltip(name,{sticky:true,className:'rt-tip',direction:'top'});layer.on('mouseover',()=>{layer.setStyle(departmentHoverStyle());layer.bringToFront();});layer.on('mouseout',()=>deptLayer.resetStyle(layer));layer.on('click',e=>{layer.setStyle(departmentHoverStyle());layer.openTooltip(e.latlng);setTimeout(()=>deptLayer&&deptLayer.resetStyle(layer),1200);});}});
@@ -153,8 +178,15 @@ function initLeaflet(){
     peruOutlineLayer.bringToBack();
     weatherLayer.addTo(lmap);
     renderMap();
-  }).catch(()=>{weatherLayer.addTo(lmap);});
-  setTimeout(()=>lmap.invalidateSize(),120);
+    setTimeout(()=>{lmap.invalidateSize(true);lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]],{padding:[12,12]});},150);
+  })
+  .catch(error=>{
+    console.error(error);
+    if(mapEl)mapEl.innerHTML='<div class="map-error">No se pudo cargar el contorno de Perú. Verifica data/peru-departamentos.geojson y data/peru.geojson.</div>';
+    weatherLayer.addTo(lmap);
+    renderMap();
+  });
+  setTimeout(()=>lmap.invalidateSize(true),120);
 }
 function renderWeatherMarkers(){
   if(!weatherLayer)return;weatherLayer.clearLayers();
@@ -168,7 +200,7 @@ function renderWeatherMarkers(){
       +(c.humidity!=null?`<span>Humedad</span><b>${c.humidity}%</b>`:'')
       +(c.wind!=null?`<span>Viento</span><b>${Math.round(c.wind)} km/h ${compass(c.windDir)}</b>`:'')
       +`</div></div>`;
-    const m=L.circleMarker([c.lat,c.lon],{radius:5,color:col,weight:2,fillColor:'#062a38',fillOpacity:1,className:'wk'})
+    const m=L.circleMarker([c.lat,c.lon],{pane:'radar-data-pane',radius:5,color:col,weight:2,fillColor:'#062a38',fillOpacity:1,className:'wk'})
       .bindTooltip(`${c.n} ${temp}`,{permanent:true,direction:'right',offset:[7,0],className:'rt-city rt-'+sev})
       .bindPopup(popup,{className:'wpop-wrap',closeButton:false})
       .addTo(weatherLayer);
@@ -177,7 +209,7 @@ function renderWeatherMarkers(){
 function renderQuakeMarkers(){
   if(!quakeLayer)return;quakeLayer.clearLayers();
   state.map.quakes.forEach(k=>{const sev=quakeSeverity(k.mag),col=sevColor(sev),r=4+(k.mag||3)*1.6;
-    L.circleMarker([k.lat,k.lon],{radius:r,color:col,weight:1.6,fillColor:col,fillOpacity:0.22,className:'qk qk-'+sev})
+    L.circleMarker([k.lat,k.lon],{pane:'radar-data-pane',radius:r,color:col,weight:1.6,fillColor:col,fillOpacity:0.22,className:'qk qk-'+sev})
       .bindTooltip(`M${(k.mag||0).toFixed(1)}`,{permanent:true,direction:'right',offset:[6,0],className:'rt-mag rt-'+sev})
       .bindPopup(`<b>Magnitud ${(k.mag||0).toFixed(1)}</b><br>${k.place||'—'}<br>Prof. ${Math.round(k.depth)} km · ${formatTime(k.time)}`)
       .addTo(quakeLayer);});
