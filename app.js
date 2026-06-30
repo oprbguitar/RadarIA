@@ -75,21 +75,82 @@ async function loadMapData(){
   state.map.quakes=q.status==='fulfilled'?q.value:[];
 }
 
-let lmap=null,deptLayer=null,weatherLayer=null,quakeLayer=null;
+let lmap=null,peruOutlineLayer=null,deptLayer=null,weatherLayer=null,quakeLayer=null;
 const sevColor=s=>s==='red'?'#ff4355':s==='yellow'?'#ffc52e':'#17e8f4';
+const isMobileMap=()=>window.innerWidth<=760;
+const departmentName=f=>String(f.properties.NOMBDEP||f.properties.name||'Departamento').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());
+const departmentStyle=()=>({
+  color:'#69f2ff',
+  weight:isMobileMap()?1.8:1.35,
+  opacity:0.95,
+  fillColor:'#18e6ff',
+  fillOpacity:0.18,
+  dashArray:'2 3',
+  lineJoin:'round'
+});
+const departmentHoverStyle=()=>({
+  color:'#ffffff',
+  weight:isMobileMap()?2.8:2.3,
+  opacity:1,
+  fillColor:'#5ff7ff',
+  fillOpacity:0.26,
+  dashArray:'',
+  lineJoin:'round'
+});
+const peruOutlineStyle=()=>({
+  color:'#d8feff',
+  weight:isMobileMap()?6.4:5.4,
+  opacity:1,
+  fillOpacity:0,
+  dashArray:'',
+  lineJoin:'round'
+});
+function peruBoundaryFromDepartments(geo){
+  const counts=new Map(),coords=new Map(),prec=5;
+  const keyFor=pt=>`${Number(pt[0]).toFixed(prec)},${Number(pt[1]).toFixed(prec)}`;
+  const addRing=ring=>{
+    for(let i=0;i<ring.length-1;i++){
+      const a=keyFor(ring[i]),b=keyFor(ring[i+1]);
+      if(a===b)continue;
+      const key=a<b?`${a}|${b}`:`${b}|${a}`;
+      counts.set(key,(counts.get(key)||0)+1);
+      coords.set(key,[ring[i],ring[i+1]]);
+    }
+  };
+  (geo.features||[]).forEach(f=>{
+    const g=f.geometry;if(!g)return;
+    if(g.type==='Polygon')g.coordinates.forEach(addRing);
+    if(g.type==='MultiPolygon')g.coordinates.forEach(poly=>poly.forEach(addRing));
+  });
+  return{type:'FeatureCollection',features:[{type:'Feature',properties:{name:'Perú'},geometry:{type:'MultiLineString',coordinates:[...counts].filter(([,n])=>n===1).map(([key])=>coords.get(key))}}]};
+}
 function initLeaflet(){
   if(lmap||typeof L==='undefined'||!document.getElementById('map'))return;
   const bounds=L.latLngBounds([[-18.8,-82.3],[0.6,-68.2]]);
-  lmap=L.map('map',{zoomControl:true,attributionControl:true,minZoom:4,maxZoom:9,scrollWheelZoom:true,maxBounds:bounds.pad(0.3),maxBoundsViscosity:0.85});
+  lmap=L.map('map',{zoomControl:true,attributionControl:true,zoomSnap:0.25,minZoom:4,maxZoom:9,scrollWheelZoom:true,maxBounds:bounds.pad(0.3),maxBoundsViscosity:0.85});
+  lmap.createPane('peru-outline-pane');
+  lmap.getPane('peru-outline-pane').classList.add('peru-outline-pane');
+  lmap.getPane('peru-outline-pane').style.zIndex=390;
+  lmap.createPane('peru-departments-pane');
+  lmap.getPane('peru-departments-pane').classList.add('peru-departments-pane');
+  lmap.getPane('peru-departments-pane').style.zIndex=400;
   lmap.fitBounds([[-18.5,-81.4],[0.0,-68.6]]);
+  lmap.setMinZoom(Math.max(4,isMobileMap()?lmap.getZoom()-0.25:lmap.getZoom()-0.4));
   lmap.attributionControl.setPrefix('Radar Perú IA');
   // Base vectorial local (sin tiles externos): Perú real por departamentos.
   weatherLayer=L.layerGroup();quakeLayer=L.layerGroup();
   fetch('./data/peru-departamentos.geojson').then(r=>r.json()).then(geo=>{
+    peruOutlineLayer=L.geoJSON(peruBoundaryFromDepartments(geo),{
+      pane:'peru-outline-pane',
+      style:peruOutlineStyle,
+      interactive:false
+    }).addTo(lmap);
     deptLayer=L.geoJSON(geo,{attribution:'Límites: INEI · Natural Earth',
-      style:{color:'#a6f7ff',weight:1.7,opacity:1,fillColor:'#1a6883',fillOpacity:0.92,lineJoin:'round'},
-      onEachFeature:(f,layer)=>{const name=(f.properties.NOMBDEP||'').toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());layer.bindTooltip(name,{sticky:true,className:'rt-tip'});layer.on('mouseover',()=>layer.setStyle({weight:2.2,fillColor:'#1f7e9c',fillOpacity:0.95}));layer.on('mouseout',()=>deptLayer.resetStyle(layer));}});
-    deptLayer.addTo(lmap);deptLayer.bringToBack();
+      pane:'peru-departments-pane',
+      style:departmentStyle,
+      onEachFeature:(f,layer)=>{const name=departmentName(f);layer.bindTooltip(name,{sticky:true,className:'rt-tip',direction:'top'});layer.on('mouseover',()=>{layer.setStyle(departmentHoverStyle());layer.bringToFront();});layer.on('mouseout',()=>deptLayer.resetStyle(layer));layer.on('click',e=>{layer.setStyle(departmentHoverStyle());layer.openTooltip(e.latlng);setTimeout(()=>deptLayer&&deptLayer.resetStyle(layer),1200);});}});
+    deptLayer.addTo(lmap);
+    peruOutlineLayer.bringToBack();
     weatherLayer.addTo(lmap);
     renderMap();
   }).catch(()=>{weatherLayer.addTo(lmap);});
