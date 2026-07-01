@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-07-01T03:33:17.455Z",
+  "generatedAt": "2026-07-01T12:46:08.970Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 735,
+  "totalHits": 797,
   "items": [
     {
-      "type": "DECRETO DE ALCALDÍA N° 006",
-      "title": "Prorrogan plazo de adecuación de los instrumentos de gestión de la Municipalidad Distrital de Ate previsto en la Ordenanza N° 615-MDA",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/17tzDbvSaCLAqfqfjLV-cO/*/2530389-1.PDF/PDF"
+      "type": "Decretos de Alcaldía N° 004–2026–MDB",
+      "title": "Disponen el embanderamiento general del distrito durante el mes de julio",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Yz1BfY1KerBTAlmIs5OKj/*/2528666-1.pdf/PDF"
     },
     {
-      "type": "ORDENANZA N° 539-2026-MDL",
-      "title": "Ordenanza que aprueba beneficios tributarios y no tributarios en el distrito de Lince",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7tuTwghi4VB9ZfPZ2J4rEa/*/2529958-1.PDF/PDF"
+      "type": "Ordenanzas N°  671/MM",
+      "title": "Ordenanza que implementa y valida el registro voluntario de conductores que prestan el servicio de entrega rápida de productos (delivery) a través de vehículos menores motorizados en el distrito de Miraflores",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B5c5damV4Vd8_Ja1dMKmf3/*/2530402-1.pdf/PDF"
     },
     {
-      "type": "RESOLUCIÓN DE ALCALDÍA N° 092-2026-A/MM",
-      "title": "Disponen publicación del proyecto normativo denominado “Ordenanza que modifica la Ordenanza N° 342/MM, Ordenanza que aprueba los parámetros urbanísticos y edificatorios y las condiciones generales de edificación en el distrito de Miraflores”",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6Rq8Ulot4HE8iTQhwrCGgJ/*/2530254-1.PDF/PDF"
+      "type": "ORDENANZA N° 596/MDSJM",
+      "title": "Ordenanza que establece incentivos sobre multas administrativas en el distrito de San Juan de Miraflores",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/432MO-U0q2_AFLY3NHjpOn/*/2529926-1.PDF/PDF"
     },
     {
-      "type": "ACUERDO Nº 051-2026-ACSS",
-      "title": "Condecoran con la Medalla al Mérito de la “Orden Santiago Apóstol”",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DUQ98KpqqLlBtCPy3pDOkf/*/2529699-1.PDF/PDF"
+      "type": "RESOLUCIÓN Nº 1342-2026-JNE",
+      "title": "Confirman la Resolución N.º 01700-2026-JEE-AQP2/JNE del Jurado Electoral Especial de Arequipa 2",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Yzqb5KSaGU8VjI7enTm2X/*/2530235-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 754-MSS",
-      "title": "Ordenanza que Otorga un Beneficio Extraordinario por Pronto Pago de las Cuotas No Vencidas de los Arbitrios Municipales del Año 2026",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DjbqdfawKvFAZz1bp3cOns/*/2529646-1.PDF/PDF"
+      "type": "RESOLUCIÓN Nº 1520-2026-JNE",
+      "title": "Confirman la Resolución Nº 03280-2026-JEE-HVCA/JNE, emitida por el Jurado Electoral Especial de Huancavelica",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2ANH9SiEa3M8wzXQ1yOxwG/*/2530456-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 753-MSS",
-      "title": "Ordenanza que otorga incentivos tributarios, “Tus Tributos con Descuento”",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8KA_BFOvK_o9CebOKlu5n5/*/2529640-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1459-2026-JNE",
+      "title": "Confirman la Resolución N.º 02875-2026-JEE-PIU2/JNE, emitida por el Jurado Electoral Especial de Piura 2",
+      "date": "01 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CSCGOVCF49FAt5wtIxiG6j/*/2530211-1.PDF/PDF"
     }
   ]
 }
