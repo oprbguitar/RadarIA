@@ -688,13 +688,6 @@ input {
   border-radius: 14px;
   overflow: hidden;
 }
-.map-canvas svg {
-  width: 86%;
-  height: 100%;
-  display: block;
-  margin: auto;
-  overflow: visible;
-}
 .peru-shape {
   fill: rgba(8, 78, 98, 0.42);
   stroke: var(--cyan-soft);
@@ -1067,10 +1060,6 @@ input {
   }
   .map-canvas {
     inset: 65px 3px 5px;
-  }
-  .map-canvas svg {
-    width: 100%;
-    transform: translateX(-25px);
   }
   .map-legend {
     right: 5px;
