@@ -83,7 +83,14 @@ export function fetchElPeruanoData() {
     return { sourceName:j.source||'El Peruano', sourceUrl:j.sourceUrl||'https://busquedas.elperuano.pe/', category:'elPeruano', lastUpdated:j.generatedAt, status:'available', isDemo:!!j.isDemo, data:j.items, error:null, note:j.note||'Dato real · El Peruano' };
   });
 }
-export const fetchBvlData = async () => unavailable('bvl','BVL','https://www.bvl.com.pe/');
+// Mercados · BVL + referencias internacionales · lee /data/markets.json (REAL · Yahoo Finance, vía scraper).
+export const fetchBvlData = async () => {
+  try {
+    const res = await fetch('./data/markets.json', { cache:'no-cache' }); if(!res.ok) throw new Error('markets.json');
+    const j = await res.json(); if(!j.items?.length) throw new Error('markets.json vacío');
+    return { sourceName:j.source||'Yahoo Finance', sourceUrl:j.sourceUrl||'https://finance.yahoo.com/', category:'bvl', lastUpdated:j.generatedAt, status:'available', isDemo:!!j.isDemo, data:j.items, error:null, note:j.note||'Dato real · Yahoo Finance' };
+  } catch { return normalize('bvl', mockData.bvl); }
+};
 export const fetchSmvData = async () => unavailable('smv','SMV','https://www.smv.gob.pe/');
 
 export const providers = { exchangeRate:fetchExchangeRateData, bcrp:fetchBcrpData, weather:fetchWeatherData, earthquakes:fetchEarthquakeData, agriculture:fetchAgricultureData, maritime:fetchMaritimeData, elPeruano:fetchElPeruanoData, bvl:fetchBvlData, smv:fetchSmvData };

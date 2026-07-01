@@ -202,6 +202,7 @@ input {
 }
 .left-dashboard {
   min-width: 0;
+  min-height: 0;
   display: grid;
   grid-template-rows: 1fr;
   gap: 1.1vh;
@@ -372,12 +373,13 @@ input {
 .metric-grid {
   min-height: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 0.7vw;
 }
 .metric-card {
   min-width: 0;
+  min-height: 0;
   padding: 1.15vh 1vw 0.8vh;
 }
 .card-head {
@@ -425,6 +427,8 @@ input {
 .card-body {
   height: calc(100% - 40px);
   padding-top: 1vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
 }
 .metric-card footer {
   position: absolute;
@@ -576,6 +580,9 @@ input {
 .mini-table .table-head {
   color: var(--muted);
   font-size: 9px;
+}
+.mkt-table > div {
+  grid-template-columns: 1.5fr 0.95fr 0.7fr;
 }
 .up {
   color: var(--green);
@@ -901,6 +908,10 @@ input {
   }
   .assistant-bubble {
     max-width: 88%;
+  }
+  .metric-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .source-grid {
     grid-template-columns: repeat(4, 1fr);

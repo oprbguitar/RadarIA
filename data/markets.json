@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-07-01T03:33:18.409Z",
+  "source": "Yahoo Finance · índices de mercado",
+  "sourceUrl": "https://finance.yahoo.com/quote/%5ESPBLPGPT",
+  "isDemo": false,
+  "note": "Dato real · Yahoo Finance (BVL + referencias internacionales)",
+  "items": [
+    {
+      "symbol": "^SPBLPGPT",
+      "name": "S&P/BVL Perú General",
+      "market": "pe",
+      "price": 19766.72,
+      "change": 72.63,
+      "changePercent": 0.37,
+      "currency": "PEN",
+      "asOf": "2017-12-01T21:53:33.000Z"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "market": "us",
+      "price": 7499.36,
+      "change": 58.93,
+      "changePercent": 0.79,
+      "currency": "USD",
+      "asOf": "2026-06-30T21:00:03.000Z"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "market": "us",
+      "price": 52319.2,
+      "change": 136.46,
+      "changePercent": 0.26,
+      "currency": "USD",
+      "asOf": "2026-06-30T21:21:25.000Z"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "Nasdaq Composite",
+      "market": "us",
+      "price": 26213.72,
+      "change": 393.57,
+      "changePercent": 1.52,
+      "currency": "USD",
+      "asOf": "2026-06-30T21:15:59.000Z"
+    }
+  ]
+}

@@ -1,16 +1,28 @@
 {
-  "generatedAt": "2026-06-30T12:22:57.374Z",
+  "generatedAt": "2026-07-01T03:33:17.455Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 777,
+  "totalHits": 735,
   "items": [
+    {
+      "type": "DECRETO DE ALCALDÍA N° 006",
+      "title": "Prorrogan plazo de adecuación de los instrumentos de gestión de la Municipalidad Distrital de Ate previsto en la Ordenanza N° 615-MDA",
+      "date": "30 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/17tzDbvSaCLAqfqfjLV-cO/*/2530389-1.PDF/PDF"
+    },
     {
       "type": "ORDENANZA N° 539-2026-MDL",
       "title": "Ordenanza que aprueba beneficios tributarios y no tributarios en el distrito de Lince",
       "date": "30 jun. 2026",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7tuTwghi4VB9ZfPZ2J4rEa/*/2529958-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DE ALCALDÍA N° 092-2026-A/MM",
+      "title": "Disponen publicación del proyecto normativo denominado “Ordenanza que modifica la Ordenanza N° 342/MM, Ordenanza que aprueba los parámetros urbanísticos y edificatorios y las condiciones generales de edificación en el distrito de Miraflores”",
+      "date": "30 jun. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6Rq8Ulot4HE8iTQhwrCGgJ/*/2530254-1.PDF/PDF"
     },
     {
       "type": "ACUERDO Nº 051-2026-ACSS",
@@ -19,28 +31,16 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DUQ98KpqqLlBtCPy3pDOkf/*/2529699-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 753-MSS",
-      "title": "Ordenanza que otorga incentivos tributarios, “Tus Tributos con Descuento”",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8KA_BFOvK_o9CebOKlu5n5/*/2529640-1.PDF/PDF"
-    },
-    {
       "type": "ORDENANZA Nº 754-MSS",
       "title": "Ordenanza que Otorga un Beneficio Extraordinario por Pronto Pago de las Cuotas No Vencidas de los Arbitrios Municipales del Año 2026",
       "date": "30 jun. 2026",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DjbqdfawKvFAZz1bp3cOns/*/2529646-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 09-2026/MPC",
-      "title": "Ordenanza Municipal que aprueba el Programa de beneficios de reducción de deudas constituidas por sanciones administrativas derivadas de infracciones al Reglamento Nacional de Tránsito y Reglamento Nacional de Transporte Público Especial de Pasajeros en Vehículos Motorizados, No Motorizados y Vehículos Menores en la Provincia Constitucional del Callao, así como la deuda por concepto de tasa de guardianía por internamiento en el Depósito Municipal de Vehículos",
+      "type": "ORDENANZA Nº 753-MSS",
+      "title": "Ordenanza que otorga incentivos tributarios, “Tus Tributos con Descuento”",
       "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0mkRkVkPKEHBjOfAQ-WrxI/*/2529956-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN Nº 5489-2026-GTVT/MPC",
-      "title": "Declaran el cumplimiento de la notificación de veintidós (22) resoluciones gerenciales que declara la caducidad e inicio de nuevo procedimiento administrativo sancionador",
-      "date": "30 jun. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1Dx1AuUfK1W9eSbRwtgAhA/*/2530024-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8KA_BFOvK_o9CebOKlu5n5/*/2529640-1.PDF/PDF"
     }
   ]
 }

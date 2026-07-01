@@ -170,9 +170,57 @@ async function scrapeAgro() {
   });
 }
 
+/* ---------------------------------------------------------------------------
+   3) MERCADOS — REAL · Yahoo Finance (chart API, sin CORS al llamarse server-side).
+   Índice general de la BVL (S&P/BVL Perú General) + referencias internacionales
+   (S&P 500, Dow Jones, Nasdaq) para dar contexto comparativo.
+--------------------------------------------------------------------------- */
+const YF_SYMBOLS = [
+  { symbol: '^SPBLPGPT', name: 'S&P/BVL Perú General', market: 'pe' },
+  { symbol: '^GSPC',     name: 'S&P 500',               market: 'us' },
+  { symbol: '^DJI',      name: 'Dow Jones',              market: 'us' },
+  { symbol: '^IXIC',     name: 'Nasdaq Composite',       market: 'us' },
+];
+
+async function fetchYahooQuote({ symbol, name, market }) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}`;
+  const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+  if (!res.ok) throw new Error(`Yahoo Finance HTTP ${res.status} (${symbol})`);
+  const json = await res.json();
+  const meta = json?.chart?.result?.[0]?.meta;
+  if (!meta || meta.regularMarketPrice == null) throw new Error(`Sin cotización para ${symbol}`);
+  const price = meta.regularMarketPrice;
+  const prevClose = meta.previousClose ?? meta.chartPreviousClose ?? price;
+  const change = price - prevClose;
+  const changePercent = prevClose ? (change / prevClose) * 100 : 0;
+  return {
+    symbol, name, market,
+    price: Number(price.toFixed(2)),
+    change: Number(change.toFixed(2)),
+    changePercent: Number(changePercent.toFixed(2)),
+    currency: meta.currency || 'USD',
+    asOf: meta.regularMarketTime ? new Date(meta.regularMarketTime * 1000).toISOString() : nowISO(),
+  };
+}
+
+async function scrapeMarkets() {
+  const settled = await Promise.allSettled(YF_SYMBOLS.map(fetchYahooQuote));
+  const items = settled.filter(r => r.status === 'fulfilled').map(r => r.value);
+  settled.forEach((r, i) => { if (r.status === 'rejected') console.warn(`  · ${YF_SYMBOLS[i].symbol}: ${r.reason.message}`); });
+  if (!items.length) throw new Error('Sin cotizaciones de mercado disponibles');
+  await writeJSON('markets.json', {
+    generatedAt: nowISO(),
+    source: 'Yahoo Finance · índices de mercado',
+    sourceUrl: 'https://finance.yahoo.com/quote/%5ESPBLPGPT',
+    isDemo: false,
+    note: 'Dato real · Yahoo Finance (BVL + referencias internacionales)',
+    items,
+  });
+}
+
 /* --------------------------------------------------------------------------- */
 async function main() {
-  const tasks = [['normas', scrapeNormas], ['normas-mes', scrapeNormasMes], ['agro', scrapeAgro]];
+  const tasks = [['normas', scrapeNormas], ['normas-mes', scrapeNormasMes], ['agro', scrapeAgro], ['markets', scrapeMarkets]];
   let failed = 0;
   for (const [name, fn] of tasks) {
     try { await fn(); }

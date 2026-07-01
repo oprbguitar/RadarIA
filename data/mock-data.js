@@ -1,7 +1,12 @@
 export const mockData = {
   bcrp: { sourceName: 'BCRP', sourceUrl: 'https://www.bcrp.gob.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: { indicator: 'Inflación', value: '1.65%' }, note: 'dato demostrativo' },
   exchangeRate: { sourceName: 'BCRP / SUNAT', sourceUrl: 'https://www.sunat.gob.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: { buy: 3.724, sell: 3.729, variation: -0.05, history: [3,7,5,10,8,13,9,15,12,17,14,20] }, note: 'dato demostrativo' },
-  bvl: { sourceName: 'BVL', sourceUrl: 'https://www.bvl.com.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: { index: 'S&P/BVL Perú General', variation: 0.42 }, note: 'dato demostrativo' },
+  bvl: { sourceName: 'BVL', sourceUrl: 'https://www.bvl.com.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: [
+    { symbol: '^SPBLPGPT', name: 'S&P/BVL Perú General', market: 'pe', price: 19694.09, change: 82.13, changePercent: 0.42, currency: 'PEN' },
+    { symbol: '^GSPC', name: 'S&P 500', market: 'us', price: 5300.12, change: 12.4, changePercent: 0.23, currency: 'USD' },
+    { symbol: '^DJI', name: 'Dow Jones', market: 'us', price: 39800.5, change: -45.2, changePercent: -0.11, currency: 'USD' },
+    { symbol: '^IXIC', name: 'Nasdaq Composite', market: 'us', price: 16750.3, change: 88.6, changePercent: 0.53, currency: 'USD' },
+  ], note: 'dato demostrativo' },
   smv: { sourceName: 'SMV', sourceUrl: 'https://www.smv.gob.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: { facts: 12 }, note: 'dato demostrativo' },
   weather: { sourceName: 'SENAMHI', sourceUrl: 'https://www.senamhi.gob.pe/', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: { city: 'Lima', temp: 20, condition: 'Parcialmente nublado', humidity: 78, wind: '18 km/h NE', forecast: [{day:'Hoy', range:'21° / 17°', icon:'🌤️'},{day:'Mañana', range:'21° / 16°', icon:'🌤️'},{day:'Mar 20', range:'22° / 17°', icon:'☀️'}] }, note: 'dato demostrativo' },
   agriculture: { sourceName: 'MIDAGRI · SIEA/SISAP', sourceUrl: 'https://www.gob.pe/midagri', lastUpdated: '2025-05-18T08:30:00-05:00', status: 'available', data: [{product:'Limón sutil',unit:'kg',price:4.20,variation:6.3},{product:'Papa blanca',unit:'kg',price:1.28,variation:-2.6},{product:'Arroz pilado',unit:'kg',price:3.60,variation:1.4}], note: 'dato demostrativo' },
