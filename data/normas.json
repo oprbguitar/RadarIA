@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-07-03T12:19:08.589Z",
+  "generatedAt": "2026-07-04T11:44:35.146Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 852,
+  "totalHits": 848,
   "items": [
     {
-      "type": "DECRETO SUPREMO N° 100-2026-PCM",
-      "title": "Decreto Supremo que aprueba el Plan Anual de Transferencia de Competencias Sectoriales a los Gobiernos Regionales y Locales del año 2026",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7RSL439JqokApgFNZ2IbSa/*/2531446-1.PDF/PDF"
+      "type": "ORDENANZA N° 058-2026-GRH-CR",
+      "title": "Aprueban la conformación de la Comisión Técnica Regional de Zonificación Ecológica y Económica del departamento de Huánuco",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BTKP5KM5aNhBcImhd8qUqq/*/2530599-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN Nº 185-2026-GM/MDA",
-      "title": "Prorrogan la designación de Ejecutor Coactivo de la Gerencia de Administración Tributaria y Rentas de la Municipalidad Distrital de Ancón",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EZYuuqwEqQr8IJ1Ki-Fbk-/*/2531163-1.PDF/PDF"
+      "type": "ORDENANZA N° 057-2026-GRH-CR",
+      "title": "Aprueban Proceso de Implementación del Sistema Regional de Gestión Ambiental del Gobierno Regional Huánuco y la Hoja de Ruta para su implementación",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7KzmEhFZa_b9--J798qgTI/*/2530595-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN Nº 186-2026-GM/MDA",
-      "title": "Prorrogan designación de Auxiliar Coactivo de la Gerencia de Administración Tributaria y Rentas de la Municipalidad Distrital de Ancón",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FdQHnms-qUA9fQ-4mf9oDH/*/2531133-1.PDF/PDF"
+      "type": "RESOLUCIÓN Nº 1621-2026-JNE",
+      "title": "Confirman el contenido del Acta Descentralizada de Proclamación de Resultados de Cómputo de la Elección de Presidente y Vicepresidentes de la República, emitida por el Jurado Electoral Especial de Lima Centro 2",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CmCweOqMKVC86uAkMN0KZZ/*/2531696-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA N° D4-2026-GR.CAJ/CR",
-      "title": "Declaran prioritaria la implementación del aplicativo regional ONE VISION CAX en las IPRESS del primer y segundo nivel de atención que no cuenten con sistema de historia clínica electrónica y las sedes administrativas en el ámbito de la Dirección Regional de Salud de Cajamarca",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EcbXfbIm4l88fe8f5NlIQC/*/2530825-1.PDF/PDF"
+      "type": "RESOLUCIÓN JEFATURAL N° 000107-2026-JN/ONPE",
+      "title": "Declaran que no se implementará el programa piloto del voto digital en las Elecciones Regionales y Municipales 2026",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EZ8KMdwJ4AC92P2DDDh_qc/*/2531204-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN DIRECTORAL N° 054-2026-GOREICA-GRDE/DREM-DM",
-      "title": "Relación de concesiones mineras para la pequeña minería y minería artesanal, cuyos títulos fueron aprobados en el mes de abril",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9-jYpw_q4M-AiBo9vCDDWv/*/2531080-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1931-2026-MP-FN",
+      "title": "Nombran fiscal adjunto provincial provisional del Distrito Fiscal de Loreto",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F6t0DoMiKjK8snGeFQc_qX/*/2531877-14.PDF/PDF"
     },
     {
-      "type": "DECRETO Nº 005-2026-GR CUSCO/GR",
-      "title": "Disponen la implementación de medidas de prevención, vigilancia epidemiológica, control sanitario y vacunación frente al riesgo de introducción y transmisión del sarampión en el ámbito de la Región Cusco",
-      "date": "03 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/47ne0halK0QBJBr18PFYMQ/*/2529432-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1935-2026-MP-FN",
+      "title": "Nombran fiscal adjunto provincial provisional del Distrito Fiscal de Huánuco",
+      "date": "04 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C9byuFj-4Rv94i8dDJyuJ9/*/2531877-18.PDF/PDF"
     }
   ]
 }
