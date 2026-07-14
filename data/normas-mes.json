@@ -1,27 +1,23 @@
 {
-  "generatedAt": "2026-07-13T12:41:39.011Z",
+  "generatedAt": "2026-07-14T11:42:51.175Z",
   "periodo": "julio 2026",
   "periodoIni": "20260701",
-  "periodoFin": "20260713",
+  "periodoFin": "20260714",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
-  "total": 303,
+  "total": 324,
   "types": [
     {
       "type": "RESOLUCIÓN",
-      "count": 82
+      "count": 105
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "count": 70
+      "count": 75
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
-      "count": 36
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "count": 24
+      "count": 38
     },
     {
       "type": "RESOLUCIÓN JEFATURAL",
@@ -29,23 +25,27 @@
     },
     {
       "type": "ORDENANZA",
-      "count": 13
+      "count": 15
     },
     {
       "type": "DECRETO SUPREMO",
-      "count": 13
+      "count": 15
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA",
+      "count": 15
     },
     {
       "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "count": 13
-    },
-    {
-      "type": "LEY",
-      "count": 8
+      "count": 9
     },
     {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "count": 6
+      "count": 8
+    },
+    {
+      "type": "LEY",
+      "count": 7
     },
     {
       "type": "DECRETO DE ALCALDÍA",
@@ -56,27 +56,467 @@
       "count": 3
     },
     {
-      "type": "RESOLUCIÓN DE ALCALDÍA",
-      "count": 3
-    },
-    {
-      "type": "DECRETO",
-      "count": 3
+      "type": "CIRCULAR",
+      "count": 2
     },
     {
       "type": "FE DE ERRATA",
       "count": 2
     },
     {
-      "type": "CONVENIO",
+      "type": "RESOLUCIÓN DE ALCALDÍA",
       "count": 2
     },
     {
-      "type": "CIRCULAR",
-      "count": 1
+      "type": "DECRETO",
+      "count": 2
+    },
+    {
+      "type": "CONVENIO",
+      "count": 2
     }
   ],
   "items": [
+    {
+      "type": "ORDENANZA",
+      "name": "N° 397-MDL",
+      "title": "Ordenanza que promueve el respeto, la igualdad y prohíbe toda forma de discriminación en el distrito de Lurigancho",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dvljd7kc4w28_Bupmsh_sR/*/2533205-1.PDF/PDF"
+    },
+    {
+      "type": "ACUERDO",
+      "name": "N° 029-2026-MPU/C",
+      "title": "Autorizan viaje de regidores y servidor de la Municipalidad Provincial de Urubamba a la República Federal de Alemania, en comisión de servicios",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5RsfDNeTaHaBu5GByDIgfE/*/2531933-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA",
+      "name": "N° 005-2026 GOBIERNO REGIONAL AMAZONAS/CR",
+      "title": "Aprueban el Protocolo Regional de Actuación Conjunta en el Ámbito de la Atención Integral y Protección Frente a la Violencia contra las Mujeres y los Integrantes del Grupo Familiar de la Región Amazonas – PRAC AMAZONAS",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dss7NrjoqXtAZIaWimRFeK/*/2526908-1.PDF/PDF"
+    },
+    {
+      "type": "ORDENANZA",
+      "name": "N° 007-2026 GOBIERNO REGIONAL AMAZONAS/CR",
+      "title": "Aprueban Plan de Desarrollo Regional Concertado del departamento de Amazonas 2026 - 2040",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CbFGhMpR41PB2ztZSdV_RC/*/2528461-1.PDF/PDF"
+    },
+    {
+      "type": "CIRCULAR",
+      "name": "N° 0016-2026-BCRP",
+      "title": "Aprueban lista de bancos del exterior de primera categoría",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0zuj2o324WT8Bh-E1r7dvm/*/2534212-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1653-2026-JNE",
+      "title": "Disponen integrar la Res. N° 0220-2026-JNE, en lo referido a las designaciones del presidente titular y suplente del Jurado Electoral Especial de Cusco",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/697L4YXcaygB_6_bExxNkw/*/2534135-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1654-2026-JNE",
+      "title": "Convocan a magistrada para que asuma el cargo de presidente del Jurado Electoral Especial de Cusco",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Nr9hmNxaYoAqD7QWsa8O2/*/2534136-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1980-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal adjunta provincial provisional del Distrito Fiscal del Cusco",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Bv5iSehQabC9_JgBeTFcg4/*/2534590-8.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 047-2026-MP-FN-JFS",
+      "title": "Aceptan renuncia de Fiscal Adjunto Provincial Especializado contra la Criminalidad Organizada (Corporativo) de La Libertad",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1vKlNzy549c8nIHQjlrUYU/*/2534590-4.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2024-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal provincial provisional del Distrito Fiscal de La Libertad",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2NFtxsIr40O9aHPkm9ZdLq/*/2534590-12.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 045-2026-MP-FN-JFS",
+      "title": "Aceptan renuncia de Fiscal Adjunto Provincial Especializado en delitos de corrupción de funcionarios (corporativo) de La Libertad",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5amRM93wa0VBDQM_wxWl6a/*/2534590-2.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2026-2026-MP-FN",
+      "title": "Dan por concluida designación de fiscal adjunto en la Fiscalía Provincial Corporativa Especializada Contra la Criminalidad Organizada de La Libertad",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/685o9MVzakUAxG4C4-v8NZ/*/2534590-14.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2023-2026-MP-FN",
+      "title": "Dan por concluida designación de fiscal adjunto en la Primera Fiscalía Provincial Penal Corporativa de Canchis",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AYPH8WzwKZb8kAm93ZCeHo/*/2534590-11.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1981-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal adjunto provincial provisional del Distrito Fiscal de Lima Centro",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1nzClHphqk78QmwLGpnj30/*/2534590-9.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2028-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal adjunta provincial provisional del Distrito Fiscal de Lambayeque",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E1yRMwp-KVTBnP-uzcETbj/*/2534596-2.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2032-2026-MP-FN",
+      "title": "Designan fiscales en fiscalías provinciales de familia de Utcubamba, Bagua, Bongará y Rodríguez de Mendoza, Distrito Fiscal de Amazonas",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/D2dBuetk4ut8w8wxa4Y93S/*/2534596-6.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2033-2026-MP-FN",
+      "title": "Designan fiscal adjunta en la 2° Fiscalía Provincial Penal de Flagrancia Delictiva del Distrito Fiscal de Lima Este",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BHjioAreaM0BIoipePSpkl/*/2534596-7.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2029-2026-MP-FN",
+      "title": "Dan por concluido nombramiento de fiscal adjunta provincial provisional transitoria del Distrito Fiscal de Lima Centro",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0Ud1X0Ru4nWBChH7W7TQTO/*/2534596-3.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1979-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal adjunta provincial provisional del Distrito Fiscal de Lambayeque",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BrJN6EUoKC49e4QIQWK0lC/*/2534590-7.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2034-2026-MP-FN",
+      "title": "Designan fiscal superior titular penal de Huaura, Distrito Fiscal de Huaura",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Akqi5SHrKz99Gwb5_WeOrB/*/2534596-8.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1961-2026-MP-FN",
+      "title": "Designan fiscal en la Fiscalía Provincial Corporativa Especializada en Delitos de Lavado de Activos de San Román - Juliaca",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1wLAm2wmKHfAn3m-LeaXmj/*/2534590-6.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2035-2026-MP-FN",
+      "title": "Nombran fiscal adjunto superior provisional del Distrito Fiscal de Lambayeque",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3PlBWMUyq36Aav7QuagC8o/*/2534596-9.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2025-2026-MP-FN",
+      "title": "Dan por concluida designación de fiscal adjunto en la Primera Fiscalía Superior Penal de Moquegua",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DAiD-t5GqBm9l650B5oZ1t/*/2534590-13.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2030-2026-MP-FN",
+      "title": "Dan por concluido nombramiento de fiscal adjunto provincial provisional del Distrito Fiscal de Lima Centro",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/A3kQcmT4KWd8jJMKHsuuH1/*/2534596-4.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 046-2026-MP-FN-JFS",
+      "title": "Aceptan renuncia de Fiscal Adjunto Superior Penal de Moquegua",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5pVVUp6A4Eu9ZPwLUD7SWi/*/2534590-3.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2022-2026-MP-FN",
+      "title": "Dan por concluida designación de fiscal superior como Coordinador de las Fiscalías Provinciales Penales Corporativas, Provinciales Penales y Provinciales Mixtas del Distrito Fiscal de San Martín",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9WYHRguxqSi8D82yzytHsK/*/2534590-10.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 044-2026-MP-FN-JFS",
+      "title": "Aceptan renuncia de Fiscal Adjunto Provincial Penal de Canchis del distrito fiscal de Cusco",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9kFM8ZK8qlA8c6AGMg9cqn/*/2534590-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1960-2026-MP-FN",
+      "title": "Designan fiscales del Distrito Fiscal de Puno, en fiscalías provinciales penales corporativas de San Román",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4AWSSa9YK6n96i5Dww9R2H/*/2534590-5.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2046-2026-MP-FN",
+      "title": "Dan por concluido nombramiento de fiscal adjunta provincial provisional del Distrito Fiscal de Piura",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C7Mc_1ND4oc9GZ98fo4dnA/*/2534590-15.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2027-2026-MP-FN",
+      "title": "Aceptan renuncia de fiscal provincial provisional del Distrito Fiscal de Amazonas",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9n9v3P6OKByA7fO9KAKx7z/*/2534596-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 2031-2026-MP-FN",
+      "title": "Dan por concluido nombramiento de fiscal provincial provisional del Distrito Fiscal de Lima Noroeste",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BGxaRkdWaoA95y5QcAE_3v/*/2534596-5.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "SBS N° 01820-2026",
+      "title": "Autorizan viaje de funcionaria de la Intendencia de Supervisión Bancaria E para participar en evento que se realizará en Canadá",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DJlZlzPTKRZAB8SOl2z0Lz/*/2534138-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "SBS N° 01786-2026",
+      "title": "Modifican el Reglamento para la clasificación de empresas del sistema financiero y de empresas de seguros",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DFaPicqT4njBtR9ATnMcdz/*/2533273-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 238-2026-PCM",
+      "title": "Disponen publicar proyecto de Decreto Supremo que establece la obligatoriedad de la notificación vía casilla electrónica de los actos administrativos y actuaciones administrativas emitidas por la Autoridad Nacional del Servicio Civil – SERVIR",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FU6HGbq3Ka08Xu5sOyaKdu/*/2534483-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 009-2026-PCM-SGP",
+      "title": "Aprueban el instrumento denominado Observatorio Peruano de Mejora Regulatoria (OPMR)",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0GVJaKQ-ayaBdbjwfUSK8l/*/2534594-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 133-2026-EF",
+      "title": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de la Oficina de Normalización Previsional",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DaRsHZxK4vjBo0l04_QUEJ/*/2534604-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 134-2026-EF",
+      "title": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/99_KTz7FKg29Iyl5dgVfmD/*/2534604-2.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 135-2026-EF",
+      "title": "Decreto Supremo que aprueba una nueva Metodología de Actualización de los Bonos de la Deuda Agraria comprendidos en el Decreto Supremo N° 242-2017-EF a través de la modificación de su Anexo 1 - Metodología de Actualización; en atención a lo dispuesto en la Sentencia 11/2026 recaída en el Expediente N° 01350-2024-PA/TC emitida por el Tribunal Constitucional, y dicta otras disposiciones",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CTLu2zt0KVDBujfdMWR0py/*/2534604-3.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 131-2026-MINEDU",
+      "title": "Formalizan la conclusión de la Comisión Organizadora de la Universidad Nacional Autónoma de Chota",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7ZhGS4qC4nB8QomYcAru90/*/2534576-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 374-2026-MINEDU",
+      "title": "Crean el Fondo Editorial de la Casa de la Literatura Peruana (FONDO-CASLIT), a cargo de la Casa de la Literatura",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EOXqMoIMKXA9402wSX69HQ/*/2534446-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 265-2026-MINEM/DM",
+      "title": "Declaran la resolución ficta que, por silencio administrativo positivo, reconoció la modificación de la concesión definitiva para desarrollar la actividad de transmisión de energía eléctrica para el proyecto “Línea de Transmisión en 138 kV S.E. Sajena – S.E. Torata”, a favor de la Empresa de Generación Eléctrica del Sur S.A.",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9ANDAJZOK0aByvlV-fqgP_/*/2531835-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000536-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefecto Provincial de Aymaraes, departamento de Apurímac",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/048R6ogYK9bBkpkzG1HVu6/*/2534406-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000492-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefecto Provincial de Sandia, departamento de Puno",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5aS-DGSwq-hAbVyjkDUc06/*/2533230-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000535-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefectos Distritales de Cura Mori y Ccapi, en los departamentos de Piura y Cusco",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4m3wpx8HqQP8N-iRwAZjnK/*/2534404-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 417-2026-RE",
+      "title": "Autorizan viaje de funcionario diplomático y servidoras a la República Oriental del Uruguay, en comisión de servicios",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1SnPrWrJKW58i_FoZzByGA/*/2534213-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 423-2026-RE",
+      "title": "Autorizan viaje de funcionario diplomático a EE.UU., en comisión de servicios",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AN5jROtLa1H8lmHgFMdp0F/*/2534598-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 614-2026/MINSA",
+      "title": "Amplían plazos establecidos en el artículo 2 de la Resolución Ministerial N° 517-2025/MINSA",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B3aAsTik4mcAEQ_D2iaPgR/*/2534442-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 613-2026/MINSA",
+      "title": "Aprueban la NTS N° 248 -MINSA/DGIESP-2026, Norma Técnica de Salud que establece el procedimiento para la Evaluación, Calificación y Certificación de la Incapacidad Laboral por Enfermedades o Accidentes Comunes",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9K58lzgY4548qK5ub16JWM/*/2534439-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 612-2026/MINSA",
+      "title": "Aprueban la Directiva Administrativa N° 394-MINSA/CDC-2026, Directiva Administrativa que regula los avisos y alertas epidemiológicas",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1D2gcihNqGDAUtcvceaUsA/*/2534436-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 617-2026/MINSA",
+      "title": "Modifican el Reglamento de la Ley N° 23330, Ley del Servicio Rural y Urbano Marginal de Salud – SERUMS",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/49mo3wMiqVXBuWI6Ar97B0/*/2534447-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 611-2026/MINSA",
+      "title": "Aprueban la Directiva Administrativa N° 393- MINSA/OGCTI-2026, “Directiva Administrativa para la realización de actividades sanitarias sin fines de lucro por parte de instituciones extranjeras”",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5o_msrbbKmJ9q8Av-belG0/*/2534433-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 261-2026-VIVIENDA",
+      "title": "Aprueban vigésima segunda convocatoria del año 2026 para otorgamiento de 120 Bonos de Arrendamiento de Vivienda para Emergencias, dirigida a damnificados con viviendas colapsadas o inhabitables, ante intensas precipitaciones pluviales, ubicadas en algunos distritos y provincias de los departamentos de Áncash, Apurímac, Pasco y Piura",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EigpWk-oq6t8liJue3x-R4/*/2534425-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 000194-2026-PRODUCE",
+      "title": "Modifican el artículo 8 de la Resolución Ministerial N° 00169-2026-PRODUCE, que establece el límite de captura del recurso bonito para el periodo desde enero hasta diciembre del año 2026",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C1XEJQnpq7Y9peI1vTQKx_/*/2534527-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN ADMINISTRATIVA",
+      "name": "N° 000070-2026-P-CE-PJ",
+      "title": "Cesan por límite de edad a Jueza de Paz Letrado titular del Primer Juzgado de Paz Letrado de Ferreñafe del Distrito Judicial de Lambayeque",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/67fRKHjmqLL9r_SKkogpYc/*/2534396-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 000196-2026-VMPCIC/MC",
+      "title": "Declaran Patrimonio Cultural de la Nación al “Expediente criminal seguido por María Santos Frenes contra Juana Navas y su esclavo Matías por injurias y agresión (1793)”), custodiado en el Archivo General de la Nación",
+      "date": "14 jul. 2026",
+      "ymd": "20260714",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/01Bc0WtZacFBhuqhPHcbbe/*/2534259-1.PDF/PDF"
+    },
     {
       "type": "ORDENANZA",
       "name": "N° 009-2026-MPP",
@@ -108,6 +548,22 @@
       "date": "13 jul. 2026",
       "ymd": "20260713",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1innShhMat18m4wM0RyO-Z/*/2534104-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 132-2026-EF",
+      "title": "Decreto Supremo que aprueba los montos de la asignación económica mensual del personal que presta el Servicio Militar Acuartelado en las instituciones de las Fuerzas Armadas",
+      "date": "13 jul. 2026",
+      "ymd": "20260713",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BjTEMQgraOrA5MkFpvfePB/*/2534603-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº 275-2026-MINEM/DM",
+      "title": "Amplían plazo otorgado a través del artículo 2 de la Resolución Ministerial N° 240-2026-MINEM/DM para la presentación de comentarios, aportes u opiniones de las entidades públicas o privadas y de la ciudadanía en general al proyecto “Decreto Supremo que aprueba el Reglamento de las Actividades de Exploración y Explotación de Hidrocarburos”",
+      "date": "13 jul. 2026",
+      "ymd": "20260713",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DCQMFla-q7QBieDISCz8-V/*/2534599-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -142,6 +598,14 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FOttq6_UKbY9m4uqZxOGFv/*/2533505-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 000214-2026-MC",
+      "title": "Crean Grupo de Trabajo Sectorial denominado “Pacto por los Pueblos”, como espacio de diálogo con organismos de cooperación internacional y organizaciones de la sociedad civil, para contribuir a la implementación de la Política Nacional de Pueblos Indígenas u Originarios al 2040",
+      "date": "13 jul. 2026",
+      "ymd": "20260713",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6X5k_radacu9RQui-0gxnl/*/2534167-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN",
       "name": "N° 0885-2026-UNTRM/CU",
       "title": "Autorizan viaje de Responsable Técnica de proyecto de la Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas a EE.UU., en comisión de servicios",
@@ -156,6 +620,14 @@
       "date": "13 jul. 2026",
       "ymd": "20260713",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4bKzwHGfatB8U2oIVWUzyH/*/2534106-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN JEFATURAL",
+      "name": "Nº D000104-2026-MIDAGRI-SENASA-JN",
+      "title": "Declaran emergencia sanitaria en todo el territorio nacional, por un periodo de noventa (90) días calendario, ante la presencia de influenza aviar de alta patogenicidad en aves de corral",
+      "date": "13 jul. 2026",
+      "ymd": "20260713",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2rJ4zW5Qq2C8aAdPK4Hel3/*/2534530-1.PDF/PDF"
     },
     {
       "type": "DECRETO DE ALCALDÍA",
@@ -175,6 +647,14 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 000093-2026-P/IPD",
+      "title": "Designan Jefe de Asesoría Jurídica del Instituto Peruano del Deporte",
+      "date": "12 jul. 2026",
+      "ymd": "20260712",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3U7CQR3P4ZLAguK_aQAyZr/*/2534100-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 000088-2026-P/IPD",
       "title": "Designan Director Nacional de Recreación y Promoción del Deporte del Instituto Peruano del Deporte",
       "date": "12 jul. 2026",
@@ -188,22 +668,6 @@
       "date": "12 jul. 2026",
       "ymd": "20260712",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BKUtbiY6KnbAbB2CFz-JjB/*/2534096-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 000086-2026-P/IPD",
-      "title": "Designan Asesor de Alta Dirección del Instituto Peruano del Deporte",
-      "date": "12 jul. 2026",
-      "ymd": "20260712",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Y3RaubrajR8FcuAcXNE7g/*/2534093-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 000093-2026-P/IPD",
-      "title": "Designan Jefe de Asesoría Jurídica del Instituto Peruano del Deporte",
-      "date": "12 jul. 2026",
-      "ymd": "20260712",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3U7CQR3P4ZLAguK_aQAyZr/*/2534100-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -236,6 +700,14 @@
       "date": "12 jul. 2026",
       "ymd": "20260712",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BGDAGroG4n9B-6eWO76s36/*/2534094-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 000086-2026-P/IPD",
+      "title": "Designan Asesor de Alta Dirección del Instituto Peruano del Deporte",
+      "date": "12 jul. 2026",
+      "ymd": "20260712",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9Y3RaubrajR8FcuAcXNE7g/*/2534093-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -335,14 +807,6 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº D000211-2026-MINAM",
-      "title": "Disponen la publicación del proyecto de Resolución Ministerial y su anexo, mediante el cual se aprueba la modificación de la Tabla N° 10, el numeral 8 y los Anexos 4, 5 y 6 del “Plan de Acción Nacional de Lucha Contra la Desertificación, Degradación de la Tierra y Sequía al 2030”, aprobado por Resolución Ministerial N° 00178-2025-MINAM",
-      "date": "12 jul. 2026",
-      "ymd": "20260712",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0DNu8mFIK948a6WvI_jCad/*/2534088-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° D000214-2026-MINAM",
       "title": "Crean el “Grupo de Trabajo Multisectorial de naturaleza temporal encargado de las labores de coordinación y articulación orientadas a impulsar la ejecución de las acciones adoptadas por el Perú en el marco del Comité de Política Ambiental (EPOC) y del Comité de Químicos y Biotecnología (CBC)”",
       "date": "12 jul. 2026",
@@ -351,11 +815,11 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº D000210-2026-MINAM",
-      "title": "Aprueban “Lineamientos para la inclusión de medidas de adaptación y mitigación en la formulación y actualización de políticas, estrategias, planes, programas y proyectos del sector público no sujetos al Sistema Nacional de Planeamiento Estratégico, al Sistema Nacional de Programación Multianual y Gestión de Inversiones, ni al Sistema Nacional de Presupuesto Público”",
+      "name": "Nº D000211-2026-MINAM",
+      "title": "Disponen la publicación del proyecto de Resolución Ministerial y su anexo, mediante el cual se aprueba la modificación de la Tabla N° 10, el numeral 8 y los Anexos 4, 5 y 6 del “Plan de Acción Nacional de Lucha Contra la Desertificación, Degradación de la Tierra y Sequía al 2030”, aprobado por Resolución Ministerial N° 00178-2025-MINAM",
       "date": "12 jul. 2026",
       "ymd": "20260712",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DBwL1-BIKnjB7D3v82eRPe/*/2534087-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0DNu8mFIK948a6WvI_jCad/*/2534088-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -366,20 +830,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/A9b14mlZqXDA41JXN9quRR/*/2534086-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "Nº D000210-2026-MINAM",
+      "title": "Aprueban “Lineamientos para la inclusión de medidas de adaptación y mitigación en la formulación y actualización de políticas, estrategias, planes, programas y proyectos del sector público no sujetos al Sistema Nacional de Planeamiento Estratégico, al Sistema Nacional de Programación Multianual y Gestión de Inversiones, ni al Sistema Nacional de Presupuesto Público”",
+      "date": "12 jul. 2026",
+      "ymd": "20260712",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DBwL1-BIKnjB7D3v82eRPe/*/2534087-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN",
       "name": "N° 000103-2026-SERVIR-PE",
       "title": "Aprueban la Sección Segunda del Reglamento de Organización y Funciones de la Autoridad Nacional del Servicio Civil – SERVIR",
       "date": "12 jul. 2026",
       "ymd": "20260712",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4NXviotdqFL9dcusXdAvxK/*/2534091-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000209-2026-DGPA-VMPCIC/MC",
-      "title": "Determinan Protección Provisional de la Zona Arqueológica Monumental Litardo Sectores 1, 2, 3, 4, 5, 6 y 7, ubicada en el distrito de Chincha Baja, provincia de Chincha, departamento de Ica",
-      "date": "12 jul. 2026",
-      "ymd": "20260712",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5gbodJpDKgnAMnrifLzRk7/*/2533635-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -404,6 +868,14 @@
       "date": "12 jul. 2026",
       "ymd": "20260712",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8-Ge97cZaEiBUPYoqvtHeo/*/2533638-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000209-2026-DGPA-VMPCIC/MC",
+      "title": "Determinan Protección Provisional de la Zona Arqueológica Monumental Litardo Sectores 1, 2, 3, 4, 5, 6 y 7, ubicada en el distrito de Chincha Baja, provincia de Chincha, departamento de Ica",
+      "date": "12 jul. 2026",
+      "ymd": "20260712",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5gbodJpDKgnAMnrifLzRk7/*/2533635-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -495,6 +967,14 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 2013-2026-MP-FN",
+      "title": "Designan fiscales supremos y superiores en fiscalías especializadas en Delitos Cometidos por Funcionarios Públicos, fiscalías especializadas en Delitos de Corrupción de Funcionarios, Primera Fiscalía Suprema Penal y la Segunda Fiscalía Superior Penal de Loreto",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2PuClJqZaSh8XwPykSGiHZ/*/2534052-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 2015-2026-MP-FN",
       "title": "Dan por concluida la designación de fiscal en el 4º Despacho Provincial Penal de la Sexta Fiscalía Corporativa Penal de Cercado de Lima-Breña-Rímac-Jesús María",
       "date": "11 jul. 2026",
@@ -508,14 +988,6 @@
       "date": "11 jul. 2026",
       "ymd": "20260711",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8flq5X3xaCz80_kMzvQNtY/*/2534052-2.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 2013-2026-MP-FN",
-      "title": "Designan fiscales supremos y superiores en fiscalías especializadas en Delitos Cometidos por Funcionarios Públicos, fiscalías especializadas en Delitos de Corrupción de Funcionarios, Primera Fiscalía Suprema Penal y la Segunda Fiscalía Superior Penal de Loreto",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2PuClJqZaSh8XwPykSGiHZ/*/2534052-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -535,19 +1007,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 143-2026-OS/CD",
-      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Gas Natural de Lima y Callao S.A. contra la Resolución N° 89-2026-OS/CD, mediante la cual se fijaron las Tarifas Únicas de Distribución de gas natural por red de ductos, y demás cargos aplicables a la Concesión de Lima y Callao para el periodo regulatorio mayo 2026- mayo 2030",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DNwJ8vDaafiB_OQE1g2A22/*/2533279-1.pdf/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 144-2026-OS/CD",
       "title": "Resolución de Consejo Directivo que modifica la Resolución N° 89-2026-OS/CD, mediante la cual se fijaron las tarifas únicas de distribución de gas natural por red de ductos, se aprobó el Plan Quinquenal de Inversiones y otros conceptos tarifarios aplicables a la Concesión de Lima y Callao para el periodo 2026 - 2030",
       "date": "11 jul. 2026",
       "ymd": "20260711",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2oOqhWvBaEk8WkJypzxO9M/*/2533282-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 143-2026-OS/CD",
+      "title": "Resolución de Consejo Directivo que resuelve el recurso de reconsideración interpuesto por Gas Natural de Lima y Callao S.A. contra la Resolución N° 89-2026-OS/CD, mediante la cual se fijaron las Tarifas Únicas de Distribución de gas natural por red de ductos, y demás cargos aplicables a la Concesión de Lima y Callao para el periodo regulatorio mayo 2026- mayo 2030",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DNwJ8vDaafiB_OQE1g2A22/*/2533279-1.pdf/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -574,14 +1046,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BYD6mQixqsMASPfMqRpOgJ/*/2534079-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "name": "N° 0004-2026-EF/11.01",
-      "title": "Resolución Viceministerial que aprueba el Convenio de Traspaso de Recursos a ser suscrito entre el Ministerio de Economía y Finanzas y la Municipalidad Distrital de Soplín, en el marco de lo previsto en el Decreto Supremo N° 087-2026-EF",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8Yuy9aOL4eF83RMPoHWenv/*/2533633-1.PDF/PDF"
-    },
-    {
       "type": "DECRETO SUPREMO",
       "name": "N° 131-2026-EF",
       "title": "Designan y excluyen agentes de percepción del Régimen de Percepciones del Impuesto General a las Ventas aplicable a la adquisición de combustibles",
@@ -590,12 +1054,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6jFyLrVMqikA0iVQ6qm-56/*/2534079-2.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 379-2026-MINEDU",
-      "title": "Designan Secretario General del Ministerio",
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 0004-2026-EF/11.01",
+      "title": "Resolución Viceministerial que aprueba el Convenio de Traspaso de Recursos a ser suscrito entre el Ministerio de Economía y Finanzas y la Municipalidad Distrital de Soplín, en el marco de lo previsto en el Decreto Supremo N° 087-2026-EF",
       "date": "11 jul. 2026",
       "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Aa0_MvwPK0wA8J-3IAvgOd/*/2534076-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8Yuy9aOL4eF83RMPoHWenv/*/2533633-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -606,12 +1070,28 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4I-dH5DXKIqAiIR5sAkTtS/*/2534075-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 379-2026-MINEDU",
+      "title": "Designan Secretario General del Ministerio",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Aa0_MvwPK0wA8J-3IAvgOd/*/2534076-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN SUPREMA",
       "name": "N° 029-2026-EM",
       "title": "Nombran Vocales Suplentes del Consejo de Minería del Ministerio de Energía y Minas",
       "date": "11 jul. 2026",
       "ymd": "20260711",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9fphsdgyKp9BPDmjCBaVgC/*/2534079-5.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000534-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefectos Distritales en los departamentos de Cajamarca, Huánuco y La Libertad",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CPYksFTYavj8eiYLqWPArA/*/2534082-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -630,28 +1110,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/D15lu0z_4Wc8l9M0KOVUnF/*/2534079-4.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000534-2026-IN-VOI-DGIN",
-      "title": "Designan Subprefectos Distritales en los departamentos de Cajamarca, Huánuco y La Libertad",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CPYksFTYavj8eiYLqWPArA/*/2534082-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 410-2026-RE",
       "title": "Autorizan viaje de Viceministro de Relaciones Exteriores y de Director General de América a los Estados Unidos Mexicanos, en comisión de servicios",
       "date": "11 jul. 2026",
       "ymd": "20260711",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EwO4DtenKoa8P16-WRiY9o/*/2533855-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 178-2026-TR",
-      "title": "Designan Asesor de Despacho Ministerial I",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6BOtRbdNqhSAy-NexVuPSi/*/2533992-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -663,6 +1127,14 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 178-2026-TR",
+      "title": "Designan Asesor de Despacho Ministerial I",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6BOtRbdNqhSAy-NexVuPSi/*/2533992-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 216-2026-MINCETUR",
       "title": "Autorizan viaje de profesional de la Dirección de Asuntos Multilaterales a la República Popular China, en comisión de servicios",
       "date": "11 jul. 2026",
@@ -671,19 +1143,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 219-2026-MINCETUR",
-      "title": "Modifican el artículo 2 de la R.M. N° 376-2017 MINCETUR",
-      "date": "11 jul. 2026",
-      "ymd": "20260711",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/24RkdyMS4Ic9uYcZlmm7jm/*/2534000-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 217-2026-MINCETUR",
       "title": "Autorizan viaje de Director (e) y profesionales de la Dirección de Asia, Oceanía y África, de la Dirección General de Negociaciones Comerciales Internacionales, a la República Socialista de Vietnam, en comisión de servicios",
       "date": "11 jul. 2026",
       "ymd": "20260711",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FwtWE5nGKioAdtbeF5TvwK/*/2533925-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 219-2026-MINCETUR",
+      "title": "Modifican el artículo 2 de la R.M. N° 376-2017 MINCETUR",
+      "date": "11 jul. 2026",
+      "ymd": "20260711",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/24RkdyMS4Ic9uYcZlmm7jm/*/2534000-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -855,14 +1327,6 @@
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 198-2026-PCM",
-      "title": "Designan Vocales de la Sala Especializada en Protección al Consumidor del Tribunal de Defensa de la Competencia y de la Protección de la Propiedad Intelectual del INDECOPI",
-      "date": "10 jul. 2026",
-      "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8agZ-zmqqSQ8MtmVvJUy95/*/2533578-2.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
       "name": "N° 200-2026-PCM",
       "title": "Designan Vocal de la Sala Especializada en Eliminación de Barreras Burocráticas del Tribunal de Defensa de la Competencia y de la Protección de la Propiedad Intelectual del INDECOPI",
       "date": "10 jul. 2026",
@@ -876,6 +1340,14 @@
       "date": "10 jul. 2026",
       "ymd": "20260710",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7cp343Jqabw9Fji9QE76HI/*/2533578-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 198-2026-PCM",
+      "title": "Designan Vocales de la Sala Especializada en Protección al Consumidor del Tribunal de Defensa de la Competencia y de la Protección de la Propiedad Intelectual del INDECOPI",
+      "date": "10 jul. 2026",
+      "ymd": "20260710",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8agZ-zmqqSQ8MtmVvJUy95/*/2533578-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -894,6 +1366,14 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dafs0DlFaYhAZ1VvA549Uw/*/2533416-1.PDF/PDF"
     },
     {
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 0020-2026-EF/50.01",
+      "title": "Resolución Directoral que aprueba la Programación de Compromisos Anual (PCA) correspondiente a la revisión de oficio del segundo trimestre del Año Fiscal 2026 para los pliegos del Gobierno Nacional, los gobiernos regionales y los gobiernos locales",
+      "date": "10 jul. 2026",
+      "ymd": "20260710",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EGWpVu0NKNpAlGfH59agYp/*/2533247-1.PDF/PDF"
+    },
+    {
       "type": "RESOLUCIÓN SUPREMA",
       "name": "N° 020-2026-EF",
       "title": "Encargan temporalmente funciones del puesto de Presidente Ejecutivo del Organismo Especializado para las Contrataciones Públicas Eficientes - OECE",
@@ -908,14 +1388,6 @@
       "date": "10 jul. 2026",
       "ymd": "20260710",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9O_soHMw4qUB75_zPKsLIA/*/2533577-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 0020-2026-EF/50.01",
-      "title": "Resolución Directoral que aprueba la Programación de Compromisos Anual (PCA) correspondiente a la revisión de oficio del segundo trimestre del Año Fiscal 2026 para los pliegos del Gobierno Nacional, los gobiernos regionales y los gobiernos locales",
-      "date": "10 jul. 2026",
-      "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EGWpVu0NKNpAlGfH59agYp/*/2533247-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -943,11 +1415,11 @@
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000533-2026-IN-VOI-DGIN",
-      "title": "Designan Subprefectos Distritales en los departamentos de Cajamarca y Lima",
+      "name": "N° 000518-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefectos Provinciales en los departamentos de Lima, Junín y La Libertad",
       "date": "10 jul. 2026",
       "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0MwXCXIt46q8XiR7mxbfKh/*/2534077-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DtnQLK5o4coAQ9RrjPU1Xq/*/2534042-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -959,11 +1431,11 @@
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000528-2026-IN-VOI-DGIN",
-      "title": "Designan Subprefectos(as) Distritales en el departamento de Cajamarca",
+      "name": "N° 000512-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefecto Provincial en el departamento de Moquegua",
       "date": "10 jul. 2026",
       "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DdoDjObeaWb9kGqhUBLzeh/*/2534030-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8FnXV4EL40H8z5BHVD__k-/*/2533209-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -983,19 +1455,19 @@
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000518-2026-IN-VOI-DGIN",
-      "title": "Designan Subprefectos Provinciales en los departamentos de Lima, Junín y La Libertad",
+      "name": "N° 000533-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefectos Distritales en los departamentos de Cajamarca y Lima",
       "date": "10 jul. 2026",
       "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DtnQLK5o4coAQ9RrjPU1Xq/*/2534042-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0MwXCXIt46q8XiR7mxbfKh/*/2534077-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000512-2026-IN-VOI-DGIN",
-      "title": "Designan Subprefecto Provincial en el departamento de Moquegua",
+      "name": "N° 000528-2026-IN-VOI-DGIN",
+      "title": "Designan Subprefectos(as) Distritales en el departamento de Cajamarca",
       "date": "10 jul. 2026",
       "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8FnXV4EL40H8z5BHVD__k-/*/2533209-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DdoDjObeaWb9kGqhUBLzeh/*/2534030-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN SUPREMA",
@@ -1055,19 +1527,19 @@
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 368-2026-MTC/01.02",
-      "title": "Aprueban el “Plan Maestro de Desarrollo Ferroviario al 2050”,",
-      "date": "10 jul. 2026",
-      "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AS36riKe4mS8gXmS80B9g7/*/2533527-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N°  369-2026-MTC/01.03",
       "title": "Otorgan a la empresa DIM INFRAESTRUCTURA Y COMUNICACIONES S.A.C. Concesión Única para la prestación de servicios públicos de telecomunicaciones en área que comprende todo el territorio de la República",
       "date": "10 jul. 2026",
       "ymd": "20260710",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2YPAuDoAa8oAFLmrMjZC-E/*/2533550-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 368-2026-MTC/01.02",
+      "title": "Aprueban el “Plan Maestro de Desarrollo Ferroviario al 2050”,",
+      "date": "10 jul. 2026",
+      "ymd": "20260710",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AS36riKe4mS8gXmS80B9g7/*/2533527-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1135,19 +1607,19 @@
     },
     {
       "type": "LEY",
-      "name": "N° 32724",
-      "title": "Ley que modifica la Ley 29973, Ley General de la Persona con Discapacidad, para garantizar el acceso idóneo, oportuno y efectivo a la información de las personas con discapacidad auditiva que se difunde en los medios de comunicación",
-      "date": "10 jul. 2026",
-      "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2D25WoaDaoBAOVAlwWdyhI/*/2533576-3.PDF/PDF"
-    },
-    {
-      "type": "LEY",
       "name": "N° 32722",
       "title": "Ley que prorroga la vigencia de los beneficios tributarios establecidos en la Ley 30001, Ley de Reinserción Económica y Social para el Migrante Retornado",
       "date": "10 jul. 2026",
       "ymd": "20260710",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5IzXtfKt4Fk8PUyZWKo5aK/*/2533576-1.PDF/PDF"
+    },
+    {
+      "type": "LEY",
+      "name": "N° 32724",
+      "title": "Ley que modifica la Ley 29973, Ley General de la Persona con Discapacidad, para garantizar el acceso idóneo, oportuno y efectivo a la información de las personas con discapacidad auditiva que se difunde en los medios de comunicación",
+      "date": "10 jul. 2026",
+      "ymd": "20260710",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2D25WoaDaoBAOVAlwWdyhI/*/2533576-3.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1158,12 +1630,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8x_QztWu4B4A8izApojsO6/*/2533512-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN VICE MINISTERIAL",
-      "name": "N° 000195-2026-VMPCIC/MC",
-      "title": "Declaran Patrimonio Cultural de la Nación al \"Registro de escrituras de Antonio de Trevejo, escribano (1623-1624)\", que se custodia en el Archivo General de la Nación",
+      "type": "RESOLUCIÓN DIRECTORAL",
+      "name": "N° 000026-2026-DSFL-DGPA-VMPCIC/MC",
+      "title": "Disponen el inicio de acciones de saneamiento físico legal de tres bienes inmuebles prehispánicos ubicados en la provincia de Nasca, departamento de Ica",
       "date": "10 jul. 2026",
       "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/19P1bacQqmH9LWWPvK0DlQ/*/2532988-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/43U6kGBJ4MsBR0fkNmM9VM/*/2532851-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN DIRECTORAL",
@@ -1190,14 +1662,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0_mu_fP3qQ2Ar3J7k-rCd7/*/2532811-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 000026-2026-DSFL-DGPA-VMPCIC/MC",
-      "title": "Disponen el inicio de acciones de saneamiento físico legal de tres bienes inmuebles prehispánicos ubicados en la provincia de Nasca, departamento de Ica",
-      "date": "10 jul. 2026",
-      "ymd": "20260710",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/43U6kGBJ4MsBR0fkNmM9VM/*/2532851-1.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 000211-2026-MC",
       "title": "Modifican la R.M. N° 000353-2021-DM/MC que asignó funciones en materia ambiental y de manera temporal a la Dirección General de Defensa del Patrimonio Cultural",
@@ -1212,6 +1676,14 @@
       "date": "10 jul. 2026",
       "ymd": "20260710",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8MYe3inTqpg9ywQKU1zKYH/*/2532594-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN VICE MINISTERIAL",
+      "name": "N° 000195-2026-VMPCIC/MC",
+      "title": "Declaran Patrimonio Cultural de la Nación al \"Registro de escrituras de Antonio de Trevejo, escribano (1623-1624)\", que se custodia en el Archivo General de la Nación",
+      "date": "10 jul. 2026",
+      "ymd": "20260710",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/19P1bacQqmH9LWWPvK0DlQ/*/2532988-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1311,46 +1783,6 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1982-2026-MP-FN",
-      "title": "Designan fiscales en las Fiscalías Provinciales de Familia de Mariano Melgar y Chivay",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/A64zh8wwqRM9R1RX9xlOgo/*/2533087-7.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1988-2026-MP-FN",
-      "title": "Nombran fiscal provincial provisional del Distrito Fiscal de Lambayeque",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9bKQ3C6i48mA3BUlkEwQr0/*/2533087-11.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1984-2026-MP-FN",
-      "title": "Nombran fiscal adjunto provincial provisional del Distrito Fiscal de Ayacucho",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0f8F5S744Ij8uDGR9Jx1T9/*/2533087-9.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1983-2026-MP-FN",
-      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Lima Este",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/30fMEY2_aZsBSvq4ZEGFBP/*/2533087-8.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1985-2026-MP-FN",
-      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Amazonas",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7FEcQ9Ju4mu9AIoqpRhTF_/*/2533087-10.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 1963-2026-MP-FN",
       "title": "Designan fiscal en la Fiscalía Provincial Penal Corporativa de Huarmey y nombran fiscal adjunta provincial provisional del Distrito Fiscal Del Santa",
       "date": "09 jul. 2026",
@@ -1359,27 +1791,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1958-2026-MP-FN",
-      "title": "Designan fiscales en la Fiscalía Provincial de Familia de Pisco del Distrito Fiscal de Ica",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4ZRSFCxaqZrBWe88UQct9J/*/2533087-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 1990-2026-MP-FN",
       "title": "Nombran fiscal adjunto provincial provisional del Distrito Fiscal de Lima Este",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0dI5DwPyKEeBMT4SyWZo6B/*/2533087-13.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1962-2026-MP-FN",
-      "title": "Designan fiscal en la Fiscalía Penal Supraprovincial Especializada en Derechos Humanos y contra el Terrorismo del Distrito Fiscal de San Martín",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DmAN5nw_49aAWQrM83niMf/*/2533087-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1407,11 +1823,67 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 1982-2026-MP-FN",
+      "title": "Designan fiscales en las Fiscalías Provinciales de Familia de Mariano Melgar y Chivay",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/A64zh8wwqRM9R1RX9xlOgo/*/2533087-7.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1984-2026-MP-FN",
+      "title": "Nombran fiscal adjunto provincial provisional del Distrito Fiscal de Ayacucho",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0f8F5S744Ij8uDGR9Jx1T9/*/2533087-9.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1983-2026-MP-FN",
+      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Lima Este",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/30fMEY2_aZsBSvq4ZEGFBP/*/2533087-8.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1985-2026-MP-FN",
+      "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Amazonas",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7FEcQ9Ju4mu9AIoqpRhTF_/*/2533087-10.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1958-2026-MP-FN",
+      "title": "Designan fiscales en la Fiscalía Provincial de Familia de Pisco del Distrito Fiscal de Ica",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4ZRSFCxaqZrBWe88UQct9J/*/2533087-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1962-2026-MP-FN",
+      "title": "Designan fiscal en la Fiscalía Penal Supraprovincial Especializada en Derechos Humanos y contra el Terrorismo del Distrito Fiscal de San Martín",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DmAN5nw_49aAWQrM83niMf/*/2533087-2.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 1989-2026-MP-FN",
       "title": "Nombran fiscal adjunta provincial provisional del Distrito Fiscal de Amazonas",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/A7FI5odu4LxA6S6gShuXKS/*/2533087-12.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1988-2026-MP-FN",
+      "title": "Nombran fiscal provincial provisional del Distrito Fiscal de Lambayeque",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9bKQ3C6i48mA3BUlkEwQr0/*/2533087-11.PDF/PDF"
     },
     {
       "type": "CIRCULAR",
@@ -1447,19 +1919,19 @@
     },
     {
       "type": "DECRETO SUPREMO",
-      "name": "N° 102-2026-PCM",
-      "title": "Decreto Supremo que aprueba la Sección Primera del Reglamento de Organización y Funciones de la Autoridad Nacional del Servicio Civil",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2pE8D0ttaz693koGnzA6Nu/*/2533178-1.PDF/PDF"
-    },
-    {
-      "type": "DECRETO SUPREMO",
       "name": "N° 103-2026-PCM",
       "title": "Decreto Supremo que aprueba la Sección Primera del Reglamento de Organización y Funciones de la Secretaría de Seguridad y Defensa Nacional - SEDENA",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ACiQzVnz4gaBLCfGGTVAGV/*/2533178-2.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 102-2026-PCM",
+      "title": "Decreto Supremo que aprueba la Sección Primera del Reglamento de Organización y Funciones de la Autoridad Nacional del Servicio Civil",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2pE8D0ttaz693koGnzA6Nu/*/2533178-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN JEFATURAL",
@@ -1510,20 +1982,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CSgiufeyq2x819QW10xZDv/*/2533158-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 019-2026-EF",
-      "title": "Prorrogan designación de miembro del Consejo Fiscal",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6s9oyBUG4MlBB5m7FrsuMx/*/2533178-4.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN DIRECTORAL",
       "name": "N° 002-2026-EF/68.01",
       "title": "Aprueban los “Lineamientos metodológicos para la priorización de proyectos de Asociación Público Privada del Gobierno Nacional”",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CZpQ5HBgqgH8DNF43qOxg6/*/2532981-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 019-2026-EF",
+      "title": "Prorrogan designación de miembro del Consejo Fiscal",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6s9oyBUG4MlBB5m7FrsuMx/*/2533178-4.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN VICE MINISTERIAL",
@@ -1542,20 +2014,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B2wn7sBCqhL8SGNxDFFTT0/*/2533162-1.PDF/PDF"
     },
     {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 010-2026-EM",
-      "title": "Decreto Supremo que declara de necesidad pública la participación del sector privado en la concesión del proyecto “Enlace 138 kV Derivación San Rafael - Ananea, ampliaciones y subestaciones asociadas (Proyecto ITC)”, y autoriza al Concesionario a recibir en concesión los bienes y derechos ubicados dentro de los cincuenta kilómetros de la frontera, de conformidad con lo dispuesto en el artículo 71 de la Constitución Política del Perú",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BMa8E2Ltawz9-Cs58R9pMC/*/2533178-3.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "Nº 270-2026-MINEM/DM",
       "title": "Disponen publicación de proyecto de “Decreto Supremo que aprueba Disposiciones Normativas que Regulan la Planificación Energética”",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5zLJXXZAKXIBE4zynNUVRY/*/2533085-1.PDF/PDF"
+    },
+    {
+      "type": "DECRETO SUPREMO",
+      "name": "N° 010-2026-EM",
+      "title": "Decreto Supremo que declara de necesidad pública la participación del sector privado en la concesión del proyecto “Enlace 138 kV Derivación San Rafael - Ananea, ampliaciones y subestaciones asociadas (Proyecto ITC)”, y autoriza al Concesionario a recibir en concesión los bienes y derechos ubicados dentro de los cincuenta kilómetros de la frontera, de conformidad con lo dispuesto en el artículo 71 de la Constitución Política del Perú",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BMa8E2Ltawz9-Cs58R9pMC/*/2533178-3.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1566,20 +2038,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9pcAxIvvqv4A-3hQLGdY2z/*/2532858-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 131-2026-JUS",
-      "title": "Acceden a solicitud de extradición activa de ciudadano peruano para ser extraditado de la República Argentina y ser procesado en la República del Perú",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2GM9zmKSawK8HEk5qW18Qr/*/2533422-3.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 241-2026-JUS",
       "title": "Modifican la R.M. Nº 0475-2025-JUS, que delega facultad en materia de obras por impuestos en el (la) Jefe (a) de la Oficina General de Administración, para el Año Fiscal 2026",
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EcSvhnAF4x8BxnNgpMIBy4/*/2533174-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 131-2026-JUS",
+      "title": "Acceden a solicitud de extradición activa de ciudadano peruano para ser extraditado de la República Argentina y ser procesado en la República del Perú",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2GM9zmKSawK8HEk5qW18Qr/*/2533422-3.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1606,14 +2078,6 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BPOOSIJq4UQA4Rdya6s-HI/*/2533048-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 011-2026-MTC",
-      "title": "Designan miembro del Directorio de la Autoridad Portuaria Nacional, en representación de los usuarios portuarios finales del sector privado",
-      "date": "09 jul. 2026",
-      "ymd": "20260709",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B81D7zPC4QzA0ysQ3SPkD5/*/2533178-5.PDF/PDF"
-    },
-    {
       "type": "RESOLUCIÓN MINISTERIAL",
       "name": "N° 364-2026-MTC/01.02",
       "title": "Aprueban la ejecución de expropiación de área afectada de bienes inmuebles para la ejecución de la obra: Aeropuerto Internacional “Coronel FAP Francisco Secada Vignetta”, ubicado en el departamento de Loreto, y el valor de la tasación",
@@ -1628,6 +2092,14 @@
       "date": "09 jul. 2026",
       "ymd": "20260709",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CahLfmxKqE-B8q-dZnZ4G5/*/2532571-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN SUPREMA",
+      "name": "N° 011-2026-MTC",
+      "title": "Designan miembro del Directorio de la Autoridad Portuaria Nacional, en representación de los usuarios portuarios finales del sector privado",
+      "date": "09 jul. 2026",
+      "ymd": "20260709",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/B81D7zPC4QzA0ysQ3SPkD5/*/2533178-5.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1807,19 +2279,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 360-2026-CG",
-      "title": "Dan por terminada designación de Jefe del Órgano de Control Institucional de la Empresa Peruana de Servicios Editoriales S.A. - EDITORA PERÚ y designan Jefe del Órgano de Control Institucional del Ministerio de Energía y Minas",
-      "date": "08 jul. 2026",
-      "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0GLpkH7qqORBlsoWL8A5X3/*/2532357-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
       "name": "N° 361-2026-CG",
       "title": "Dan por terminada designación de Jefe del Órgano de Control Institucional del Programa Nacional de Saneamiento Rural",
       "date": "08 jul. 2026",
       "ymd": "20260708",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DASmH4vnaXdAygFCD099BP/*/2532372-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 360-2026-CG",
+      "title": "Dan por terminada designación de Jefe del Órgano de Control Institucional de la Empresa Peruana de Servicios Editoriales S.A. - EDITORA PERÚ y designan Jefe del Órgano de Control Institucional del Ministerio de Energía y Minas",
+      "date": "08 jul. 2026",
+      "ymd": "20260708",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0GLpkH7qqORBlsoWL8A5X3/*/2532357-1.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1839,11 +2311,19 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1959-2026-MP-FN",
-      "title": "Designan fiscal en la Cuarta Fiscalía Supraprovincial Corporativa Especializada Contra la Criminalidad Organizada",
+      "name": "N° 1967-2026-MP-FN",
+      "title": "Designan Coordinadora Nacional de las Fiscalías Especializadas en Flagrancia Delictiva",
       "date": "08 jul. 2026",
       "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FgJPkPMLKx_AoRJjyRGcKx/*/2532793-6.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F9wf8HCiKqvB4gicUgUPx1/*/2532793-7.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
+      "name": "N° 1956-2026-MP-FN",
+      "title": "Designan fiscal en la Fiscalía Provincial Mixta de Cajatambo y nombran fiscal adjunto provincial provisional del Distrito Fiscal de Huaura",
+      "date": "08 jul. 2026",
+      "ymd": "20260708",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/By4XtJeZ4M7A93Y_NyBock/*/2532793-3.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1863,6 +2343,14 @@
     },
     {
       "type": "RESOLUCIÓN",
+      "name": "N° 050-2026-MP-FN-JFS",
+      "title": "Designan representante del Ministerio Público ante el Consejo Directivo de la Academia de la Magistratura, por el período institucional 2026-2028",
+      "date": "08 jul. 2026",
+      "ymd": "20260708",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/72lRX8Q6KWi90QgvqCFl1A/*/2532793-1.PDF/PDF"
+    },
+    {
+      "type": "RESOLUCIÓN",
       "name": "N° 1955-2026-MP-FN",
       "title": "Dan por concluidos nombramientos y designan fiscales en el Distrito Fiscal de Ayacucho",
       "date": "08 jul. 2026",
@@ -1871,27 +2359,11 @@
     },
     {
       "type": "RESOLUCIÓN",
-      "name": "N° 1967-2026-MP-FN",
-      "title": "Designan Coordinadora Nacional de las Fiscalías Especializadas en Flagrancia Delictiva",
+      "name": "N° 1959-2026-MP-FN",
+      "title": "Designan fiscal en la Cuarta Fiscalía Supraprovincial Corporativa Especializada Contra la Criminalidad Organizada",
       "date": "08 jul. 2026",
       "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F9wf8HCiKqvB4gicUgUPx1/*/2532793-7.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 1956-2026-MP-FN",
-      "title": "Designan fiscal en la Fiscalía Provincial Mixta de Cajatambo y nombran fiscal adjunto provincial provisional del Distrito Fiscal de Huaura",
-      "date": "08 jul. 2026",
-      "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/By4XtJeZ4M7A93Y_NyBock/*/2532793-3.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 050-2026-MP-FN-JFS",
-      "title": "Designan representante del Ministerio Público ante el Consejo Directivo de la Academia de la Magistratura, por el período institucional 2026-2028",
-      "date": "08 jul. 2026",
-      "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/72lRX8Q6KWi90QgvqCFl1A/*/2532793-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FgJPkPMLKx_AoRJjyRGcKx/*/2532793-6.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN",
@@ -1926,12 +2398,12 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BY32I5UbKCA8FF6jtuZPKl/*/2532415-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 287-2026-EF/49",
-      "title": "Encargan funciones de Coordinadora General del Equipo Especializado de Mesas Ejecutivas del Ministerio",
+      "type": "DECRETO SUPREMO",
+      "name": "N° 129-2026-EF",
+      "title": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor del Registro Nacional de Identificación y Estado Civil",
       "date": "08 jul. 2026",
       "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F8qutG8JqZ-BDCYacD4DdV/*/2532803-1.PDF/PDF"
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AJ0MuezwK9n8nGPUMISz47/*/2532805-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -1942,20 +2414,20 @@
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8yMne-YZ4s1BxYuOXmxdBR/*/2532621-1.pdf/PDF"
     },
     {
+      "type": "RESOLUCIÓN MINISTERIAL",
+      "name": "N° 287-2026-EF/49",
+      "title": "Encargan funciones de Coordinadora General del Equipo Especializado de Mesas Ejecutivas del Ministerio",
+      "date": "08 jul. 2026",
+      "ymd": "20260708",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/F8qutG8JqZ-BDCYacD4DdV/*/2532803-1.PDF/PDF"
+    },
+    {
       "type": "DECRETO SUPREMO",
       "name": "N° 128-2026-EF",
       "title": "Decreto Supremo que dicta disposiciones reglamentarias para el otorgamiento del aguinaldo por Fiestas Patrias en el Año Fiscal 2026",
       "date": "08 jul. 2026",
       "ymd": "20260708",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3PWgYby6ajb8iP_t9kJxIA/*/2532805-1.PDF/PDF"
-    },
-    {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 129-2026-EF",
-      "title": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor del Registro Nacional de Identificación y Estado Civil",
-      "date": "08 jul. 2026",
-      "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AJ0MuezwK9n8nGPUMISz47/*/2532805-2.PDF/PDF"
     },
     {
       "type": "RESOLUCIÓN MINISTERIAL",
@@ -2079,19 +2551,19 @@
     },
     {
       "type": "LEY",
-      "name": "N° 32719",
-      "title": "Ley que modifica la Ley 31553, reasignación gradual y progresiva de los profesionales de la salud y personal técnico y auxiliar asistencial del Ministerio De Salud, sus organismos públicos, GERESAS y DIRESAS de los Gobiernos Regionales y otras entidades comprendidos en el Decreto Legislativo 1153",
-      "date": "08 jul. 2026",
-      "ymd": "20260708",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/35-gvlVuqPO9HoL5fh1W_y/*/2532797-1.PDF/PDF"
-    },
-    {
-      "type": "LEY",
       "name": "N° 32720",
       "title": "Ley que declara de interés nacional declarar personaje ilustre del Perú a María Josefa Camila Del Carmen Álvarez Salas (Clara del Corazón de María)",
       "date": "08 jul. 2026",
       "ymd": "20260708",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Dh7YT-IaKEd9VrmisvlAU_/*/2532797-2.PDF/PDF"
+    },
+    {
+      "type": "LEY",
+      "name": "N° 32719",
+      "title": "Ley que modifica la Ley 31553, reasignación gradual y progresiva de los profesionales de la salud y personal técnico y auxiliar asistencial del Ministerio De Salud, sus organismos públicos, GERESAS y DIRESAS de los Gobiernos Regionales y otras entidades comprendidos en el Decreto Legislativo 1153",
+      "date": "08 jul. 2026",
+      "ymd": "20260708",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/35-gvlVuqPO9HoL5fh1W_y/*/2532797-1.PDF/PDF"
     },
     {
       "type": "LEY",
@@ -2196,310 +2668,6 @@
       "date": "08 jul. 2026",
       "ymd": "20260708",
       "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9LNAaAzY4mlAuzbW9vDi9k/*/2532681-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DE ALCALDÍA",
-      "name": "N° 0406",
-      "title": "Disponen la publicación del proyecto de Ordenanza denominado: “Ordenanza que aprueba beneficios tributarios y no tributarios para los contribuyentes del distrito de Ate” y su exposición de motivos",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/67icduQOq4Q9etHhEfl3L2/*/2531970-1.PDF/PDF"
-    },
-    {
-      "type": "ORDENANZA",
-      "name": "N° 564-MPI",
-      "title": "Ordenanza Municipal que aprueba el Reglamento del Procedimiento Administrativo de Visación de Planos y Memoria Descriptiva para viabilizar la dotacion de servicios basicos a posesiones informales, de asociaciones con fines de vivienda",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Brw-DV14q18BLLHuIIKD7Z/*/2532015-1.PDF/PDF"
-    },
-    {
-      "type": "DECRETO",
-      "name": "N° 002–2024/GOB.REG-HVCA",
-      "title": "Aprueban Manual de Operaciones de la Dirección Regional de Educación Huancavelica y las Unidades de Gestión Educativa Local Acobamba, Angaraes, Castrovirreyna, Churcampa, Huancavelica, Huaytará, Surcubamba y Tayacaja",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/Ciw37tgIajY8BakzuI0rFk/*/2493888-1.PDF/PDF"
-    },
-    {
-      "type": "ACUERDO",
-      "name": "N° 000322-2026-GR.LAMB/CR [516238085 - 40]",
-      "title": "Aprueban modificaciones al Presupuesto Institucional reducción del marco presupuestal para el Año Fiscal 2026",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/APhZimSeKjkBfuv7d5fXjw/*/2532010-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "SBS N° 01749-2026",
-      "title": "Autorizan la difusión en consulta pública del proyecto normativo que aprueba el Reglamento para la Administración del Riesgo de Sobreendeudamiento de Socios Deudores Minoristas de las Cooperativas de Ahorro y Crédito No Autorizadas a Captar Recursos del Público",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8hwViG_2qnM8FNCjXgolmJ/*/2531553-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 076-2026-P/TC",
-      "title": "Delegan facultades a diversos funcionarios y servidores del Tribunal Constitucional durante el Año Fiscal 2026",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AKxiLS7cqLPA7NsYumdZax/*/2532040-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 079-2026-P/TC",
-      "title": "Designan representantes del Tribunal Constitucional, titular y alterno, ante el Consejo Técnico para la Reforma del Sistema de Justicia",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6toDWgFAKcmA9riZZAUV7u/*/2532041-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 193-2026-PCM",
-      "title": "Aceptan renuncia de Ministra de Educación",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3JLXQu2kaEsBTsNF1kOrMI/*/2532375-2.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 194-2026-PCM",
-      "title": "Nombran Ministro de Educación",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1_gqys5hqakAmr0yJj-NON/*/2532375-3.PDF/PDF"
-    },
-    {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 127-2026-EF",
-      "title": "Decreto Supremo que aprueba el monto de la compensación económica del Jefe Institucional del Instituto Nacional de Defensa Civil, en el marco de la Ley N° 30057, Ley del Servicio Civil",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/61fM3Aav4wz9ExXuTdHGct/*/2532375-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 283-2026-EF/41",
-      "title": "Resolución Ministerial que actualiza el Plan Operativo Institucional (POI) Anual 2026 del Ministerio de Economía y Finanzas",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/48lkKXx6qPj9lMatZKkca-/*/2532063-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 268-2026-MINEM/DM",
-      "title": "Designan Directora General de la Dirección General de Minería",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2Cf-mdAPqog8NulA--fC9n/*/2532520-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 183-2026-IN",
-      "title": "Designan Prefecto Regional de Cusco",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FRm0YQ0eK848lNCmNN8kgD/*/2532375-8.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 181-2026-IN",
-      "title": "Dan por concluida designación de miembro del Consejo Directivo de la Superintendencia Nacional de Migraciones - MIGRACIONES, en representación del Sector Interior",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2eaf7SIJa9GAlk4Ns9MBQv/*/2532375-6.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 182-2026-IN",
-      "title": "Designan miembro del Consejo Directivo de la Superintendencia Nacional de Migraciones - MIGRACIONES, en representación del Sector Interior",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BgP7XMbsqQp9JcZMxKT3l9/*/2532375-7.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 0874-2026-IN",
-      "title": "Amplían el plazo de vigencia del “Grupo de Trabajo Multisectorial de naturaleza temporal para la actualización de la Política Nacional Multisectorial de Lucha Contra el Crimen Organizado 2019-2030”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BUjvL6xEqvNAueZrMulhrt/*/2532391-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 104-2026-RE",
-      "title": "Reconocen a Cónsul Honorario de la República Federal de Alemania en Cusco, con jurisdicción consular en los departamentos de Cusco, Apurímac, Madre de Dios y Ayacucho",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4RJheHR6KEy8t1iJvJGIAM/*/2532375-5.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 103-2026-RE",
-      "title": "Nombran Cónsul Honoraria del Perú en la ciudad de Nicosia, República de Chipre",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DvUv-GbfKRW9Yno-8AWLew/*/2532375-4.PDF/PDF"
-    },
-    {
-      "type": "DECRETO SUPREMO",
-      "name": "N° 028-2026-RE",
-      "title": "Decreto Supremo que ratifica el “Acuerdo entre la Comisión Preparatoria de la Organización del Tratado de Prohibición Completa de los Ensayos Nucleares y el Gobierno de la República del Perú sobre el Uso de Datos Sismológicos Primarios, Sismológicos Auxiliares e Hidroacústicos con Fines de Alerta de Tsunamis”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6AJV7Va_KyxB1W7vcu-CEr/*/2532379-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 594-2026/MINSA",
-      "title": "Designan Director Ejecutivo de la Dirección de Banco de Sangre y Hemoterapia - PRONAHEBAS de la Dirección General de Donaciones, Trasplantes y Banco de Sangre",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/D2Q51HBPKG_9tONHJvD1HJ/*/2532252-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 598-2026/MINSA",
-      "title": "Modifican el artículo 2 de la Resolución Ministerial N° 137-2026/MINSA",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9IYxxZeka4J9Wva7Ob9CWg/*/2532262-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 596-2026/MINSA",
-      "title": "Designan Directora Adjunta de la Dirección General del Hospital Hermilio Valdizán",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CoIJ5ktb4KVB-35t44LY7v/*/2532256-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº 592-2026/MINSA",
-      "title": "Aprueban la Norma Técnica de Salud para la prevención, diagnóstico y manejo del sarampión en el Perú",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/27p-7DWuK4GAsqkOw5D5ek/*/2532250-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN DIRECTORAL",
-      "name": "N° 0017-2026-MTC/18",
-      "title": "Aprueban la “Programación operativa para la implementación progresiva del Observatorio de Transporte Terrestre (OTT)”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/E9FVFmwW4DoBCb-l87fI39/*/2532134-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "N° 000348-2026-MIMP",
-      "title": "Designan Directora II de la Dirección de Promoción y Protección de los Derechos de las Mujeres de la Dirección General de Igualdad de Género y no Discriminación",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0ucf8BAj4ygAJNX2w8Gqj5/*/2532376-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 000233-2026-CE-PJ",
-      "title": "Delegan en presidentes y presidentas de las Cortes Superiores de Justicia del país la facultad de designar de forma excepcional a trabajadores y trabajadoras de su distrito judicial o de otros distritos judiciales como jueces y juezas supernumerarios",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1i7F3blS4zDA_T4-oR-qZ-/*/2531992-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 000234-2026-CE-PJ",
-      "title": "Autorizan la realización del V Congreso Internacional de Flagrancia: “Justicia oportuna, célere y eficaz. Consolidando las unidades de flagrancia como pilar de un sistema penal moderno”, a desarrollarse en la ciudad de Lima",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/94_zTgrs4q7AL2c_LdJOwP/*/2531995-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN ADMINISTRATIVA",
-      "name": "N° 000533-2026-P-CSNJPE-PJ",
-      "title": "Disponen la conformación de la Primera Sala Penal Superior Nacional Liquidadora Transitoria de la Corte Superior Nacional de Justicia Penal Especializada",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/D6XEXrns4-pBDfvG6syqJm/*/2532366-1.PDF/PDF"
-    },
-    {
-      "type": "LEY",
-      "name": "N° 32718",
-      "title": "Ley que autoriza una nueva escala remunerativa para los trabajadores del Instituto Peruano de Energía Nuclear (IPEN) y del Instituto Geológico, Minero y Metalúrgico (INGEMMET) que se encuentran bajo el régimen laboral del Decreto Legislativo 728, Ley de Fomento del Empleo",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/EQX89Ik3a_p8ZLlp0ALPQV/*/2532653-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN MINISTERIAL",
-      "name": "Nº D000204-2026-MINAM",
-      "title": "Aprueban los “Lineamientos para la elaboración de documentos técnicos sobre modelamiento de dispersión de contaminantes atmosféricos en el marco del Sistema Nacional de Evaluación del Impacto Ambiental”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4FyXT2dvq3f9vpAdBV35FF/*/2532020-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 008-2026-MC",
-      "title": "Otorgan el reconocimiento “Orden de los Grandes Maestros de la Cultura Peruana”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5Un06omoaR48ykr8X7VPEn/*/2532375-9.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN SUPREMA",
-      "name": "N° 009-2026-MC",
-      "title": "Otorgan el reconocimiento “Orden de los Grandes Maestros de la Cultura Peruana”",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C-lRAvxY4Hk8Wt50xxcT0S/*/2532375-10.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 001799-2026-MIDIS/PNCM-DE",
-      "title": "Designan Coordinador de la Unidad Territorial Cajamarca del Programa Nacional Cuna Más",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FFlMxpkU49lBcXaXg0J5KV/*/2532129-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 0430-CU-2026",
-      "title": "Autorizan viaje de docentes de la Universidad Nacional de Piura para participar como ponentes en evento que se realiza en España",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/80ejE2d44wDBNna1EWFGfG/*/2532370-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "Nº 0428-CU-2026",
-      "title": "Autorizan viaje de autoridades y docentes de la Universidad Nacional de Piura a Brasil, en comisión de servicios",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2DI9w0SKaH38jcV0q1YHy9/*/2532119-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 000164-2026-MIGRACIONES",
-      "title": "Designan Ejecutiva de Gestión Técnica Migratoria de la Subdirección de Gestión Técnica Migratoria de la Dirección de Gestión Técnica y Fiscalización Migratoria",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3vf0p06e4ddB1nQmLqejdR/*/2532196-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN",
-      "name": "N° 000165-2026-MIGRACIONES",
-      "title": "Designan Ejecutivo de Fiscalización Migratoria de la Subdirección de Fiscalización Migratoria de la Dirección de Gestión Técnica y Fiscalización Migratoria",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/D18HfroC4qeBtNKO_h7BJH/*/2532211-1.PDF/PDF"
-    },
-    {
-      "type": "RESOLUCIÓN JEFATURAL",
-      "name": "N° 000263-2026-JN-ANC-PJ",
-      "title": "Reprograman la realización de la Visita Judicial Ordinaria a la Corte Superior de Justicia de Junín, aprobada mediante Resolución Jefatural N° 000106-2026-JN-ANC-PJ",
-      "date": "07 jul. 2026",
-      "ymd": "20260707",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9MmY9l9IKcO9OqljzCCIah/*/2532043-1.PDF/PDF"
     }
   ]
 }
