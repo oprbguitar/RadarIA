@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-07-17T11:38:26.637Z",
+  "generatedAt": "2026-07-18T11:17:11.269Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 858,
+  "totalHits": 890,
   "items": [
     {
-      "type": "RESOLUCIÓN DE ALCALDÍA Nº 128-2026-ALC/MPC",
-      "title": "Dan por concluida encargatura y acreditación de Auxiliar Coactivo de la Municipalidad Provincial del Callao",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BUT2uKpDqcnA5eb5Ht1Xiv/*/2535436-1.PDF/PDF"
+      "type": "Decretos de Alcaldía N° 016-2026-MDC",
+      "title": "Aprueban el \"Cronograma de Actividades del Proceso de Presupuesto Participativo Basado en Resultados para el Año Fiscal 2027 de la Municipalidad Distrital de Cieneguilla”, el “Formato para el Registro de Agentes Participantes - PP 2027” y el “Formato de Propuesta de Proyecto o Idea de Proyecto - PP 2027”",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/AS5Tyc3cqBXABis8Xk_EBH/*/2536190-1.pdf/PDF"
     },
     {
-      "type": "ORDENANZA Nº 07-2026/MPC",
-      "title": "Ordenanza Municipal que establece medidas preventivas y acciones correctivas ante posibles enfermedades metaxénicas como el Dengue, Zika y Chikungunya en la jurisdicción de la Provincia Constitucional del Callao",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CyVUjuUA4InB7c13VIXBxC/*/2535427-1.PDF/PDF"
+      "type": "Ordenanzas N° 430-2026-MDC",
+      "title": "Ordenanza que aprueba el Reglamento del Proceso de Presupuesto Participativo Basado en Resultados para el Año Fiscal 2027 de la Municipalidad Distrital de Cieneguilla",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3KGk0mClauwBw9y1AVE9Lv/*/2535933-1.pdf/PDF"
     },
     {
-      "type": "DECRETO N° 001-2026-GOREMAD/GR",
-      "title": "Aprueban el Manual de Operaciones (MOP) de la Dirección Regional de Transportes y Comunicaciones de Madre de Dios",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0W1KiGuL42M8ktGhu6xl1B/*/2517747-1.PDF/PDF"
+      "type": "RESOLUCIÓN DE ALCALDÍA N° 089-2026-AL/MDPN",
+      "title": "Disponen el cese de Ejecutora Coactiva de la municipalidad",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9OR30UsZ44lBgW_1xtflCg/*/2533265-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 04-GRA/CR",
-      "title": "Modifican el Texto Único de Procedimientos Administrativos (TUPA) del Gobierno Regional de Áncash",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/7dWuFD00KNxBcI89vCdnAH/*/2534681-1.PDF/PDF"
+      "type": "ORDENANZA N° 597/MDSJM",
+      "title": "Ordenanza que aprueba la creación de la Veterinaria Municipal del distrito de San Juan de Miraflores",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/49CjqUkb46L8Wa_rrRoB4h/*/2535964-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA N° 000014-2026-GRLL-CR",
-      "title": "Ordenanza que crea el Comité Regional de Protección y Bienestar Animal de la Región La Libertad y el Comité Regional de Ética para el Bienestar Animal de la Región La Libertad",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4mc-78wwqkJAfQEepijcM5/*/2535142-1.PDF/PDF"
+      "type": "ORDENANZA N° 595/MDSJM",
+      "title": "Ordenanza que regula el uso de elementos de seguridad resguardando el derecho a la vida, integridad física, libre tránsito y propiedad privada en el distrito de San Juan de Miraflores",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/FWLARmqhqIA89a_f_d8_Nv/*/2535926-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN N° 375-2026-CG",
-      "title": "Aprueban el “Saneamiento progresivo del espectro normativo del Sistema Nacional de Control”, y dejan sin efecto diversos actos resolutivos y documentos normativos",
-      "date": "17 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3alnhBlPqD4AZawXD6AcdI/*/2535416-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 379-2026-CG",
+      "title": "Dan por terminada designación de Jefe del Órgano de Control Institucional del Proyecto Especial de Infraestructura de Transporte Nacional – PROVIAS NACIONAL",
+      "date": "18 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/9UnCen8J4YCAG3kISOQBfU/*/2535644-1.PDF/PDF"
     }
   ]
 }
