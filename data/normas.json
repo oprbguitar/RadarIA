@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-07-21T11:58:44.711Z",
+  "generatedAt": "2026-07-22T12:01:34.355Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 817,
+  "totalHits": 868,
   "items": [
     {
-      "type": "DECRETO DE ALCALDÍA N° 012-2026/MDSJM",
-      "title": "Prorrogan plazo de vigencia de la Ordenanza Nº 586/MDSJM que crea los Cuadrantes o Zonas de Tratamiento Especial en el distrito de San Juan de Miraflores",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4TXChxN44wZ8VWfX5aKkSH/*/2535923-1.PDF/PDF"
+      "type": "Juzgados de Paz Letrados",
+      "title": "",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CLWNrC9paRKA2IHD6NROu1/*/2536525_1.pdf/PDF"
     },
     {
-      "type": "RESOLUCIÓN Nº 6070-2026-GTVT/MPC",
-      "title": "Declaran el cumplimiento de la notificación de 5 resoluciones gerenciales que declaran la caducidad e inicio del nuevo procedimiento administrativo sancionador",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CVVXF-_KaSU9f0zxoJkJXG/*/2536454-1.PDF/PDF"
+      "type": "Acuerdo N° 016",
+      "title": "Reconocen en forma declarativa el Reglamento de Organización y Funciones del Comité de Administración del Programa del Vaso de Leche del distrito de Ate",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0ed5n_jW4AY8ryRo3l3X96/*/2537183-1.pdf/PDF"
     },
     {
-      "type": "ACUERDO Nº 118- 2026-RMDD/CR ",
-      "title": "Autorizan viaje de Gobernadora Regional para participar en la III Reunión del Comité de Frontera Amazónico Sur Perú – Brasil",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/BiH78R3m4epBeT2ihFOLL-/*/2536227-1.PDF/PDF"
+      "type": "DECRETO DE ALCALDÍA N° 010-2026-MDEA",
+      "title": "Disponen el embanderamiento general en el Distrito de El Agustino",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8UDzYPoSqVO8FH54iLkcn3/*/2535338-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN N° 1336-2026-JNE ",
-      "title": "Convocan a ciudadano para que asuma, provisionalmente, el cargo de regidor del Concejo Distrital de Magdalena del Mar, provincia y departamento de Lima",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6bOVkNwKqRw88bS12TeB_V/*/2536411-1.PDF/PDF"
+      "type": "ORDENANZA Nº 0781-2026-MDEA",
+      "title": "Ordenanza que establece beneficios tributarios y no tributarios a favor de los contribuyentes del distrito de El Agustino",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6hGQ_j95aLo8SXYfy38lOA/*/2535626-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN N° 1379-2026-JNE",
-      "title": "Convocan a ciudadana para que asuma, provisionalmente, el cargo de regidora del Concejo Distrital de Santa Eulalia, provincia de Huarochirí, departamento de Lima",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/73BgRMl_aCV8UjAVP7Bd98/*/2536401-1.PDF/PDF"
+      "type": "RESOLUCIÓN Nº 5683-2026-GTVT/MPC",
+      "title": "Declaran el cumplimiento de la notificación de dieciséis (16) resoluciones gerenciales que declaran el inicio del Procedimiento Administrativo Sancionador (PAS)",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3HoXwjhJKG5AMPyma82Uic/*/2537106-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN N° 1337-2026-JNE ",
-      "title": "Convocan a ciudadanos para que asuman, provisionalmente, los cargos de alcalde y regidora de la Municipalidad Distrital de Santa Rosa, provincia y departamento de Lima",
-      "date": "21 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0uQTWVU5aQ69iQxO4qYov4/*/2536408-1.PDF/PDF"
+      "type": "RESOLUCIÓN Nº 6454-2026-GTVT/MPC",
+      "title": "Disponen la notificación mediante publicación de Resoluciones Gerenciales que declaran el Inicio del Procedimiento Administrativo Sancionador",
+      "date": "22 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/605Z6QdJKcB9JIuWeNZyOL/*/2537123-1.PDF/PDF"
     }
   ]
 }
