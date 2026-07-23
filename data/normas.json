@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-07-22T12:01:34.355Z",
+  "generatedAt": "2026-07-23T12:00:49.354Z",
   "source": "El Peruano · Diario Oficial",
   "sourceUrl": "https://busquedas.elperuano.pe/",
   "isDemo": false,
   "note": "Dato real · El Peruano (búsqueda oficial)",
-  "totalHits": 868,
+  "totalHits": 891,
   "items": [
     {
-      "type": "Juzgados de Paz Letrados",
-      "title": "",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/CLWNrC9paRKA2IHD6NROu1/*/2536525_1.pdf/PDF"
+      "type": "RESOLUCIÓN N° 391-2026-CG",
+      "title": "Designan Jefa del Órgano de Control Institucional de la Municipalidad Distrital de Castilla",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DyWHmr8-adm9jtyzK5h_lT/*/2537055-1.PDF/PDF"
     },
     {
-      "type": "Acuerdo N° 016",
-      "title": "Reconocen en forma declarativa el Reglamento de Organización y Funciones del Comité de Administración del Programa del Vaso de Leche del distrito de Ate",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0ed5n_jW4AY8ryRo3l3X96/*/2537183-1.pdf/PDF"
+      "type": "RESOLUCIÓN N° 1148-2026-JNE",
+      "title": "Convocan a ciudadanas para que asuman los cargos de alcaldesa y regidora de la Municipalidad Provincial de Contralmirante Villar, departamento de Tumbes",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/2bcN8GUj4oeBJtRPboughb/*/2537245-1.PDF/PDF"
     },
     {
-      "type": "DECRETO DE ALCALDÍA N° 010-2026-MDEA",
-      "title": "Disponen el embanderamiento general en el Distrito de El Agustino",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8UDzYPoSqVO8FH54iLkcn3/*/2535338-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1486-2026-JNE ",
+      "title": "Convocan a ciudadanos para que asuman, provisionalmente, los cargos de alcalde y regidora de la Municipalidad Provincial de Morropón, departamento de Piura",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/DoQ5735Radj9gNME-bnFY6/*/2537244-1.PDF/PDF"
     },
     {
-      "type": "ORDENANZA Nº 0781-2026-MDEA",
-      "title": "Ordenanza que establece beneficios tributarios y no tributarios a favor de los contribuyentes del distrito de El Agustino",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/6hGQ_j95aLo8SXYfy38lOA/*/2535626-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 000128-2026-P/JNE",
+      "title": "Autorizan viaje de miembro del Pleno del Jurado Nacional de Elecciones, para participar en evento que se realizará en República Dominicana",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/5IqJMXxRKWx86yC0ySkWHl/*/2536877-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN Nº 5683-2026-GTVT/MPC",
-      "title": "Declaran el cumplimiento de la notificación de dieciséis (16) resoluciones gerenciales que declaran el inicio del Procedimiento Administrativo Sancionador (PAS)",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/3HoXwjhJKG5AMPyma82Uic/*/2537106-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1577-2026-JNE",
+      "title": "Convocan a ciudadana para que asuma, provisionalmente, el cargo de regidora del Concejo Distrital de La Huaca, provincia de Paita, departamento de Piura",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8hOJLmhsKjj8Wk-B67p6hz/*/2537243-1.PDF/PDF"
     },
     {
-      "type": "RESOLUCIÓN Nº 6454-2026-GTVT/MPC",
-      "title": "Disponen la notificación mediante publicación de Resoluciones Gerenciales que declaran el Inicio del Procedimiento Administrativo Sancionador",
-      "date": "22 jul. 2026",
-      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/605Z6QdJKcB9JIuWeNZyOL/*/2537123-1.PDF/PDF"
+      "type": "RESOLUCIÓN N° 1484-2026-JNE ",
+      "title": "Convocan a ciudadana para que asuma, provisionalmente, el cargo de regidora de la Municipalidad Distrital de Pucusana, provincia y departamento de Lima",
+      "date": "23 jul. 2026",
+      "url": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/847m98w64BKBoTLOfCmIdS/*/2537242-1.PDF/PDF"
     }
   ]
 }
