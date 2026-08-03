@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T11:32:42.288Z",
+  "generatedAt": "2026-08-03T13:18:38.844Z",
   "source": "Yahoo Finance · índices de mercado",
   "sourceUrl": "https://finance.yahoo.com/quote/%5ESPBLPGPT",
   "isDemo": false,
@@ -30,7 +30,7 @@
       "name": "Dow Jones",
       "market": "us",
       "price": 52485.03,
-      "change": 276.97,
+      "change": 276.93,
       "changePercent": 0.53,
       "currency": "USD",
       "asOf": "2026-07-31T21:22:18.000Z"
@@ -40,7 +40,7 @@
       "name": "Nasdaq Composite",
       "market": "us",
       "price": 25373.85,
-      "change": 251.68,
+      "change": 251.65,
       "changePercent": 1,
       "currency": "USD",
       "asOf": "2026-07-31T21:15:59.000Z"
