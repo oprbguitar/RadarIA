@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:36:56.913Z",
+  "generatedAt": "2026-08-24T10:50:40.319Z",
   "source": "Yahoo Finance · índices de mercado",
   "sourceUrl": "https://finance.yahoo.com/quote/%5ESPBLPGPT",
   "isDemo": false,
@@ -40,7 +40,7 @@
       "name": "Nasdaq Composite",
       "market": "us",
       "price": 26180.46,
-      "change": 113.29,
+      "change": 113.26,
       "changePercent": 0.43,
       "currency": "USD",
       "asOf": "2026-08-21T21:15:59.000Z"
