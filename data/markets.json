@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T13:41:57.554Z",
+  "generatedAt": "2026-10-18T13:58:47.877Z",
   "source": "Yahoo Finance · índices de mercado",
   "sourceUrl": "https://finance.yahoo.com/quote/%5ESPBLPGPT",
   "isDemo": false,
@@ -20,7 +20,7 @@
       "name": "Dow Jones",
       "market": "us",
       "price": 52002.41,
-      "change": -175.29,
+      "change": -175.28,
       "changePercent": -0.34,
       "currency": "USD",
       "asOf": "2026-10-16T20:42:09.000Z"
