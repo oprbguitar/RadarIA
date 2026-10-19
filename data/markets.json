@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:58:47.877Z",
+  "generatedAt": "2026-10-19T16:57:54.710Z",
   "source": "Yahoo Finance · índices de mercado",
   "sourceUrl": "https://finance.yahoo.com/quote/%5ESPBLPGPT",
   "isDemo": false,
@@ -9,31 +9,31 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "market": "us",
-      "price": 7659.44,
-      "change": -84.62,
-      "changePercent": -1.09,
+      "price": 7703.14,
+      "change": 43.7,
+      "changePercent": 0.57,
       "currency": "USD",
-      "asOf": "2026-10-16T20:42:08.000Z"
+      "asOf": "2026-10-19T16:57:47.000Z"
     },
     {
       "symbol": "^DJI",
       "name": "Dow Jones",
       "market": "us",
-      "price": 52002.41,
-      "change": -175.28,
-      "changePercent": -0.34,
+      "price": 52019.79,
+      "change": 17.38,
+      "changePercent": 0.03,
       "currency": "USD",
-      "asOf": "2026-10-16T20:42:09.000Z"
+      "asOf": "2026-10-19T16:57:53.000Z"
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
       "market": "us",
-      "price": 26140.03,
-      "change": -572.99,
-      "changePercent": -2.14,
+      "price": 26486.81,
+      "change": 346.78,
+      "changePercent": 1.33,
       "currency": "USD",
-      "asOf": "2026-10-16T21:15:59.000Z"
+      "asOf": "2026-10-19T16:57:53.000Z"
     }
   ]
 }
